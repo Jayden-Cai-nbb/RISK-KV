@@ -1,0 +1,1247 @@
+{
+  "status": "manual_derived_not_board_validated",
+  "source_pdf_sha256": "2fb9f1d937efa3e58c04e7b26e2c8b444fd76c77e6b88f8b09922a0c87f573f4",
+  "source_table": "5-12",
+  "source_pdf_pages": [
+    63,
+    64,
+    65,
+    66,
+    67
+  ],
+  "rows": [
+    {
+      "connector_pin": 144,
+      "net": "DDR4_A0",
+      "package_pin": "AC44",
+      "pin_function": "IO_L19P_T3L_N0_DBC_AD9P_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 63
+    },
+    {
+      "connector_pin": 133,
+      "net": "DDR4_A1",
+      "package_pin": "Y51",
+      "pin_function": "IO_L8N_T1L_N3_AD5N_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 132,
+      "net": "DDR4_A2",
+      "package_pin": "AB45",
+      "pin_function": "IO_L16P_T2U_N6_QBC_AD3P_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 131,
+      "net": "DDR4_A3",
+      "package_pin": "AA50",
+      "pin_function": "IO_L9N_T1L_N5_AD12N_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 128,
+      "net": "DDR4_A4",
+      "package_pin": "W45",
+      "pin_function": "IO_L18N_T2U_N11_AD2N_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 126,
+      "net": "DDR4_A5",
+      "package_pin": "Y45",
+      "pin_function": "IO_T2U_N12_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 127,
+      "net": "DDR4_A6",
+      "package_pin": "Y50",
+      "pin_function": "IO_L8P_T1L_N2_AD5P_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 122,
+      "net": "DDR4_A7",
+      "package_pin": "W44",
+      "pin_function": "IO_L18P_T2U_N10_AD2P_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 125,
+      "net": "DDR4_A8",
+      "package_pin": "AC51",
+      "pin_function": "IO_L7P_T1L_N0_QBC_AD13P_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 121,
+      "net": "DDR4_A9",
+      "package_pin": "AB51",
+      "pin_function": "IO_L7N_T1L_N1_QBC_AD13N_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 146,
+      "net": "DDR4_A10",
+      "package_pin": "AC43",
+      "pin_function": "IO_L20N_T3L_N3_AD1N_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 120,
+      "net": "DDR4_A11",
+      "package_pin": "W43",
+      "pin_function": "IO_L24N_T3U_N11_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 119,
+      "net": "DDR4_A12",
+      "package_pin": "AA44",
+      "pin_function": "IO_L17P_T2U_N8_AD10P_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 158,
+      "net": "DDR4_A13",
+      "package_pin": "AB41",
+      "pin_function": "IO_L21P_T3L_N4_AD8P_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 151,
+      "net": "DDR4_WE_N_A14",
+      "package_pin": "AC47",
+      "pin_function": "IO_L15N_T2L_N5_AD11N_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 156,
+      "net": "DDR4_CAS_N_A15",
+      "package_pin": "AA42",
+      "pin_function": "IO_L22P_T3U_N6_DBC_AD0P_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 152,
+      "net": "DDR4_RAS_N_A16",
+      "package_pin": "AC42",
+      "pin_function": "IO_L20P_T3L_N2_AD1P_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 114,
+      "net": "DDR4_ACT_N",
+      "package_pin": "AA43",
+      "pin_function": "IO_L22N_T3U_N7_DBC_AD0N_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 116,
+      "net": "DDR4_ALERT_N",
+      "package_pin": "Y42",
+      "pin_function": "IO_L23N_T3U_N9_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 150,
+      "net": "DDR4_BA0",
+      "package_pin": "AB42",
+      "pin_function": "IO_L21N_T3L_N5_AD8N_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 145,
+      "net": "DDR4_BA1",
+      "package_pin": "AC49",
+      "pin_function": "IO_L10P_T1U_N6_QBC_AD4P_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 115,
+      "net": "DDR4_BG0",
+      "package_pin": "AB49",
+      "pin_function": "IO_L10N_T1U_N7_QBC_AD4N_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 113,
+      "net": "DDR4_BG1",
+      "package_pin": "AB44",
+      "pin_function": "IO_L19N_T3L_N1_DBC_AD9N_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 139,
+      "net": "DDR4_CK0_C",
+      "package_pin": "AA47",
+      "pin_function": "IO_L13N_T2L_N1_GC_QBC_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 137,
+      "net": "DDR4_CK0_T",
+      "package_pin": "AB47",
+      "pin_function": "IO_L13P_T2L_N0_GC_QBC_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 140,
+      "net": "DDR4_CK1_C",
+      "package_pin": "W46",
+      "pin_function": "IO_L14N_T2L_N3_GC_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 138,
+      "net": "DDR4_CK1_T",
+      "package_pin": "Y46",
+      "pin_function": "IO_L14P_T2L_N2_GC_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 109,
+      "net": "DDR4_CKE0",
+      "package_pin": "Y43",
+      "pin_function": "IO_L24P_T3U_N10_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 110,
+      "net": "DDR4_CKE1",
+      "package_pin": "W41",
+      "pin_function": "IO_T3U_N12_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 149,
+      "net": "DDR4_CS0_N",
+      "package_pin": "AC48",
+      "pin_function": "IO_T1U_N12_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 157,
+      "net": "DDR4_CS1_N",
+      "package_pin": "AB46",
+      "pin_function": "IO_L16N_T2U_N7_QBC_AD3N_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 155,
+      "net": "DDR4_ODT0",
+      "package_pin": "AC46",
+      "pin_function": "IO_L15P_T2L_N4_AD11P_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 161,
+      "net": "DDR4_ODT1",
+      "package_pin": "AA45",
+      "pin_function": "IO_L17N_T2U_N9_AD10N_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 143,
+      "net": "DDR4_PARITY",
+      "package_pin": "AB50",
+      "pin_function": "IO_L9P_T1L_N4_AD12P_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 108,
+      "net": "DDR4_RESET_N",
+      "package_pin": "Y41",
+      "pin_function": "IO_L23P_T3U_N8_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 134,
+      "net": "DDR4_EVENT_N",
+      "package_pin": "AG44",
+      "pin_function": "IO_L19N_T3L_N1_DBC_AD9N_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 8,
+      "net": "DDR4_DQ0",
+      "package_pin": "V42",
+      "pin_function": "IO_L20P_T3L_N2_AD1P_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 7,
+      "net": "DDR4_DQ1",
+      "package_pin": "U40",
+      "pin_function": "IO_L24P_T3U_N10_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 20,
+      "net": "DDR4_DQ2",
+      "package_pin": "T42",
+      "pin_function": "IO_L21P_T3L_N4_AD8P_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 21,
+      "net": "DDR4_DQ3",
+      "package_pin": "T43",
+      "pin_function": "IO_L21N_T3L_N5_AD8N_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 4,
+      "net": "DDR4_DQ4",
+      "package_pin": "T40",
+      "pin_function": "IO_L24N_T3U_N11_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 64
+    },
+    {
+      "connector_pin": 3,
+      "net": "DDR4_DQ5",
+      "package_pin": "R40",
+      "pin_function": "IO_L23P_T3U_N8_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 16,
+      "net": "DDR4_DQ6",
+      "package_pin": "R41",
+      "pin_function": "IO_L23N_T3U_N9_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 17,
+      "net": "DDR4_DQ7",
+      "package_pin": "U42",
+      "pin_function": "IO_L20N_T3L_N3_AD1N_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 12,
+      "net": "DDR4_DM0",
+      "package_pin": "V43",
+      "pin_function": "IO_L19P_T3L_N0_DBC_AD9P_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 11,
+      "net": "DDR4_DQS0_C",
+      "package_pin": "R43",
+      "pin_function": "IO_L22N_T3U_N7_DBC_AD0N_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 13,
+      "net": "DDR4_DQS0_T",
+      "package_pin": "R42",
+      "pin_function": "IO_L22P_T3U_N6_DBC_AD0P_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 28,
+      "net": "DDR4_DQ8",
+      "package_pin": "R46",
+      "pin_function": "IO_L15N_T2L_N5_AD11N_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 29,
+      "net": "DDR4_DQ9",
+      "package_pin": "R48",
+      "pin_function": "IO_L14N_T2L_N3_GC_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 41,
+      "net": "DDR4_DQ10",
+      "package_pin": "V46",
+      "pin_function": "IO_L18P_T2U_N10_AD2P_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 42,
+      "net": "DDR4_DQ11",
+      "package_pin": "U44",
+      "pin_function": "IO_L17P_T2U_N8_AD10P_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 24,
+      "net": "DDR4_DQ12",
+      "package_pin": "R45",
+      "pin_function": "IO_L15P_T2L_N4_AD11P_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 25,
+      "net": "DDR4_DQ13",
+      "package_pin": "R47",
+      "pin_function": "IO_L14P_T2L_N2_GC_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 38,
+      "net": "DDR4_DQ14",
+      "package_pin": "U45",
+      "pin_function": "IO_L17N_T2U_N9_AD10N_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 37,
+      "net": "DDR4_DQ15",
+      "package_pin": "U46",
+      "pin_function": "IO_L18N_T2U_N11_AD2N_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 33,
+      "net": "DDR4_DM1",
+      "package_pin": "U47",
+      "pin_function": "IO_L13P_T2L_N0_GC_QBC_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 32,
+      "net": "DDR4_DQS1_C",
+      "package_pin": "T45",
+      "pin_function": "IO_L16N_T2U_N7_QBC_AD3N_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 34,
+      "net": "DDR4_DQS1_T",
+      "package_pin": "T44",
+      "pin_function": "IO_L16P_T2U_N6_QBC_AD3P_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 50,
+      "net": "DDR4_DQ16",
+      "package_pin": "T48",
+      "pin_function": "IO_L12P_T1U_N10_GC_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 49,
+      "net": "DDR4_DQ17",
+      "package_pin": "T50",
+      "pin_function": "IO_L9N_T1L_N5_AD12N_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 62,
+      "net": "DDR4_DQ18",
+      "package_pin": "W49",
+      "pin_function": "IO_L8P_T1L_N2_AD5P_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 63,
+      "net": "DDR4_DQ19",
+      "package_pin": "V49",
+      "pin_function": "IO_L11P_T1U_N8_GC_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 46,
+      "net": "DDR4_DQ20",
+      "package_pin": "T49",
+      "pin_function": "IO_L12N_T1U_N11_GC_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 45,
+      "net": "DDR4_DQ21",
+      "package_pin": "U49",
+      "pin_function": "IO_L11N_T1U_N9_GC_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 58,
+      "net": "DDR4_DQ22",
+      "package_pin": "W50",
+      "pin_function": "IO_L8N_T1L_N3_AD5N_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 59,
+      "net": "DDR4_DQ23",
+      "package_pin": "U50",
+      "pin_function": "IO_L9P_T1L_N4_AD12P_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 54,
+      "net": "DDR4_DM2",
+      "package_pin": "W51",
+      "pin_function": "IO_L7P_T1L_N0_QBC_AD13P_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 53,
+      "net": "DDR4_DQS2_C",
+      "package_pin": "V48",
+      "pin_function": "IO_L10N_T1U_N7_QBC_AD4N_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 55,
+      "net": "DDR4_DQS2_T",
+      "package_pin": "W48",
+      "pin_function": "IO_L10P_T1U_N6_QBC_AD4P_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 70,
+      "net": "DDR4_DQ24",
+      "package_pin": "R52",
+      "pin_function": "IO_L6N_T0U_N11_AD6N_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 71,
+      "net": "DDR4_DQ25",
+      "package_pin": "T53",
+      "pin_function": "IO_L5N_T0U_N9_AD14N_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 83,
+      "net": "DDR4_DQ26",
+      "package_pin": "V54",
+      "pin_function": "IO_L2N_T0L_N3_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 84,
+      "net": "DDR4_DQ27",
+      "package_pin": "V52",
+      "pin_function": "IO_L3P_T0L_N4_AD15P_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 66,
+      "net": "DDR4_DQ28",
+      "package_pin": "R51",
+      "pin_function": "IO_L6P_T0U_N10_AD6P_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 67,
+      "net": "DDR4_DQ29",
+      "package_pin": "T52",
+      "pin_function": "IO_L5P_T0U_N8_AD14P_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 79,
+      "net": "DDR4_DQ30",
+      "package_pin": "U52",
+      "pin_function": "IO_L3N_T0L_N5_AD15N_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 80,
+      "net": "DDR4_DQ31",
+      "package_pin": "V53",
+      "pin_function": "IO_L2P_T0L_N2_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 75,
+      "net": "DDR4_DM3",
+      "package_pin": "W53",
+      "pin_function": "IO_L1P_T0L_N0_DBC_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 74,
+      "net": "DDR4_DQS3_C",
+      "package_pin": "T54",
+      "pin_function": "IO_L4N_T0U_N7_DBC_AD7N_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 76,
+      "net": "DDR4_DQS3_T",
+      "package_pin": "U54",
+      "pin_function": "IO_L4P_T0U_N6_DBC_AD7P_46",
+      "bank": 46,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 174,
+      "net": "DDR4_DQ32",
+      "package_pin": "AD41",
+      "pin_function": "IO_L24N_T3U_N11_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 65
+    },
+    {
+      "connector_pin": 173,
+      "net": "DDR4_DQ33",
+      "package_pin": "AG42",
+      "pin_function": "IO_L21N_T3L_N5_AD8N_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 187,
+      "net": "DDR4_DQ34",
+      "package_pin": "AH42",
+      "pin_function": "IO_L20P_T3L_N2_AD1P_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 186,
+      "net": "DDR4_DQ35",
+      "package_pin": "AE43",
+      "pin_function": "IO_L23N_T3U_N9_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 170,
+      "net": "DDR4_DQ36",
+      "package_pin": "AE41",
+      "pin_function": "IO_L24P_T3U_N10_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 169,
+      "net": "DDR4_DQ37",
+      "package_pin": "AG41",
+      "pin_function": "IO_L21P_T3L_N4_AD8P_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 183,
+      "net": "DDR4_DQ38",
+      "package_pin": "AH43",
+      "pin_function": "IO_L20N_T3L_N3_AD1N_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 182,
+      "net": "DDR4_DQ39",
+      "package_pin": "AE42",
+      "pin_function": "IO_L23P_T3U_N8_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 178,
+      "net": "DDR4_DM4",
+      "package_pin": "AH44",
+      "pin_function": "IO_L19P_T3L_N0_DBC_AD9P_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 177,
+      "net": "DDR4_DQS4_C",
+      "package_pin": "AF43",
+      "pin_function": "IO_L22N_T3U_N7_DBC_AD0N_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 179,
+      "net": "DDR4_DQS4_T",
+      "package_pin": "AF42",
+      "pin_function": "IO_L22P_T3U_N6_DBC_AD0P_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 195,
+      "net": "DDR4_DQ40",
+      "package_pin": "AG47",
+      "pin_function": "IO_L14P_T2L_N2_GC_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 194,
+      "net": "DDR4_DQ41",
+      "package_pin": "AF45",
+      "pin_function": "IO_L15P_T2L_N4_AD11P_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 207,
+      "net": "DDR4_DQ42",
+      "package_pin": "AH46",
+      "pin_function": "IO_L18P_T2U_N10_AD2P_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 208,
+      "net": "DDR4_DQ43",
+      "package_pin": "AG45",
+      "pin_function": "IO_L17P_T2U_N8_AD10P_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 191,
+      "net": "DDR4_DQ44",
+      "package_pin": "AG46",
+      "pin_function": "IO_L17N_T2U_N9_AD10N_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 190,
+      "net": "DDR4_DQ45",
+      "package_pin": "AE45",
+      "pin_function": "IO_L15N_T2L_N5_AD11N_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 203,
+      "net": "DDR4_DQ46",
+      "package_pin": "AH47",
+      "pin_function": "IO_L18N_T2U_N11_AD2N_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 204,
+      "net": "DDR4_DQ47",
+      "package_pin": "AF47",
+      "pin_function": "IO_L14N_T2L_N3_GC_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 199,
+      "net": "DDR4_DM5",
+      "package_pin": "AE46",
+      "pin_function": "IO_L13P_T2L_N0_GC_QBC_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 198,
+      "net": "DDR4_DQS5_C",
+      "package_pin": "AD45",
+      "pin_function": "IO_L16N_T2U_N7_QBC_AD3N_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 200,
+      "net": "DDR4_DQS5_T",
+      "package_pin": "AD44",
+      "pin_function": "IO_L16P_T2U_N6_QBC_AD3P_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 216,
+      "net": "DDR4_DQ48",
+      "package_pin": "AF50",
+      "pin_function": "IO_L8N_T1L_N3_AD5N_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 215,
+      "net": "DDR4_DQ49",
+      "package_pin": "AE47",
+      "pin_function": "IO_L12P_T1U_N10_GC_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 228,
+      "net": "DDR4_DQ50",
+      "package_pin": "AE50",
+      "pin_function": "IO_L9P_T1L_N4_AD12P_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 229,
+      "net": "DDR4_DQ51",
+      "package_pin": "AE48",
+      "pin_function": "IO_L12N_T1U_N11_GC_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 211,
+      "net": "DDR4_DQ52",
+      "package_pin": "AF48",
+      "pin_function": "IO_L11P_T1U_N8_GC_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 212,
+      "net": "DDR4_DQ53",
+      "package_pin": "AG50",
+      "pin_function": "IO_L8P_T1L_N2_AD5P_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 224,
+      "net": "DDR4_DQ54",
+      "package_pin": "AF49",
+      "pin_function": "IO_L11N_T1U_N9_GC_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 225,
+      "net": "DDR4_DQ55",
+      "package_pin": "AD50",
+      "pin_function": "IO_L9N_T1L_N5_AD12N_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 220,
+      "net": "DDR4_DM6",
+      "package_pin": "AH49",
+      "pin_function": "IO_L7P_T1L_N0_QBC_AD13P_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 219,
+      "net": "DDR4_DQS6_C",
+      "package_pin": "AD49",
+      "pin_function": "IO_L10N_T1U_N7_QBC_AD4N_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 221,
+      "net": "DDR4_DQS6_T",
+      "package_pin": "AD48",
+      "pin_function": "IO_L10P_T1U_N6_QBC_AD4P_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 237,
+      "net": "DDR4_DQ56",
+      "package_pin": "AG52",
+      "pin_function": "IO_L3N_T0L_N5_AD15N_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 236,
+      "net": "DDR4_DQ57",
+      "package_pin": "AE52",
+      "pin_function": "IO_L5P_T0U_N8_AD14P_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 249,
+      "net": "DDR4_DQ58",
+      "package_pin": "AE51",
+      "pin_function": "IO_L6P_T0U_N10_AD6P_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 250,
+      "net": "DDR4_DQ59",
+      "package_pin": "AF54",
+      "pin_function": "IO_L2N_T0L_N3_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 232,
+      "net": "DDR4_DQ60",
+      "package_pin": "AD51",
+      "pin_function": "IO_L6N_T0U_N11_AD6N_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 233,
+      "net": "DDR4_DQ61",
+      "package_pin": "AG54",
+      "pin_function": "IO_L2P_T0L_N2_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 245,
+      "net": "DDR4_DQ62",
+      "package_pin": "AG51",
+      "pin_function": "IO_L3P_T0L_N4_AD15P_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 246,
+      "net": "DDR4_DQ63",
+      "package_pin": "AE53",
+      "pin_function": "IO_L5N_T0U_N9_AD14N_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 66
+    },
+    {
+      "connector_pin": 241,
+      "net": "DDR4_DM7",
+      "package_pin": "AH51",
+      "pin_function": "IO_L1P_T0L_N0_DBC_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 67
+    },
+    {
+      "connector_pin": 240,
+      "net": "DDR4_DQS7_C",
+      "package_pin": "AF53",
+      "pin_function": "IO_L4N_T0U_N7_DBC_AD7N_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 67
+    },
+    {
+      "connector_pin": 242,
+      "net": "DDR4_DQS7_T",
+      "package_pin": "AF52",
+      "pin_function": "IO_L4P_T0U_N6_DBC_AD7P_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 67
+    },
+    {
+      "connector_pin": 92,
+      "net": "DDR4_DQ64",
+      "package_pin": "AA52",
+      "pin_function": "IO_L5P_T0U_N8_AD14P_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 67
+    },
+    {
+      "connector_pin": 91,
+      "net": "DDR4_DQ65",
+      "package_pin": "Y52",
+      "pin_function": "IO_L5N_T0U_N9_AD14N_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 67
+    },
+    {
+      "connector_pin": 101,
+      "net": "DDR4_DQ66",
+      "package_pin": "AB54",
+      "pin_function": "IO_L2N_T0L_N3_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 67
+    },
+    {
+      "connector_pin": 105,
+      "net": "DDR4_DQ67",
+      "package_pin": "AA54",
+      "pin_function": "IO_L3P_T0L_N4_AD15P_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 67
+    },
+    {
+      "connector_pin": 88,
+      "net": "DDR4_DQ68",
+      "package_pin": "AB52",
+      "pin_function": "IO_L6N_T0U_N11_AD6N_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 67
+    },
+    {
+      "connector_pin": 87,
+      "net": "DDR4_DQ69",
+      "package_pin": "Y54",
+      "pin_function": "IO_L3N_T0L_N5_AD15N_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 67
+    },
+    {
+      "connector_pin": 100,
+      "net": "DDR4_DQ70",
+      "package_pin": "AC54",
+      "pin_function": "IO_L2P_T0L_N2_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 67
+    },
+    {
+      "connector_pin": 104,
+      "net": "DDR4_DQ71",
+      "package_pin": "AC52",
+      "pin_function": "IO_L6P_T0U_N10_AD6P_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 67
+    },
+    {
+      "connector_pin": 96,
+      "net": "DDR4_DM8",
+      "package_pin": "AD53",
+      "pin_function": "IO_L1P_T0L_N0_DBC_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 67
+    },
+    {
+      "connector_pin": 95,
+      "net": "DDR4_DQS8_C",
+      "package_pin": "Y53",
+      "pin_function": "IO_L4N_T0U_N7_DBC_AD7N_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 67
+    },
+    {
+      "connector_pin": 97,
+      "net": "DDR4_DQS8_T",
+      "package_pin": "AA53",
+      "pin_function": "IO_L4P_T0U_N6_DBC_AD7P_45",
+      "bank": 45,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 67
+    },
+    {
+      "connector_pin": 253,
+      "net": "DDR4_SCL",
+      "package_pin": "AF44",
+      "pin_function": "IO_T2U_N12_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 67
+    },
+    {
+      "connector_pin": 254,
+      "net": "DDR4_SDA",
+      "package_pin": "AH48",
+      "pin_function": "IO_T1U_N12_44",
+      "bank": 44,
+      "voltage_rail": "VCC1V2",
+      "pdf_page": 67
+    }
+  ]
+}

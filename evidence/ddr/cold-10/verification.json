@@ -1,0 +1,18 @@
+{
+  "independent_host_peeks": 7,
+  "mig_sha256": "8f40ebffb68696789e4cdec4e959e76db3047210325a885962be768f80a40ca8",
+  "name": "cold-10",
+  "result": {
+    "base": 2147418112,
+    "blocks": 1024,
+    "cycles": 95920,
+    "host_run_ms": 34,
+    "min_seconds": 0,
+    "per_channel_count": 3072,
+    "rounds": 1,
+    "seconds": 0,
+    "seed": 455495004
+  },
+  "status": "passed",
+  "trace_available": true
+}

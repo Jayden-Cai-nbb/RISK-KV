@@ -1,0 +1,227 @@
+{
+  "schema_version": 1,
+  "abi_magic": 1380668980,
+  "layout_version": 1,
+  "model": "Qwen3-0.6B",
+  "logical_bytes": 2147483648,
+  "core_hz": 50000000,
+  "fast_hz": 100000000,
+  "prefix_tokens": 256,
+  "rows_per_build": 4,
+  "decode_steps": 3,
+  "vocab": 151936,
+  "kv_base": 1233223680,
+  "prefix_bytes": 15138816,
+  "object_bytes": 45416448,
+  "pool_bytes": 268435456,
+  "result_address": 1229289088,
+  "logits_address": 13312,
+  "logits_bytes": 1215488,
+  "prompt_address": 1229289344,
+  "programs": {
+    "build": {
+      "address": 1610612736,
+      "instructions": 1026,
+      "bytes": 32832,
+      "sha256": "9a3cc5083698bea455852f9aab65ea82e6eb3591bc9372a14d3d945f2a9a0542",
+      "args": [
+        {
+          "name": "tpos",
+          "coefficient": 256,
+          "register": 15
+        },
+        {
+          "name": "tpos",
+          "coefficient": 4,
+          "register": 14
+        },
+        {
+          "name": "kv_plus_step_128",
+          "coefficient": 1,
+          "register": 13
+        },
+        {
+          "name": "kv_plus_step_4",
+          "coefficient": 1,
+          "register": 12
+        },
+        {
+          "name": "kv_plus_step_1",
+          "coefficient": 1,
+          "register": 11
+        },
+        {
+          "name": "kv_base",
+          "coefficient": 1,
+          "register": 10
+        },
+        {
+          "name": "tpos",
+          "coefficient": -4,
+          "register": 9
+        }
+      ]
+    },
+    "decode": {
+      "address": 1610678272,
+      "instructions": 1004,
+      "bytes": 32128,
+      "sha256": "f9a810f26e2c318a55577f102d96b9d43bdfb574d418358a7d5c436e426da618",
+      "args": [
+        {
+          "name": "tok0",
+          "coefficient": 4096,
+          "register": 15
+        },
+        {
+          "name": "tpos",
+          "coefficient": 256,
+          "register": 14
+        },
+        {
+          "name": "tok1",
+          "coefficient": 4096,
+          "register": 13
+        },
+        {
+          "name": "kv_plus_step_128",
+          "coefficient": 1,
+          "register": 12
+        },
+        {
+          "name": "kv_plus_step_4",
+          "coefficient": 1,
+          "register": 11
+        },
+        {
+          "name": "kv_plus_step_1",
+          "coefficient": 1,
+          "register": 10
+        },
+        {
+          "name": "kv_base",
+          "coefficient": 1,
+          "register": 9
+        },
+        {
+          "name": "tpos",
+          "coefficient": -4,
+          "register": 8
+        }
+      ]
+    }
+  },
+  "cold_image_sha256": "76c576605977d50f70e9e4661b8378946d659cc8f83fa5b24da77e43e05ef14d",
+  "cold_image_bytes": 1610710400,
+  "scratch_template_base": 1627389952,
+  "scratch_restore": [
+    [
+      0,
+      9216
+    ],
+    [
+      13312,
+      1346560
+    ],
+    [
+      1229289088,
+      3934592
+    ]
+  ],
+  "immutable_regions": [
+    [
+      9216,
+      4096
+    ],
+    [
+      1359872,
+      1227929216
+    ]
+  ],
+  "operations": {
+    "BOOT": 1,
+    "REGISTER": 2,
+    "BUILD": 3,
+    "SEAL": 4,
+    "BIND": 5,
+    "DECODE": 6,
+    "RELEASE": 7,
+    "RETIRE": 8,
+    "RECOVER": 9
+  },
+  "limits": {
+    "execution_timeout_cycles": 1000000000,
+    "memory_timeout_cycles": 1000000
+  },
+  "registers": {
+    "ID": 0,
+    "LAYOUT": 4,
+    "STATUS": 8,
+    "ERROR": 12,
+    "COMMAND": 16,
+    "ACK": 20,
+    "CANCEL": 24,
+    "RESET": 28,
+    "SESSION_LO": 32,
+    "SESSION_HI": 36,
+    "EPOCH": 40,
+    "SEQUENCE_LO": 44,
+    "SEQUENCE_HI": 48,
+    "CONTEXT": 52,
+    "GENERATION": 56,
+    "TOKEN0": 60,
+    "TOKEN1": 64,
+    "CQ_OP": 128,
+    "CQ_STATUS": 132,
+    "CQ_SESSION_LO": 136,
+    "CQ_SESSION_HI": 140,
+    "CQ_EPOCH": 144,
+    "CQ_SEQUENCE_LO": 148,
+    "CQ_SEQUENCE_HI": 152,
+    "CQ_CONTEXT": 156,
+    "CQ_GENERATION": 160,
+    "CQ_TOKEN0": 164,
+    "CQ_TOKEN1": 168,
+    "BUILT": 176,
+    "DECODED": 180,
+    "NEXT_SEQUENCE_LO": 184,
+    "NEXT_SEQUENCE_HI": 188,
+    "CURRENT_EPOCH": 192,
+    "CURRENT_GENERATION": 196,
+    "CURRENT_CONTEXT": 200,
+    "ACCEPTED_LO": 208,
+    "ACCEPTED_HI": 212,
+    "REJECTED_LO": 216,
+    "REJECTED_HI": 220,
+    "COMMITTED_LO": 224,
+    "COMMITTED_HI": 228,
+    "CLEAN_BYTES_LO": 232,
+    "CLEAN_BYTES_HI": 236
+  },
+  "mailbox_base": 57344,
+  "mailbox": {
+    "DOORBELL": 0,
+    "ACTION": 1,
+    "OP": 2,
+    "SESSION0": 3,
+    "SESSION1": 4,
+    "EPOCH": 5,
+    "SEQUENCE0": 6,
+    "SEQUENCE1": 7,
+    "CONTEXT": 8,
+    "GENERATION": 9,
+    "TOKEN0": 10,
+    "TOKEN1": 11,
+    "CANCEL_SERIAL": 12,
+    "RESPONSE": 16,
+    "RESULT": 17,
+    "READY_EPOCH": 18,
+    "STATUS": 19,
+    "CQ0": 20,
+    "BUILT": 31,
+    "DECODED": 32,
+    "CURRENT_GENERATION": 33,
+    "CURRENT_SEQUENCE0": 34,
+    "CURRENT_SEQUENCE1": 35
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "E_DDR_passed": false,
+  "M1_passed": false,
+  "bit_sha256": "c350b8ce2bbad72bf27c3cb254e47f585acf47c286538a298c0d61d1aa8e9051",
+  "configuration_cold_starts_passed": 10,
+  "current_step": "stress-30min",
+  "finished_ns": 1794036012809825278,
+  "full_2gib_data_passed": true,
+  "ltx_sha256": "beb778ec8f24807c2fb6645f1665711ba8269eb083b0d0550cabe9ea6df05e54",
+  "memory_part_verified": false,
+  "physical_power_cycles_tested": 0,
+  "schema": 1,
+  "started_ns": 1794033083481638203,
+  "status": "DDR_DATA_TEST_SUITE_PASSED_WITH_OPEN_PLATFORM_QUALIFICATION",
+  "steps": [
+    {
+      "independent_host_peeks": 6,
+      "name": "cold-01",
+      "result": {
+        "base": 4032,
+        "blocks": 128,
+        "cycles": 11918,
+        "host_run_ms": 33,
+        "min_seconds": 0,
+        "per_channel_count": 384,
+        "rounds": 1,
+        "seconds": 0,
+        "seed": 305419896
+      },
+      "source": "cold01-recovery-v1/summary.json",
+      "status": "passed_with_host_readonly_recovery"
+    },
+    {
+      "independent_host_peeks": 4,
+      "mig_sha256": "511453cf52d14a923620f40e8c503939b0814710301b2f833882969f96a48c50",
+      "name": "cold-02",
+      "result": {
+        "base": 2147479552,
+        "blocks": 64,
+        "cycles": 5968,
+        "host_run_ms": 32,
+        "min_seconds": 0,
+        "per_channel_count": 192,
+        "rounds": 1,
+        "seconds": 0,
+        "seed": 322327932
+      },
+      "status": "passed",
+      "trace_available": true
+    },
+    {
+      "independent_host_peeks": 7,
+      "mig_sha256": "70481ce3d3bccbc589fa2abce774578d75234f5eb43846982966e92d84d6182d",
+      "name": "cold-03",
+      "result": {
+        "base": 0,
+        "blocks": 1024,
+        "cycles": 95914,
+        "host_run_ms": 31,
+        "min_seconds": 0,
+        "per_channel_count": 3072,
+        "rounds": 1,
+        "seconds": 0,
+        "seed": 271601776
+      },
+      "status": "passed",
+      "trace_available": true
+    },
+    {
+      "independent_host_peeks": 7,
+      "mig_sha256": "ee2f33748d41c5fb76d1a4dfbf35d9057d30f69e6ac5b470bfc1c245d228f447",
+      "name": "cold-04",
+      "result": {
+        "base": 1048576,
+        "blocks": 1024,
+        "cycles": 96076,
+        "host_run_ms": 34,
+        "min_seconds": 0,
+        "per_channel_count": 3072,
+        "rounds": 1,
+        "seconds": 0,
+        "seed": 288513908
+      },
+      "status": "passed",
+      "trace_available": true
+    },
+    {
+      "independent_host_peeks": 7,
+      "mig_sha256": "f2a7ac151be2efc47433fe0e8c326fa3c033c589272dfa520bcf2e29bee935cb",
+      "name": "cold-05",
+      "result": {
+        "base": 16777216,
+        "blocks": 1024,
+        "cycles": 95934,
+        "host_run_ms": 32,
+        "min_seconds": 0,
+        "per_channel_count": 3072,
+        "rounds": 1,
+        "seconds": 0,
+        "seed": 373054056
+      },
+      "status": "passed",
+      "trace_available": true
+    },
+    {
+      "independent_host_peeks": 7,
+      "mig_sha256": "b9fcd731874b4945fc6f52286d0a3cc87ca3ffb7b50963fba23284786ab5bc22",
+      "name": "cold-06",
+      "result": {
+        "base": 268435456,
+        "blocks": 1024,
+        "cycles": 95976,
+        "host_run_ms": 32,
+        "min_seconds": 0,
+        "per_channel_count": 3072,
+        "rounds": 1,
+        "seconds": 0,
+        "seed": 389962092
+      },
+      "status": "passed",
+      "trace_available": true
+    },
+    {
+      "independent_host_peeks": 7,
+      "mig_sha256": "be141bae59e257d99fa32ce640c5808eb55f9e2fafad7d424078673aae1a1895",
+      "name": "cold-07",
+      "result": {
+        "base": 536870912,
+        "blocks": 1024,
+        "cycles": 95950,
+        "host_run_ms": 34,
+        "min_seconds": 0,
+        "per_channel_count": 3072,
+        "rounds": 1,
+        "seconds": 0,
+        "seed": 339231840
+      },
+      "status": "passed",
+      "trace_available": true
+    },
+    {
+      "independent_host_peeks": 7,
+      "mig_sha256": "51205e630c2910d0d709c326c25d81ba2df09f29e7bb99d8108c2d7a9d769bf2",
+      "name": "cold-08",
+      "result": {
+        "base": 1073741824,
+        "blocks": 1024,
+        "cycles": 95954,
+        "host_run_ms": 32,
+        "min_seconds": 0,
+        "per_channel_count": 3072,
+        "rounds": 1,
+        "seconds": 0,
+        "seed": 356139876
+      },
+      "status": "passed",
+      "trace_available": true
+    },
+    {
+      "independent_host_peeks": 7,
+      "mig_sha256": "3e6343ab773ac95f9bcfad5ec4002e9f8a6b79d0dfcf1abfa9060e12b64bc39b",
+      "name": "cold-09",
+      "result": {
+        "base": 1610612736,
+        "blocks": 1024,
+        "cycles": 95932,
+        "host_run_ms": 35,
+        "min_seconds": 0,
+        "per_channel_count": 3072,
+        "rounds": 1,
+        "seconds": 0,
+        "seed": 438586968
+      },
+      "status": "passed",
+      "trace_available": true
+    },
+    {
+      "independent_host_peeks": 7,
+      "mig_sha256": "8f40ebffb68696789e4cdec4e959e76db3047210325a885962be768f80a40ca8",
+      "name": "cold-10",
+      "result": {
+        "base": 2147418112,
+        "blocks": 1024,
+        "cycles": 95920,
+        "host_run_ms": 34,
+        "min_seconds": 0,
+        "per_channel_count": 3072,
+        "rounds": 1,
+        "seconds": 0,
+        "seed": 455495004
+      },
+      "status": "passed",
+      "trace_available": true
+    },
+    {
+      "independent_host_peeks": 9,
+      "mig_sha256": "9d8b0ab11b9dfb6d193bfc740c2b49dc81e3bba0a104742afda6921a8e52c18e",
+      "name": "full-2gib",
+      "result": {
+        "base": 0,
+        "blocks": 33554432,
+        "cycles": 3149652256,
+        "host_run_ms": 16587,
+        "min_seconds": 0,
+        "per_channel_count": 100663296,
+        "rounds": 1,
+        "seconds": 16,
+        "seed": 324508639
+      },
+      "status": "passed",
+      "trace_available": true
+    },
+    {
+      "independent_host_peeks": 9,
+      "mig_sha256": "b3a2508e276e8c679dd31521ce9f9e79e3f2c8d45896cbef9f92bc1b4706c99a",
+      "name": "stress-30min",
+      "result": {
+        "base": 0,
+        "blocks": 33554432,
+        "cycles": 352761067392,
+        "host_run_ms": 1837498,
+        "min_seconds": 1830,
+        "per_channel_count": 11274289152,
+        "rounds": 112,
+        "seconds": 1837,
+        "seed": 610839776
+      },
+      "status": "passed",
+      "trace_available": true
+    }
+  ],
+  "stress_30min_passed": true,
+  "target_serial": "210251130202",
+  "updated_ns": 1794034077216666581
+}

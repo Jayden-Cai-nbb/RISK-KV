@@ -1,0 +1,39 @@
+{
+  "snapshot_date": "2026-11-07",
+  "scope": "curated publication checkout; protocol/software checks only",
+  "checks": [
+    {
+      "name": "generated_layout",
+      "status": "passed"
+    },
+    {
+      "name": "generated_host_register_map",
+      "status": "passed"
+    },
+    {
+      "name": "host_transport_mock",
+      "status": "passed",
+      "tests": 10
+    },
+    {
+      "name": "console_ownership_mock",
+      "status": "passed",
+      "tests": 8
+    },
+    {
+      "name": "controller_rtl",
+      "status": "passed",
+      "checks": 10241,
+      "transactions": 10801,
+      "verilator": "5.032"
+    },
+    {
+      "name": "board_input_recipe",
+      "status": "offline_plan_and_file_closure_checked",
+      "vivado_generation_rerun": false
+    }
+  ],
+  "hardware_actions": [],
+  "whole_board_acceptance": false,
+  "preparation_note": "An initial local control-test invocation used the tool prefix root instead of usr/local and stopped before compilation; corrected invocation passed. Full intermediate logs remain in the working archive."
+}

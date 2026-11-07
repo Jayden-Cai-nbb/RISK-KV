@@ -1,0 +1,20 @@
+{
+  "status": "compiled_not_executed",
+  "mode": "mailbox",
+  "build_tasks": 64,
+  "second_seeds": [
+    3555,
+    8429
+  ],
+  "inputs": {
+    "firmware/start.S": "4625fa92615f34cb2adbe6cb973b66cfffbfcf1d3ee7a9daef5b6f9396550b71",
+    "firmware/m1/link.ld": "0632baf1150e76771612c26d6b02bba135ebc6080be8bead7869b0d447b399e1",
+    "firmware/m1/layout.h": "02eb928414a8d7ef8ed3191ea4affc806dae0fb46bc8d89f0084e3108443b50d",
+    "firmware/m1/service.c": "0a4175249eb8bb7bd0e7378d267c94e799e15dd384d1f74cbe9dd30897a64062",
+    "configs/m1/layout.json": "cb2fa2bf04bf3190b9129b2e3bdc823ea3c552d0914309c26ec2375d135fef15",
+    "tools/m1/firmware.py": "645b2449735aefb0f58b98c83e97972bc02b2ed4d1ae501868d436dc32bdf4cc"
+  },
+  "bytes": 728,
+  "hex_sha256": "cb65c9e9591338cb6865d90cf0af7252f5ccc060ab3688cea3e25331215c2a8f",
+  "deployment": "platform binding required; fresh host session at BOOT"
+}

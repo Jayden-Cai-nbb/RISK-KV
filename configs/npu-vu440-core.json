@@ -1,0 +1,27 @@
+{
+  "schema": "risc-kv-npu-core-profile-1",
+  "name": "vu440-m4-banked-pump2-v1",
+  "commit": "91df41092f612361c5bc22f83b31d23382ffabb0",
+  "part": "xcvu440-flga2892-2-e",
+  "scope": "One NPU compute slice; excludes DDR controller, RISC-V and host shell",
+  "architecture": {
+    "S": 1, "D": 128, "MCOLS": 4, "ACT_BLOCKS": 128,
+    "TMEM_WORDS": 65536, "DRAM_BYTES": 2147483648, "IMEM_WORDS": 32768,
+    "LANES": 8, "PAIR": false, "DSTEP": false, "STREAM": false,
+    "ACT_ROWS": 16, "SEQ_WC": false
+  },
+  "microarchitecture": {
+    "FIFO_DEPTH": 128, "WIN": 16, "RPB": 64, "WPB": 1,
+    "MXU_IMPL": 2, "MXU_CL": 16, "MXU_E": 4, "QUANT_XD": 1024,
+    "VPU_CL": 2, "ULANES": 8,
+    "TMEM_IMPL": 3, "TMEM_RQ": 0, "TMEM_NCP": 3,
+    "TMEM_NSB": 2, "TMEM_SBP": 3, "TMEM_SBH": 0,
+    "TMEM_RPL": 1, "TMEM_TDP": 1, "TMEM_GST": 1,
+    "TMEM_PMP": 1, "TMEM_PRK": 0, "TMEM_SDM": -1
+  },
+  "simulation_collective_gather": 1,
+  "core_period_ns": 20.0,
+  "fast_period_ns": 10.0,
+  "clock_note": "Core and fast clocks must have the upstream 2x phase relationship. OOC primary clocks do not validate board clocking.",
+  "memory_note": "2GiB is simulated address capacity, not evidence of actual board DDR capacity"
+}

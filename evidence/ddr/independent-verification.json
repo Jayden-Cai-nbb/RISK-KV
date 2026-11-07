@@ -1,0 +1,202 @@
+{
+  "status": "data_suite_and_all_artifacts_independently_verified",
+  "files": 3160,
+  "archive_sha256": "d2db868b04998dcd56ef05e29466a8e9a4b8b9558602f45bcfa54487e6adb6e6",
+  "suite_status": "DDR_DATA_TEST_SUITE_PASSED_WITH_OPEN_PLATFORM_QUALIFICATION",
+  "steps": [
+    {
+      "name": "cold-01",
+      "independent_peeks": 6,
+      "rounds": 1,
+      "bytes_covered": 8192,
+      "cycles": 11918,
+      "host_run_ms": 33,
+      "per_channel_count": 384,
+      "final_counts": [
+        384,
+        384,
+        384,
+        390,
+        390
+      ]
+    },
+    {
+      "name": "cold-02",
+      "independent_peeks": 4,
+      "rounds": 1,
+      "bytes_covered": 4096,
+      "cycles": 5968,
+      "host_run_ms": 32,
+      "per_channel_count": 192,
+      "final_counts": [
+        192,
+        192,
+        192,
+        196,
+        196
+      ]
+    },
+    {
+      "name": "cold-03",
+      "independent_peeks": 7,
+      "rounds": 1,
+      "bytes_covered": 65536,
+      "cycles": 95914,
+      "host_run_ms": 31,
+      "per_channel_count": 3072,
+      "final_counts": [
+        3072,
+        3072,
+        3072,
+        3079,
+        3079
+      ]
+    },
+    {
+      "name": "cold-04",
+      "independent_peeks": 7,
+      "rounds": 1,
+      "bytes_covered": 65536,
+      "cycles": 96076,
+      "host_run_ms": 34,
+      "per_channel_count": 3072,
+      "final_counts": [
+        3072,
+        3072,
+        3072,
+        3079,
+        3079
+      ]
+    },
+    {
+      "name": "cold-05",
+      "independent_peeks": 7,
+      "rounds": 1,
+      "bytes_covered": 65536,
+      "cycles": 95934,
+      "host_run_ms": 32,
+      "per_channel_count": 3072,
+      "final_counts": [
+        3072,
+        3072,
+        3072,
+        3079,
+        3079
+      ]
+    },
+    {
+      "name": "cold-06",
+      "independent_peeks": 7,
+      "rounds": 1,
+      "bytes_covered": 65536,
+      "cycles": 95976,
+      "host_run_ms": 32,
+      "per_channel_count": 3072,
+      "final_counts": [
+        3072,
+        3072,
+        3072,
+        3079,
+        3079
+      ]
+    },
+    {
+      "name": "cold-07",
+      "independent_peeks": 7,
+      "rounds": 1,
+      "bytes_covered": 65536,
+      "cycles": 95950,
+      "host_run_ms": 34,
+      "per_channel_count": 3072,
+      "final_counts": [
+        3072,
+        3072,
+        3072,
+        3079,
+        3079
+      ]
+    },
+    {
+      "name": "cold-08",
+      "independent_peeks": 7,
+      "rounds": 1,
+      "bytes_covered": 65536,
+      "cycles": 95954,
+      "host_run_ms": 32,
+      "per_channel_count": 3072,
+      "final_counts": [
+        3072,
+        3072,
+        3072,
+        3079,
+        3079
+      ]
+    },
+    {
+      "name": "cold-09",
+      "independent_peeks": 7,
+      "rounds": 1,
+      "bytes_covered": 65536,
+      "cycles": 95932,
+      "host_run_ms": 35,
+      "per_channel_count": 3072,
+      "final_counts": [
+        3072,
+        3072,
+        3072,
+        3079,
+        3079
+      ]
+    },
+    {
+      "name": "cold-10",
+      "independent_peeks": 7,
+      "rounds": 1,
+      "bytes_covered": 65536,
+      "cycles": 95920,
+      "host_run_ms": 34,
+      "per_channel_count": 3072,
+      "final_counts": [
+        3072,
+        3072,
+        3072,
+        3079,
+        3079
+      ]
+    },
+    {
+      "name": "full-2gib",
+      "independent_peeks": 9,
+      "rounds": 1,
+      "bytes_covered": 2147483648,
+      "cycles": 3149652256,
+      "host_run_ms": 16587,
+      "per_channel_count": 100663296,
+      "final_counts": [
+        100663296,
+        100663296,
+        100663296,
+        100663305,
+        100663305
+      ]
+    },
+    {
+      "name": "stress-30min",
+      "independent_peeks": 9,
+      "rounds": 112,
+      "bytes_covered": 2147483648,
+      "cycles": 352761067392,
+      "host_run_ms": 1837498,
+      "per_channel_count": 11274289152,
+      "final_counts": [
+        11274289152,
+        11274289152,
+        11274289152,
+        11274289161,
+        11274289161
+      ]
+    }
+  ],
+  "E_DDR_passed": false,
+  "M1_passed": false
+}

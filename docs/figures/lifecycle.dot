@@ -1,0 +1,26 @@
+digraph G {
+ graph [bgcolor="white",pad="0.25",nodesep="0.35",ranksep="0.55",fontname="DejaVu Sans",fontsize=18];
+ node [shape=box,style="rounded,filled",fillcolor="#e8f1fb",color="#35618e",fontname="DejaVu Sans",fontsize=12,margin="0.18,0.12"];
+ edge [color="#526475",fontname="DejaVu Sans",fontsize=10,arrowsize=0.75];
+
+ rankdir=LR;label="KV object lifecycle (business-level abstraction)";labelloc=t;
+ empty [label="EMPTY\nno active object"];
+ build [label="BUILDING\n0 -> 256 tokens"];
+ sealed [label="SEALED\nimmutable prefix"];
+ bound [label="SEALED + bound pair\nprivate tails / 3 decode steps"];
+ failed [label="FAILED\nzero commit for failed task",fillcolor="#fff0db"];
+ quarantine [label="QUARANTINE\npersistent isolation",fillcolor="#f9dfdf"];
+ empty->build [label="REGISTER consumed\ngeneration + 1"];
+ build->build [label="successful BUILD consumed\n+4 tokens"];
+ build->sealed [label="SEAL at 256"];
+ sealed->bound [label="BIND"];
+ bound->bound [label="successful DECODE consumed"];
+ bound->sealed [label="RELEASE\ndrain + clear tails/workspace\nflush + consume"];
+ sealed->empty [label="RETIRE\nfull clear + consume"];
+ build->failed [label="cancel / task error\ndrain + failure consume"];
+ bound->failed [label="cancel / task error"];
+ failed->empty [label="RECOVER\nfull clear + consume"];
+ failed->quarantine [label="cannot retire / timeout",style=dashed];
+ bound->quarantine [label="transport loss",style=dashed];
+ quarantine->empty [label="whole-chain cold start\nnew identity / reload",style=dashed];
+}

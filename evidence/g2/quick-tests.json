@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "results": [
+    {
+      "target": "control",
+      "returncode": 0
+    },
+    {
+      "target": "cleaner",
+      "returncode": 0
+    },
+    {
+      "target": "executor",
+      "returncode": 0
+    },
+    {
+      "target": "memory_arbiter",
+      "returncode": 0
+    },
+    {
+      "target": "native_retirement",
+      "returncode": 0
+    },
+    {
+      "target": "cpu",
+      "returncode": 0
+    }
+  ]
+}

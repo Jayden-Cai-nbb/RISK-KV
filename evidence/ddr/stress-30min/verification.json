@@ -1,0 +1,18 @@
+{
+  "independent_host_peeks": 9,
+  "mig_sha256": "b3a2508e276e8c679dd31521ce9f9e79e3f2c8d45896cbef9f92bc1b4706c99a",
+  "name": "stress-30min",
+  "result": {
+    "base": 0,
+    "blocks": 33554432,
+    "cycles": 352761067392,
+    "host_run_ms": 1837498,
+    "min_seconds": 1830,
+    "per_channel_count": 11274289152,
+    "rounds": 112,
+    "seconds": 1837,
+    "seed": 610839776
+  },
+  "status": "passed",
+  "trace_available": true
+}

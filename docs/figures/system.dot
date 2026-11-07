@@ -1,0 +1,41 @@
+digraph G {
+ graph [bgcolor="white",pad="0.25",nodesep="0.35",ranksep="0.55",fontname="DejaVu Sans",fontsize=18];
+ node [shape=box,style="rounded,filled",fillcolor="#e8f1fb",color="#35618e",fontname="DejaVu Sans",fontsize=12,margin="0.18,0.12"];
+ edge [color="#526475",fontname="DejaVu Sans",fontsize=10,arrowsize=0.75];
+
+ rankdir=TB; label="RISK-KV: shared-prefix service architecture"; labelloc=t;
+ host [label="Host tools / console\nload, commands, readback, comparison"];
+ jtag [label="JTAG-to-AXI IP",fillcolor="#ededed"];
+ cpu [label="PicoRV32 / RV32I CPU",fillcolor="#ededed"];
+ fw [label="Service firmware\nsubmit / consume / recover"];
+ ingress [label="Host ingress / admission\nmailbox + DDR phase control"];
+ ctrl [label="Lifecycle controller\nidentity, object, CQ, commit"];
+ exe [label="Executor\nload / ARM / run / drain"];
+ npu [label="openTPU\ncomplete Qwen3-0.6B",fillcolor="#ededed"];
+ clean [label="Cleaner\nzero KV / restore workspace"];
+ native [label="Native adapter + retirement\nA / B / SW requests"];
+ fabric [label="AXI fabric + asynchronous CDC\ncore 50 MHz -> UI 192 MHz",fillcolor="#ededed"];
+ mux [label="Boot ownership mux\nqualifier -> service (one-way)"];
+ mig [label="MIG + physical DDR4\n2 GiB logical address space",fillcolor="#ededed"];
+ bist [label="DDR qualifier\npatterns / masks / aliases",fillcolor="#fff0db"];
+ obs [label="Supervisor + VIO snapshot\nfault isolation / heartbeat",fillcolor="#fff0db"];
+ host->jtag [label="commands / data"];
+ jtag->ingress;
+ ingress->cpu [label="mailbox"];
+ fw->cpu [style=dashed,label="instruction memory"];
+ cpu->ctrl [label="MMIO + matching ACK"];
+ ctrl->cpu [label="CQ"];
+ ctrl->exe [label="work"];
+ ctrl->clean [label="cleanup"];
+ exe->npu [label="program + arguments"];
+ npu->native [label="reads / writes"];
+ clean->native [label="exclusive cleanup"];
+ native->fabric;
+ ingress->fabric [label="host DDR phase"];
+ fabric->mux;
+ bist->mux [label="startup only"];
+ mux->mig;
+ mig->obs [style=dashed,label="calibration / lock"];
+ obs->ctrl [style=dashed,label="isolation"];
+ obs->host [style=dashed,label="observations"];
+}

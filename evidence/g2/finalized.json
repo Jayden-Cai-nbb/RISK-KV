@@ -1,0 +1,66 @@
+{
+  "status": "M1-ready_pending_platform_binding",
+  "started_at": "2026-11-04T10:06:55.732422+00:00",
+  "run": "${WORKSPACE}/build/reproduction/m1-20261104T073837Z",
+  "restarts_simulation": false,
+  "delivery": "${WORKSPACE}/build/reproduction/m1-20261104T073837Z/ready-package/delivery.json",
+  "archive_sha256": "cff838fc1a181cd3e6a0dc18bc63a5af032aedc38f6478c4794016ba0fab61c5",
+  "gates": [
+    {
+      "path": "build/reproduction/m1-20261104T073837Z/g1-final-v1/summary.json",
+      "sha256": "84113cebd48506c9c2591034d00434e8dc153c2b08bf1011ba6c80694d23feac",
+      "status": "passed"
+    },
+    {
+      "path": "build/reproduction/m1-20261104T073837Z/mailbox-v2/summary.json",
+      "sha256": "35364f1b742060d3f041a6f4660d6d996fc46959d71cf30d70c75f0536405893",
+      "status": "passed"
+    },
+    {
+      "path": "build/reproduction/m1-20261104T073837Z/native-adapter-v4/summary.json",
+      "sha256": "87a740c93284427aac9f45df1515c3fb2ef8214302daf23310e99f75da1339d7",
+      "status": "passed"
+    },
+    {
+      "path": "build/reproduction/m1-20261104T073837Z/system-lint-v3/summary.json",
+      "sha256": "2327858b7bacdc80b422cdb1ed9d090c53cc5126224307b33bb7b6644802a53b",
+      "status": "passed_elaboration"
+    },
+    {
+      "path": "build/reproduction/m1-20261104T073837Z/host-tests-v5/summary.json",
+      "sha256": "438ab795cf6676164f8ccebcbaa709f9141370177ea5ba43eadddee0e8e1c8c6",
+      "status": "passed"
+    },
+    {
+      "path": "build/reproduction/m1-20261104T073837Z/clear-equivalence-v1/summary.json",
+      "sha256": "faab5772acb91d22fb47f64c673ba4bc7f4101d4d1c44aa799e3d7032de18a8a",
+      "status": "passed_full_clear_byte_equivalence"
+    },
+    {
+      "path": "build/reproduction/m1-20261104T073837Z/state-audit-v1/summary.json",
+      "sha256": "999e3cd1ccd72898767e3b40f42663969330b84541f2e3f933a00851e7e1b9eb",
+      "status": "passed_isa_numeric_and_read_coverage"
+    },
+    {
+      "path": "build/reproduction/m1-20261104T073837Z/reference-v1/summary.json",
+      "sha256": "4b455dd98fbe526a94dce6678fa353fd22d9ae26fbc59a1ecbdae159d34813b7",
+      "status": "passed_independent_native_reference"
+    },
+    {
+      "path": "build/reproduction/m1-20261104T073837Z/reference-kv-v1/summary.json",
+      "sha256": "0df4ef2b85c5d417b977e24d7c55e42fa4492a48406828608b3a969e2c469c06",
+      "status": "passed_independent_native_reference"
+    },
+    {
+      "path": "build/reproduction/m1-20261104T073837Z/full-short-v1/summary.json",
+      "sha256": "d59b771d7275c5cbb6c01e759ef2e462042201981411c993ca0413494f654746",
+      "status": "passed_four_token_full_model"
+    },
+    {
+      "path": "build/reproduction/m1-20261104T073837Z/full-continuous-v1/summary.json",
+      "sha256": "8dea03da2aed86dc3dccc217e0a408f41ffcbc08baffd849d029a6160e561159",
+      "status": "passed_continuous_full_model"
+    }
+  ],
+  "finished_at": "2026-11-04T12:55:46.774449+00:00"
+}

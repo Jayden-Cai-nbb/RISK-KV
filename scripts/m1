@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+set -euo pipefail
+m1_root="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
+cd -- "$m1_root"
+if [[ $# -eq 0 ]]; then
+    printf '%s\n' 'Usage: scripts/m1 {host|board_build|board_review|board_bit|board_qualify|board_cold_start|board_suite|board_transport_test|board_acceptance|experimental_acceptance|demo|record_demo|demo_test|acceptance_test|generate_layout|generate_host_control|firmware|reference|reference_kv|full_model|quick|lint|boot_mux_test|jtag_mask_test|ddr_qualifier_test|ddr_first_guard_test|ddr_init_trace_test|clock_guard_test|native_axi_test|axi_cdc_test|memory_axi_cdc_test|host_ddr_test|axi_fabric_test|host_control_test|host_router_test|host_startup_test|host_ingress_test|host_link_test|platform_test|platform_elaborate|platform_synthesize|platform_clocked_synthesize|jtag_transport_test} [arguments]'
+    exit 2
+fi
+m1_action="$1"
+shift
+case "$m1_action" in
+    host|board_build|board_review|board_bit|board_qualify|board_cold_start|board_suite|board_transport_test|board_acceptance|experimental_acceptance|demo|record_demo|demo_test|acceptance_test|generate_layout|generate_host_control|firmware|reference|reference_kv|full_model|quick|lint|boot_mux_test|jtag_mask_test|ddr_qualifier_test|ddr_first_guard_test|ddr_init_trace_test|clock_guard_test|native_axi_test|axi_cdc_test|memory_axi_cdc_test|host_ddr_test|axi_fabric_test|host_control_test|host_router_test|host_startup_test|host_ingress_test|host_link_test|platform_test|platform_elaborate|platform_synthesize|platform_clocked_synthesize|jtag_transport_test) ;;
+    *) printf '%s\n' "Unknown M1 action: $m1_action" >&2; exit 2 ;;
+esac
+if [[ -n "${M1_PYTHON:-}" ]]; then
+    exec "$M1_PYTHON" "tools/m1/${m1_action}.py" "$@"
+fi
+exec ./scripts/rtl-run python3 "tools/m1/${m1_action}.py" "$@"

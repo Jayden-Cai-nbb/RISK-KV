@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "abi_magic": 1381387088,
+  "abi_version": 1,
+  "control_base": 2147483648,
+  "mailbox_alias_base": 2147549184,
+  "mailbox_stride": 8,
+  "mailbox_words": 64,
+  "boot_release_key": 1381322289,
+  "controlled_reset_key": 1381192753,
+  "registers": {
+    "identity": {"id": 1, "offset": 0},
+    "status": {"id": 2, "offset": 8},
+    "boot": {"id": 3, "offset": 16},
+    "reset": {"id": 4, "offset": 24},
+    "epoch": {"id": 5, "offset": 32},
+    "generation": {"id": 6, "offset": 40},
+    "error": {"id": 7, "offset": 48},
+    "clock_plan": {"id": 8, "offset": 56},
+    "support": {"id": 9, "offset": 64},
+    "experiment_id": {"id": 10, "offset": 72},
+    "host_verified": {"id": 11, "offset": 80},
+    "native_verified": {"id": 12, "offset": 88},
+    "accepted_reads": {"id": 13, "offset": 96},
+    "accepted_writes": {"id": 14, "offset": 104},
+    "rejected_requests": {"id": 15, "offset": 112},
+    "control_requests": {"id": 16, "offset": 120}
+  }
+}

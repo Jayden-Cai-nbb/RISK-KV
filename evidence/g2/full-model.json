@@ -1,0 +1,125 @@
+{
+  "status": "passed_continuous_full_model",
+  "started_at": "2026-11-04T09:07:33.152586+00:00",
+  "short": false,
+  "board_execution": false,
+  "source_sha256": {
+    "vendor/openTPU/rtl/vpu/otpu_fp.sv": "16fc71077a7c7f9c7ef98ee8791c27eee340d6704cbdb0f1852104c64b2bbd48",
+    "vendor/openTPU/rtl/vpu/otpu_fpipe.sv": "50d13a22ce78a2e02f9e92a301e6626696dd8adbb88362960dd1385e34634cee",
+    "vendor/openTPU/rtl/top/otpu_pkg.sv": "78ebc6229f0c472a5fb541314a366b0b9d01997d0174e6977eade25be9dad2ea",
+    "vendor/openTPU/rtl/mem/otpu_tmem.sv": "1d7fab6094cb112c9b045ffb641250040894ce5ea18047fd23ca73097f268889",
+    "vendor/openTPU/rtl/mem/otpu_native_dram.sv": "d1dddbda571b1c41c79619f7b494a4a136373883d67fafb1fb4ee6d89ac0e321",
+    "vendor/openTPU/rtl/mem/otpu_actram.sv": "17f9e30a1f9bfec27a205be4eda62596779c6f0b024b8a1b99b64171278c9f49",
+    "vendor/openTPU/rtl/seq/otpu_seq.sv": "1ab8e1261cf1c78e14249c643021ed0da78cd09df743a8cb4e9f66baae391b21",
+    "vendor/openTPU/rtl/vpu/otpu_vtree.sv": "3dcf05fe7f7a22e54ab821834a3b380d9934b0d22ef855a74689ca3399e826d2",
+    "vendor/openTPU/rtl/dma/otpu_dma.sv": "3b7de3ee248b7b85b59e5f29e5246379c60fa818fdf0d6c30083b7f419659405",
+    "vendor/openTPU/rtl/mxu/otpu_mxu.sv": "83cbf29e1779809861e5c7998db186825cd4f8a9c6236843ac5075d9165ecbfa",
+    "vendor/openTPU/rtl/tech/generic/otpu_tech_dsp.sv": "89b0d45e303491dd8dfe6cdeb4e623e60d04a415697a567d1a70836dba9d8de7",
+    "vendor/openTPU/rtl/tech/generic/otpu_tech_ram.sv": "5db242b4ce3559f3a2bb23cbab1905a7b175ab61e68be653baf268373e77e6f8",
+    "vendor/openTPU/rtl/vpu/otpu_quant.sv": "afcc1344565ba57d068abd390e0f401934f7386e667e0ddab63ae625dbbfefb4",
+    "vendor/openTPU/rtl/vpu/otpu_se_comp.sv": "97948aa9eb84db7973d4f3c60d3b0596950a85eaf20d3df7ade11ebb638b224e",
+    "vendor/openTPU/rtl/vpu/otpu_se_tail.sv": "d3d18835e41e6a41b3492af2d4a0915e30484d2f0bb8ddcc3fdc47b0599a89f5",
+    "vendor/openTPU/rtl/vpu/otpu_vpu.sv": "aaf92f2119645864659fc6089e22bcb36f4e0059b1bfabbeee51d92b8143905f",
+    "vendor/openTPU/rtl/top/otpu_coll.sv": "3f6d295b021a56de25e9e6dbc90e2fa1d94224cef1bf8d03c58dbe771dcb8f07",
+    "vendor/openTPU/rtl/exp/tmem_nocopy/otpu_tmem_model.sv": "4d8f55b8774811a1d548d80b384d6ed41f71d1d1801958f6f9e3fc5c9cc3715e",
+    "vendor/openTPU/rtl/top/otpu_slice.sv": "f05d4ae3dd05678454bc8162e481277f6b9599d2159b5e2e1052b5ebde466f31",
+    "rtl/m1/rkv_m1_layout_pkg.sv": "dba0c45d00544003689761467b98cc4cb21210a85fa722d28e14cddf07ccc248",
+    "rtl/m1/rkv_m1_cleaner.sv": "0fc26c5e1f726dc16e22b63ebf485a53997c61e045da9c5c1ca40da43137dea9",
+    "rtl/m1/rkv_m1_compute.sv": "54d8598d65b92710b3b54097d429287dd021afc5a17ba2206dc3003bd9fef609",
+    "rtl/m1/rkv_m1_control.sv": "8deccc719cce9881a0f62b4fdd83d7669a3feb1706b01d1284a7280d92788543",
+    "rtl/m1/rkv_m1_cpu.sv": "de284cc3a255a6a616bc819aad6af68f62e7190c95f3797d5351417b1aac1166",
+    "rtl/m1/rkv_m1_executor.sv": "2cf141274c7369c63bc334cb666151f2432178164ccaf473737b5c015f1cd73a",
+    "rtl/m1/rkv_m1_memory_arbiter.sv": "4f7701a3c0afa0f55d310bf7347c3afc75e033416860f395a191454387038b9c",
+    "rtl/m1/rkv_m1_mmio.sv": "c24df87220ff16f7b9ec25da3b5ec18dfd3b61c172de99b7f27523706c074f41",
+    "rtl/m1/rkv_m1_native_memory.sv": "17e42d6999d4e6a2c278ad9eca27da8bd722ad379b4e693809db34b2a1e8e11a",
+    "rtl/m1/rkv_m1_native_retirement.sv": "f9d17c0363dfbb6aafcf0a812dd8dbdf4c7d77ab7a39919af1d1eeb0fb2890b4",
+    "rtl/m1/rkv_m1_native_system.sv": "f59bc8b5f90b66e841e28a09954d3b327c6b2d13bf39b058c1298d13808df5b2",
+    "rtl/m1/rkv_m1_service.sv": "ae15d6d0e6d4c34075f25d63929fa6d4ebfcc790982322bc3401186bb90c9f95",
+    "rtl/m1/rkv_m1_system.sv": "d707e26b56c0e46754dd0ab0637f06fa678b1c47c09140f8cf6784ffac5e133b",
+    "vendor/picorv32/picorv32.v": "0836050971b3c6cdd28ac3b1e5719a67fb645161912bef1e472e63995ceb0622",
+    "tb/npu_dpi/otpu_dram_dpi.sv": "4e9b1c374fb7b79383e4e278ec8bec77dbff1904afd26e8fbacfdcfdabbd556f",
+    "tb/npu_dpi/dram_store.cpp": "a0f8cb78e20fc22c4e7344003a495affb75df854ca37e02e23c2322ce9a023cc",
+    "tb/npu_dpi/observe_logits.cpp": "433fddc676dca8ec0afbc0aa116d199e8251f714d9858ced7b4495c513f76c84",
+    "tb/npu_dpi/observe_context.cpp": "423ecd6ac377c50efb5df6f495e2cba7c79971f2d200ef9f052dc9f14b2b5091",
+    "tb/m1/full_model/progress.cpp": "7f318d748368b35f9d155ffbf59c062ac2c764a8974b2726dd3bcdfc81ba0c24",
+    "tb/m1/full_model/tb_top.sv": "0baf09ebb96009d6df33691bb4f52ac044ea23345fbe73a4b449329149d13bae"
+  },
+  "phase": "simulate",
+  "firmware_sha256": "0033aa17b228ce7c380466f7018ce9cad5809b05bd999d00e02e275199e99215",
+  "executable_sha256": "2f88010a5b367b54d893f4c9aff03e4e8f0318ab539a55f9956bf0e8942215f4",
+  "cold_image_sha256": "76c576605977d50f70e9e4661b8378946d659cc8f83fa5b24da77e43e05ef14d",
+  "timeout_seconds": 21600,
+  "counters": {
+    "short": 0,
+    "cycles": 324836362,
+    "launches": 70,
+    "decodes": 6,
+    "binds": 2,
+    "task_cycles": 322366170,
+    "loader_cycles": 536,
+    "clean_bytes": 35568000,
+    "npu_read_bytes": 44478805504,
+    "npu_write_bytes": 23141936
+  },
+  "immutable_equal": true,
+  "all_kv_equal": true,
+  "prefix_sha256": "d28a53db02a530ae3660956a344409790257a5807173e2bfb2637b832d5aa1ca",
+  "steps": [
+    {
+      "pair": 0,
+      "step": 0,
+      "raw_sha256": "52ac65a0da338d46f6c354272912f7f56e08f0be9c141945c55547d611d179fa",
+      "tokens": [
+        374,
+        28
+      ]
+    },
+    {
+      "pair": 0,
+      "step": 1,
+      "raw_sha256": "423ce562e959d1debb4328f320581e24ec9ce74a8a64587963a110ed2d68bbad",
+      "tokens": [
+        279,
+        16
+      ]
+    },
+    {
+      "pair": 0,
+      "step": 2,
+      "raw_sha256": "8d926a09591274de028f6290ebfb28baa1ca08465b58707c3382256aaf407a31",
+      "tokens": [
+        7428,
+        5373
+      ]
+    },
+    {
+      "pair": 1,
+      "step": 0,
+      "raw_sha256": "e6fe6ab3f940b9bcf92f057e32ca0f4d8884dd897b3034a1511aeadb4267fcea",
+      "tokens": [
+        311,
+        28
+      ]
+    },
+    {
+      "pair": 1,
+      "step": 1,
+      "raw_sha256": "bc7eb2b4920be2a7060b48bb840f80aeec0e2981f8bee92b2686402f549c7b38",
+      "tokens": [
+        990,
+        16
+      ]
+    },
+    {
+      "pair": 1,
+      "step": 2,
+      "raw_sha256": "6c4191d7783b1ea70eeae3e837210d2678d23946fa9cb320a9337f8afebf45ea",
+      "tokens": [
+        25,
+        5373
+      ]
+    }
+  ],
+  "cq_tokens_equal": true,
+  "finished_at": "2026-11-04T12:48:02.973697+00:00"
+}

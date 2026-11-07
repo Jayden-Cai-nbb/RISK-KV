@@ -1,0 +1,131 @@
+|Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+|--------------------------------------------------------------------------------
+|Tool Version: Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+|Date        : Sat Nov  7 14:39:16 2026
+|Host        : test-HP-Z2-Tower-G1i-Workstation-Desktop-PC running 64-bit Ubuntu 22.04.5 LTS
+|Command     : report_hw_mig -file mig-final.txt localhost:3121/xilinx_tcf/Digilent/210251130202/0_1/MIG_1
+|Device      : xcvu440_0
+|--------------------------------------------------------------------------------
+
+-------------------
+ MIG Status 
+-------------------
+Overall Status:  CAL PASS
+MicroBlaze Status:  PASS
+DQS Gate Status:  RUNNING
+Message:  No errors detected during calibration.
+
+----------------------------------
+ Memory Configuration 
+----------------------------------
+Memory Debug Core Number:  MIG_1
+Memory Interface Type:  DDR4
+MIG Core Cell Name:  example/u_rkv_ddr_candidate
+XSDB Version:  3
+RTL Version:  7
+MicroBlaze Code Version:  11
+Memory Frequency (MHz):  768
+Bit Time (ps):  651
+Ranks:  1
+Data Bytes:  8
+Nibbles:  16
+Bits per Byte:  8
+PLL Multiply:  4
+PLL Divide:  1
+MMCM Multiply:  20
+MMCM Divide:  1
+
+-----------------------------------
+ Calibration Information 
+-----------------------------------
+
+RANK 0 -
+1 - DQS Gate:  PASS
+2 - DQS Gate Sanity Check:  PASS
+3 - Write Leveling:  PASS
+4 - Read Per-Bit Deskew:  PASS
+5 - Read Per-Bit DBI Deskew:  SKIP
+6 - Read DQS Centering (Simple):  PASS
+7 - Read Sanity Check:  PASS
+8 - Write DQS to DQ Deskew:  PASS
+9 - Write DQS to DM/DBI Deskew:  PASS
+10 - Write DQS to DQ (Simple):  PASS
+11 - Write DQS to DM/DBI (Simple):  PASS
+12 - Read DQS Centering DBI (Simple):  SKIP
+13 - Write Latency Calibration:  PASS
+14 - Write Read Sanity Check 0:  PASS
+15 - Read DQS Centering (Complex):  SKIP
+16 - Write Read Sanity Check 1:  SKIP
+17 - Read VREF Training:  SKIP
+18 - Write Read Sanity Check 2:  SKIP
+19 - Write DQS to DQ (Complex):  SKIP
+20 - Write DQS to DM/DBI (Complex):  SKIP
+21 - Write Read Sanity Check 3:  SKIP
+22 - Write VREF Training:  SKIP
+23 - Write Read Sanity Check 4:  SKIP
+24 - Read DQS Centering Multi Rank Adjustment:  SKIP
+25 - Write Read Sanity Check 5:  SKIP
+26 - Multi Rank Adjustment and Checks:  SKIP
+27 - Write Read Sanity Check 6:  SKIP
+
+--------------------------
+ Margin Analysis 
+--------------------------
+
+RANK 0 - Read Margin - Falling Edge Simple Calibration
+Byte 0 Nibble 0  -  Left Margin:  288  Center Point:  368  Right Margin:  288
+Byte 0 Nibble 1  -  Left Margin:  280  Center Point:  348  Right Margin:  280
+Byte 1 Nibble 0  -  Left Margin:  283  Center Point:  377  Right Margin:  283
+Byte 1 Nibble 1  -  Left Margin:  267  Center Point:  366  Right Margin:  271
+Byte 2 Nibble 0  -  Left Margin:  289  Center Point:  376  Right Margin:  289
+Byte 2 Nibble 1  -  Left Margin:  285  Center Point:  362  Right Margin:  285
+Byte 3 Nibble 0  -  Left Margin:  275  Center Point:  385  Right Margin:  280
+Byte 3 Nibble 1  -  Left Margin:  271  Center Point:  380  Right Margin:  271
+Byte 4 Nibble 0  -  Left Margin:  289  Center Point:  367  Right Margin:  289
+Byte 4 Nibble 1  -  Left Margin:  280  Center Point:  344  Right Margin:  284
+Byte 5 Nibble 0  -  Left Margin:  297  Center Point:  373  Right Margin:  302
+Byte 5 Nibble 1  -  Left Margin:  285  Center Point:  388  Right Margin:  285
+Byte 6 Nibble 0  -  Left Margin:  297  Center Point:  373  Right Margin:  302
+Byte 6 Nibble 1  -  Left Margin:  294  Center Point:  348  Right Margin:  298
+Byte 7 Nibble 0  -  Left Margin:  294  Center Point:  348  Right Margin:  298
+Byte 7 Nibble 1  -  Left Margin:  290  Center Point:  366  Right Margin:  290
+
+RANK 0 - Read Margin - Rising Edge Simple Calibration
+Byte 0 Nibble 0  -  Left Margin:  335  Center Point:  389  Right Margin:  340
+Byte 0 Nibble 1  -  Left Margin:  345  Center Point:  379  Right Margin:  345
+Byte 1 Nibble 0  -  Left Margin:  335  Center Point:  387  Right Margin:  335
+Byte 1 Nibble 1  -  Left Margin:  330  Center Point:  367  Right Margin:  335
+Byte 2 Nibble 0  -  Left Margin:  330  Center Point:  402  Right Margin:  335
+Byte 2 Nibble 1  -  Left Margin:  335  Center Point:  388  Right Margin:  340
+Byte 3 Nibble 0  -  Left Margin:  326  Center Point:  373  Right Margin:  330
+Byte 3 Nibble 1  -  Left Margin:  345  Center Point:  384  Right Margin:  350
+Byte 4 Nibble 0  -  Left Margin:  345  Center Point:  399  Right Margin:  345
+Byte 4 Nibble 1  -  Left Margin:  335  Center Point:  373  Right Margin:  340
+Byte 5 Nibble 0  -  Left Margin:  335  Center Point:  393  Right Margin:  335
+Byte 5 Nibble 1  -  Left Margin:  345  Center Point:  414  Right Margin:  345
+Byte 6 Nibble 0  -  Left Margin:  345  Center Point:  384  Right Margin:  350
+Byte 6 Nibble 1  -  Left Margin:  340  Center Point:  369  Right Margin:  340
+Byte 7 Nibble 0  -  Left Margin:  321  Center Point:  359  Right Margin:  321
+Byte 7 Nibble 1  -  Left Margin:  326  Center Point:  369  Right Margin:  330
+
+RANK 0 - Complex pattern read margin did not run because either a prior stage of calibration failed or read levelling (complex) stage was skipped.
+
+RANK 0 - Write Margin - Simple Calibration
+Byte 0  -  Left Margin:  312  Center Point:  1708  Right Margin:  308
+Byte 1  -  Left Margin:  302  Center Point:  1883  Right Margin:  302
+Byte 2  -  Left Margin:  303  Center Point:  2023  Right Margin:  313
+Byte 3  -  Left Margin:  304  Center Point:  2145  Right Margin:  309
+Byte 4  -  Left Margin:  307  Center Point:  2264  Right Margin:  307
+Byte 5  -  Left Margin:  307  Center Point:  2406  Right Margin:  311
+Byte 6  -  Left Margin:  322  Center Point:  2477  Right Margin:  322
+Byte 7  -  Left Margin:  315  Center Point:  2524  Right Margin:  320
+
+RANK 0 - Complex pattern write margin did not run because either a prior stage of calibration failed or write complex stage was skipped.
+
+-----------------------
+  Warning Notices  
+-----------------------
+
+No warning has been generated during calibration.
+
+

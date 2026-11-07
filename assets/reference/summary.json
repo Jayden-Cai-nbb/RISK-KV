@@ -1,0 +1,217 @@
+{
+  "status": "passed_cold_context_isa",
+  "phase": "complete",
+  "profile_sha256": "ec33cde4fd838d67e9e2874cbefbdeb5430f65221d26eedc28142e555a4477a4",
+  "workload_sha256": "dd6f95f82ec8920d69540936a2aa54f067d4c2eeb9cdeed0a59228a729c06007",
+  "model_manifest_sha256": "455f47abd2a76a0a7b07b26636efbcd9e2a7b0e43735621cc4da5e66026adbe2",
+  "runs": {
+    "native": {
+      "prefix_sha256": "d28a53db02a530ae3660956a344409790257a5807173e2bfb2637b832d5aa1ca",
+      "steps": [
+        {
+          "step": 0,
+          "input_tokens": [
+            3555,
+            8429
+          ],
+          "output_tokens": [
+            374,
+            28
+          ],
+          "logits_file": "native-logits-0.npy",
+          "logits_sha256": "0a660878d8962db49e77d707f5f3b385a4638c6736d2b9cd4a703ee4c49abeb6"
+        },
+        {
+          "step": 1,
+          "input_tokens": [
+            374,
+            28
+          ],
+          "output_tokens": [
+            279,
+            16
+          ],
+          "logits_file": "native-logits-1.npy",
+          "logits_sha256": "7cef4b9a64e3de0673fcab5768419785a7fb1b37a2cf4bfb433fafbce6a1ac93"
+        },
+        {
+          "step": 2,
+          "input_tokens": [
+            279,
+            16
+          ],
+          "output_tokens": [
+            7428,
+            5373
+          ],
+          "logits_file": "native-logits-2.npy",
+          "logits_sha256": "a9a1487f01ebc2926e4f63785901cbb3801d9807706b88d52342caa470930e26"
+        }
+      ],
+      "wall_seconds": 270.52005535
+    },
+    "candidate": {
+      "prefix_sha256": "d28a53db02a530ae3660956a344409790257a5807173e2bfb2637b832d5aa1ca",
+      "steps": [
+        {
+          "step": 0,
+          "input_tokens": [
+            3555,
+            8429
+          ],
+          "output_tokens": [
+            374,
+            28
+          ],
+          "logits_file": "candidate-logits-0.npy",
+          "logits_sha256": "0a660878d8962db49e77d707f5f3b385a4638c6736d2b9cd4a703ee4c49abeb6"
+        },
+        {
+          "step": 1,
+          "input_tokens": [
+            374,
+            28
+          ],
+          "output_tokens": [
+            279,
+            16
+          ],
+          "logits_file": "candidate-logits-1.npy",
+          "logits_sha256": "7cef4b9a64e3de0673fcab5768419785a7fb1b37a2cf4bfb433fafbce6a1ac93"
+        },
+        {
+          "step": 2,
+          "input_tokens": [
+            279,
+            16
+          ],
+          "output_tokens": [
+            7428,
+            5373
+          ],
+          "logits_file": "candidate-logits-2.npy",
+          "logits_sha256": "a9a1487f01ebc2926e4f63785901cbb3801d9807706b88d52342caa470930e26"
+        }
+      ],
+      "wall_seconds": 289.799850804,
+      "final_pool_sha256": "199d7afc81e7509a69aef5581747637e6c84279aaee893e6fbfaa8bafbdf5641"
+    }
+  },
+  "initial_kv_zero": true,
+  "board_execution": false,
+  "programs": {
+    "build": {
+      "address": 1610612736,
+      "instructions": 1026,
+      "bytes": 32832,
+      "sha256": "9a3cc5083698bea455852f9aab65ea82e6eb3591bc9372a14d3d945f2a9a0542",
+      "args": [
+        {
+          "name": "tpos",
+          "coefficient": 256,
+          "register": 15
+        },
+        {
+          "name": "tpos",
+          "coefficient": 4,
+          "register": 14
+        },
+        {
+          "name": "kv_plus_step_128",
+          "coefficient": 1,
+          "register": 13
+        },
+        {
+          "name": "kv_plus_step_4",
+          "coefficient": 1,
+          "register": 12
+        },
+        {
+          "name": "kv_plus_step_1",
+          "coefficient": 1,
+          "register": 11
+        },
+        {
+          "name": "kv_base",
+          "coefficient": 1,
+          "register": 10
+        },
+        {
+          "name": "tpos",
+          "coefficient": -4,
+          "register": 9
+        }
+      ]
+    },
+    "decode": {
+      "address": 1610678272,
+      "instructions": 1004,
+      "bytes": 32128,
+      "sha256": "f9a810f26e2c318a55577f102d96b9d43bdfb574d418358a7d5c436e426da618",
+      "args": [
+        {
+          "name": "tok0",
+          "coefficient": 4096,
+          "register": 15
+        },
+        {
+          "name": "tpos",
+          "coefficient": 256,
+          "register": 14
+        },
+        {
+          "name": "tok1",
+          "coefficient": 4096,
+          "register": 13
+        },
+        {
+          "name": "kv_plus_step_128",
+          "coefficient": 1,
+          "register": 12
+        },
+        {
+          "name": "kv_plus_step_4",
+          "coefficient": 1,
+          "register": 11
+        },
+        {
+          "name": "kv_plus_step_1",
+          "coefficient": 1,
+          "register": 10
+        },
+        {
+          "name": "kv_base",
+          "coefficient": 1,
+          "register": 9
+        },
+        {
+          "name": "tpos",
+          "coefficient": -4,
+          "register": 8
+        }
+      ]
+    }
+  },
+  "input_path": "build/npu-context-inputs/npu-context-build-reference-20261103/dram-input.bin",
+  "input_sha256": "76c576605977d50f70e9e4661b8378946d659cc8f83fa5b24da77e43e05ef14d",
+  "input_bytes": 1610710400,
+  "kv_base": 1233223680,
+  "prefix_bytes": 15138816,
+  "pool_base": 1233223680,
+  "pool_bytes": 268435456,
+  "context_end": 1278640128,
+  "result_address": 1229289088,
+  "prompt_address": 1229289344,
+  "logits_address": 13312,
+  "immutable_regions": [
+    [
+      9216,
+      4096
+    ],
+    [
+      1359872,
+      1227929216
+    ]
+  ],
+  "immutable_sha256": "50f724cf6087068fd34cf0630e13f1224a2d4c1e00bccb41bd9bd0275f288c95"
+}

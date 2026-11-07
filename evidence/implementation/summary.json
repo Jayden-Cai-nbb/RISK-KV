@@ -1,0 +1,16 @@
+{
+  "status": "routed_requires_review",
+  "part": "xcvu440-flga2892-1-c",
+  "validation_profile": "experimental_m1",
+  "vendor_supported": false,
+  "unsupported_reasons": [
+    "MIG_PFD_48MHZ",
+    "MODULE_TIMINGS_UNCONFIRMED",
+    "PHYSICAL_SPEED_GRADE_UNCONFIRMED"
+  ],
+  "source_build": "${WORKSPACE}/build/reproduction/g3-board-demo-20261107/build-v3",
+  "synthesis_reused": true,
+  "hardware_actions": [],
+  "board_acceptance_passed": false,
+  "finished_at": "2026-11-07T09:09:43.602506+00:00"
+}

@@ -1,0 +1,511 @@
+{
+  "status": "measured_simulation_requests_only",
+  "counters": {
+    "short": 0,
+    "cycles": 324836362,
+    "launches": 70,
+    "decodes": 6,
+    "binds": 2,
+    "task_cycles": 322366170,
+    "loader_cycles": 536,
+    "clean_bytes": 35568000,
+    "npu_read_bytes": 44478805504,
+    "npu_write_bytes": 23141936
+  },
+  "tasks": [
+    {
+      "task": 0,
+      "op": 3,
+      "launch": 1268,
+      "completion": 4526546,
+      "interval_cycles": 4525278
+    },
+    {
+      "task": 1,
+      "op": 3,
+      "launch": 4526905,
+      "completion": 9052211,
+      "interval_cycles": 4525306
+    },
+    {
+      "task": 2,
+      "op": 3,
+      "launch": 9052582,
+      "completion": 13577860,
+      "interval_cycles": 4525278
+    },
+    {
+      "task": 3,
+      "op": 3,
+      "launch": 13578230,
+      "completion": 18103536,
+      "interval_cycles": 4525306
+    },
+    {
+      "task": 4,
+      "op": 3,
+      "launch": 18103907,
+      "completion": 22629185,
+      "interval_cycles": 4525278
+    },
+    {
+      "task": 5,
+      "op": 3,
+      "launch": 22629555,
+      "completion": 27154861,
+      "interval_cycles": 4525306
+    },
+    {
+      "task": 6,
+      "op": 3,
+      "launch": 27155232,
+      "completion": 31680510,
+      "interval_cycles": 4525278
+    },
+    {
+      "task": 7,
+      "op": 3,
+      "launch": 31680880,
+      "completion": 36206186,
+      "interval_cycles": 4525306
+    },
+    {
+      "task": 8,
+      "op": 3,
+      "launch": 36206557,
+      "completion": 40731835,
+      "interval_cycles": 4525278
+    },
+    {
+      "task": 9,
+      "op": 3,
+      "launch": 40732205,
+      "completion": 45257511,
+      "interval_cycles": 4525306
+    },
+    {
+      "task": 10,
+      "op": 3,
+      "launch": 45257882,
+      "completion": 49783160,
+      "interval_cycles": 4525278
+    },
+    {
+      "task": 11,
+      "op": 3,
+      "launch": 49783530,
+      "completion": 54308836,
+      "interval_cycles": 4525306
+    },
+    {
+      "task": 12,
+      "op": 3,
+      "launch": 54309207,
+      "completion": 58834485,
+      "interval_cycles": 4525278
+    },
+    {
+      "task": 13,
+      "op": 3,
+      "launch": 58834855,
+      "completion": 63360161,
+      "interval_cycles": 4525306
+    },
+    {
+      "task": 14,
+      "op": 3,
+      "launch": 63360532,
+      "completion": 67885810,
+      "interval_cycles": 4525278
+    },
+    {
+      "task": 15,
+      "op": 3,
+      "launch": 67886180,
+      "completion": 72411486,
+      "interval_cycles": 4525306
+    },
+    {
+      "task": 16,
+      "op": 3,
+      "launch": 72411857,
+      "completion": 76937135,
+      "interval_cycles": 4525278
+    },
+    {
+      "task": 17,
+      "op": 3,
+      "launch": 76937505,
+      "completion": 81462811,
+      "interval_cycles": 4525306
+    },
+    {
+      "task": 18,
+      "op": 3,
+      "launch": 81463182,
+      "completion": 85988460,
+      "interval_cycles": 4525278
+    },
+    {
+      "task": 19,
+      "op": 3,
+      "launch": 85988830,
+      "completion": 90514136,
+      "interval_cycles": 4525306
+    },
+    {
+      "task": 20,
+      "op": 3,
+      "launch": 90514507,
+      "completion": 95039785,
+      "interval_cycles": 4525278
+    },
+    {
+      "task": 21,
+      "op": 3,
+      "launch": 95040155,
+      "completion": 99565461,
+      "interval_cycles": 4525306
+    },
+    {
+      "task": 22,
+      "op": 3,
+      "launch": 99565832,
+      "completion": 104091110,
+      "interval_cycles": 4525278
+    },
+    {
+      "task": 23,
+      "op": 3,
+      "launch": 104091480,
+      "completion": 108616786,
+      "interval_cycles": 4525306
+    },
+    {
+      "task": 24,
+      "op": 3,
+      "launch": 108617157,
+      "completion": 113142435,
+      "interval_cycles": 4525278
+    },
+    {
+      "task": 25,
+      "op": 3,
+      "launch": 113142805,
+      "completion": 117668111,
+      "interval_cycles": 4525306
+    },
+    {
+      "task": 26,
+      "op": 3,
+      "launch": 117668482,
+      "completion": 122193760,
+      "interval_cycles": 4525278
+    },
+    {
+      "task": 27,
+      "op": 3,
+      "launch": 122194130,
+      "completion": 126719436,
+      "interval_cycles": 4525306
+    },
+    {
+      "task": 28,
+      "op": 3,
+      "launch": 126719807,
+      "completion": 131245085,
+      "interval_cycles": 4525278
+    },
+    {
+      "task": 29,
+      "op": 3,
+      "launch": 131245455,
+      "completion": 135770761,
+      "interval_cycles": 4525306
+    },
+    {
+      "task": 30,
+      "op": 3,
+      "launch": 135771132,
+      "completion": 140296410,
+      "interval_cycles": 4525278
+    },
+    {
+      "task": 31,
+      "op": 3,
+      "launch": 140296780,
+      "completion": 144822086,
+      "interval_cycles": 4525306
+    },
+    {
+      "task": 32,
+      "op": 3,
+      "launch": 144822457,
+      "completion": 149347735,
+      "interval_cycles": 4525278
+    },
+    {
+      "task": 33,
+      "op": 3,
+      "launch": 149348105,
+      "completion": 153873411,
+      "interval_cycles": 4525306
+    },
+    {
+      "task": 34,
+      "op": 3,
+      "launch": 153873782,
+      "completion": 158399060,
+      "interval_cycles": 4525278
+    },
+    {
+      "task": 35,
+      "op": 3,
+      "launch": 158399430,
+      "completion": 162924736,
+      "interval_cycles": 4525306
+    },
+    {
+      "task": 36,
+      "op": 3,
+      "launch": 162925107,
+      "completion": 167450385,
+      "interval_cycles": 4525278
+    },
+    {
+      "task": 37,
+      "op": 3,
+      "launch": 167450755,
+      "completion": 171976061,
+      "interval_cycles": 4525306
+    },
+    {
+      "task": 38,
+      "op": 3,
+      "launch": 171976432,
+      "completion": 176501710,
+      "interval_cycles": 4525278
+    },
+    {
+      "task": 39,
+      "op": 3,
+      "launch": 176502080,
+      "completion": 181027386,
+      "interval_cycles": 4525306
+    },
+    {
+      "task": 40,
+      "op": 3,
+      "launch": 181027757,
+      "completion": 185553035,
+      "interval_cycles": 4525278
+    },
+    {
+      "task": 41,
+      "op": 3,
+      "launch": 185553405,
+      "completion": 190078711,
+      "interval_cycles": 4525306
+    },
+    {
+      "task": 42,
+      "op": 3,
+      "launch": 190079082,
+      "completion": 194604360,
+      "interval_cycles": 4525278
+    },
+    {
+      "task": 43,
+      "op": 3,
+      "launch": 194604730,
+      "completion": 199130036,
+      "interval_cycles": 4525306
+    },
+    {
+      "task": 44,
+      "op": 3,
+      "launch": 199130407,
+      "completion": 203655685,
+      "interval_cycles": 4525278
+    },
+    {
+      "task": 45,
+      "op": 3,
+      "launch": 203656055,
+      "completion": 208181361,
+      "interval_cycles": 4525306
+    },
+    {
+      "task": 46,
+      "op": 3,
+      "launch": 208181732,
+      "completion": 212707010,
+      "interval_cycles": 4525278
+    },
+    {
+      "task": 47,
+      "op": 3,
+      "launch": 212707380,
+      "completion": 217232686,
+      "interval_cycles": 4525306
+    },
+    {
+      "task": 48,
+      "op": 3,
+      "launch": 217233057,
+      "completion": 221758335,
+      "interval_cycles": 4525278
+    },
+    {
+      "task": 49,
+      "op": 3,
+      "launch": 221758705,
+      "completion": 226284011,
+      "interval_cycles": 4525306
+    },
+    {
+      "task": 50,
+      "op": 3,
+      "launch": 226284382,
+      "completion": 230809660,
+      "interval_cycles": 4525278
+    },
+    {
+      "task": 51,
+      "op": 3,
+      "launch": 230810030,
+      "completion": 235335336,
+      "interval_cycles": 4525306
+    },
+    {
+      "task": 52,
+      "op": 3,
+      "launch": 235335707,
+      "completion": 239860985,
+      "interval_cycles": 4525278
+    },
+    {
+      "task": 53,
+      "op": 3,
+      "launch": 239861355,
+      "completion": 244386661,
+      "interval_cycles": 4525306
+    },
+    {
+      "task": 54,
+      "op": 3,
+      "launch": 244387032,
+      "completion": 248912310,
+      "interval_cycles": 4525278
+    },
+    {
+      "task": 55,
+      "op": 3,
+      "launch": 248912680,
+      "completion": 253437986,
+      "interval_cycles": 4525306
+    },
+    {
+      "task": 56,
+      "op": 3,
+      "launch": 253438357,
+      "completion": 257963635,
+      "interval_cycles": 4525278
+    },
+    {
+      "task": 57,
+      "op": 3,
+      "launch": 257964005,
+      "completion": 262489311,
+      "interval_cycles": 4525306
+    },
+    {
+      "task": 58,
+      "op": 3,
+      "launch": 262489682,
+      "completion": 267014960,
+      "interval_cycles": 4525278
+    },
+    {
+      "task": 59,
+      "op": 3,
+      "launch": 267015330,
+      "completion": 271540636,
+      "interval_cycles": 4525306
+    },
+    {
+      "task": 60,
+      "op": 3,
+      "launch": 271541007,
+      "completion": 276066285,
+      "interval_cycles": 4525278
+    },
+    {
+      "task": 61,
+      "op": 3,
+      "launch": 276066655,
+      "completion": 280591961,
+      "interval_cycles": 4525306
+    },
+    {
+      "task": 62,
+      "op": 3,
+      "launch": 280592332,
+      "completion": 285117610,
+      "interval_cycles": 4525278
+    },
+    {
+      "task": 63,
+      "op": 3,
+      "launch": 285117980,
+      "completion": 289643286,
+      "interval_cycles": 4525306
+    },
+    {
+      "task": 64,
+      "op": 6,
+      "launch": 289644658,
+      "completion": 295102546,
+      "interval_cycles": 5457888
+    },
+    {
+      "task": 65,
+      "op": 6,
+      "launch": 295102946,
+      "completion": 300560890,
+      "interval_cycles": 5457944
+    },
+    {
+      "task": 66,
+      "op": 6,
+      "launch": 300561297,
+      "completion": 306019241,
+      "interval_cycles": 5457944
+    },
+    {
+      "task": 67,
+      "op": 6,
+      "launch": 308461495,
+      "completion": 313919383,
+      "interval_cycles": 5457888
+    },
+    {
+      "task": 68,
+      "op": 6,
+      "launch": 313919788,
+      "completion": 319377732,
+      "interval_cycles": 5457944
+    },
+    {
+      "task": 69,
+      "op": 6,
+      "launch": 319378139,
+      "completion": 324836083,
+      "interval_cycles": 5457944
+    }
+  ],
+  "outside_launch_completion_cycles": 2470122,
+  "reuse_between_pairs_cycles": 2442254,
+  "interpretation": "outside intervals includes CPU/ACK/loader/clear/scheduling; between-pair gap includes cleanup plus consume/bind/control. Not isolated cleaner latency, physical DDR traffic, or board speedup.",
+  "source_sha256": "b505091807163eb9a327032095ea1b841cee02982e6da351b7f3c0bf99246326"
+}

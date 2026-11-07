@@ -1,0 +1,15 @@
+digraph G {
+ graph [bgcolor="white",pad="0.25",nodesep="0.35",ranksep="0.55",fontname="DejaVu Sans",fontsize=18];
+ node [shape=box,style="rounded,filled",fillcolor="#e8f1fb",color="#35618e",fontname="DejaVu Sans",fontsize=12,margin="0.18,0.12"];
+ edge [color="#526475",fontname="DejaVu Sans",fontsize=10,arrowsize=0.75];
+
+ rankdir=LR;label="Evidence layers and final-system acceptance";labelloc=t;
+ ref [label="Independent-layout ISA reference\nfixed model / inputs / native format"];
+ fast [label="Protocol / CDC tests\nidentity, cancellation, retirement"];
+ model [label="Full-model RTL simulation\n64 builds + 2 query pairs\nKV / logits / immutable regions",fillcolor="#e4f2e5"];
+ ddr [label="Independent DDR hardware\n10 configuration cold starts\n2 GiB + 1837.498 s stress",fillcolor="#e4f2e5"];
+ impl [label="Final NPU + MIG implementation\nSTA / CDC / reset / DRC"];
+ final [label="Final-bit storage + numeric suite\ncontinuous service / recovery",fillcolor="#fff0db"];
+ eval [label="Same-resource comparison\nrebuild vs reuse\ncompute + cleanup + transport",fillcolor="#fff0db"];
+ ref->model;fast->model;fast->impl;ddr->impl;impl->final;model->final;final->eval;
+}

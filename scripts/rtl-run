@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -euo pipefail
+# Optional site-managed tool runner; otherwise use the caller's explicit PATH/environment.
+if [[ -n "${RTL_TOOLS_RUNNER:-}" ]]; then
+    exec "$RTL_TOOLS_RUNNER" "$@"
+fi
+exec "$@"

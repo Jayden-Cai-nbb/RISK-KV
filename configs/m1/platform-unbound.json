@@ -1,0 +1,20 @@
+{
+  "schema": "rkv-m1-platform-1",
+  "state": "unbound",
+  "part": "xcvu440-flga2892-2-e",
+  "logical_bytes": 2147483648,
+  "core_hz": 50000000,
+  "fast_hz": 100000000,
+  "clock_phase_verified": false,
+  "ddr_capacity_bytes": null,
+  "vivado_version": null,
+  "project": null,
+  "driver": null,
+  "bit_sha256": null,
+  "ltx_sha256": null,
+  "firmware_sha256": null,
+  "note": "由 VU440 主机核验真实工程后填写；不能将未知项当成已满足。",
+  "validation_profile": "formal_m1",
+  "vendor_supported": null,
+  "unsupported_reasons": null
+}

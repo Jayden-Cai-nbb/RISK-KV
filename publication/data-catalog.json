@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "release": "v0.1.0-collaboration",
+  "reference_bundle": {
+    "url": "https://github.com/Jayden-Cai-nbb/RISK-KV/releases/download/v0.1.0-collaboration/risk-kv-reference-data.tar.gz",
+    "bytes": 47560679,
+    "sha256": "f1dd8bdc5571bcfd823fe835953b7dd06d78147011973bfc5534e049cdad488f",
+    "destination": "assets/m1/reference",
+    "files": {
+      "pair-0-context.bin": {
+        "bytes": 45416448,
+        "sha256": "ddfdad511764a1fff280b15959dbae91e1404b0e2797a39d856f9e8f17638492"
+      },
+      "pair-0-logits-0.npy": {
+        "bytes": 1215616,
+        "sha256": "0a660878d8962db49e77d707f5f3b385a4638c6736d2b9cd4a703ee4c49abeb6"
+      },
+      "pair-0-logits-1.npy": {
+        "bytes": 1215616,
+        "sha256": "7cef4b9a64e3de0673fcab5768419785a7fb1b37a2cf4bfb433fafbce6a1ac93"
+      },
+      "pair-0-logits-2.npy": {
+        "bytes": 1215616,
+        "sha256": "a9a1487f01ebc2926e4f63785901cbb3801d9807706b88d52342caa470930e26"
+      },
+      "pair-1-context.bin": {
+        "bytes": 45416448,
+        "sha256": "465cbbcd5aad459be5b2f475f7621f6336d654d57678d02c31daf88c0fc45e1d"
+      },
+      "pair-1-logits-0.npy": {
+        "bytes": 1215616,
+        "sha256": "8ba1708ba06b047d623702374a2a264082e68a5e438d0e39b1365c6f914c6600"
+      },
+      "pair-1-logits-1.npy": {
+        "bytes": 1215616,
+        "sha256": "3cd7a0fb1f249c32f1fa890754f25d023d72621c60e8df484f273eda3c5c5d0b"
+      },
+      "pair-1-logits-2.npy": {
+        "bytes": 1215616,
+        "sha256": "bfede9e56d53a0389fd36248adf4597f51015861e8cda0fe8caeb76c107eae32"
+      },
+      "reference-prefix.bin": {
+        "bytes": 15138816,
+        "sha256": "d28a53db02a530ae3660956a344409790257a5807173e2bfb2637b832d5aa1ca"
+      },
+      "summary.json": {
+        "bytes": 3527,
+        "sha256": "0df4ef2b85c5d417b977e24d7c55e42fa4492a48406828608b3a969e2c469c06"
+      }
+    }
+  },
+  "cold_image": {
+    "bytes": 1610710400,
+    "sha256": "76c576605977d50f70e9e4661b8378946d659cc8f83fa5b24da77e43e05ef14d",
+    "rebuild": "python3 tools/rebuild_input.py --output assets/data/dram-input.bin"
+  },
+  "model": {
+    "id": "Qwen/Qwen3-0.6B",
+    "revision": "c1899de289a04d12100db370d81485cdf75e47ca",
+    "manifest": "models/Qwen3-0.6B-hf/risc-kv-model-manifest.json"
+  }
+}

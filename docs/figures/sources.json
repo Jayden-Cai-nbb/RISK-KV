@@ -1,0 +1,25 @@
+{
+  "scope": "source-level diagrams; abstract channels, not a complete pin-level netlist",
+  "sources": {
+    "rtl/m1/rkv_m1_control.sv": "8deccc719cce9881a0f62b4fdd83d7669a3feb1706b01d1284a7280d92788543",
+    "rtl/m1/rkv_m1_executor.sv": "2cf141274c7369c63bc334cb666151f2432178164ccaf473737b5c015f1cd73a",
+    "rtl/m1/rkv_m1_cleaner.sv": "0fc26c5e1f726dc16e22b63ebf485a53997c61e045da9c5c1ca40da43137dea9",
+    "platform/m1/rkv_m1_platform.v": "c934be22c68f98f9d120c56fd8729ab04d0b336c15584d8839a4aced0663368b",
+    "platform/m1/prodigy/rkv_m1_board_memory.sv": "87cba4a94742db942b541fa82b04dd661acf3b26c86902b8cda3d76140aa45ce",
+    "configs/m1/layout.json": "cb2fa2bf04bf3190b9129b2e3bdc823ea3c552d0914309c26ec2375d135fef15"
+  },
+  "figures": {
+    "lifecycle.dot": "ca3109658d4c19fe5e610fedfbc52cab7c2d9d878cc0e2b011aab8be2669b833",
+    "lifecycle.pdf": "d7aaed673c235ca2397fb515d890222745324e910ea76b920fdde0ade7984953",
+    "lifecycle.svg": "f184fce9fe85b906ea1d4a13a6c995011bd650e4a6ece7704c74774f26abb7e9",
+    "memory.dot": "e266e36ff0c731202a0576481cb389ad9b8a2c50dbeaa63b0b5020b498525f2c",
+    "memory.pdf": "eb86ef1706b8d9c26347d6632022bf514e707104002da5eeb3352548e6328e43",
+    "memory.svg": "1a55645ac00883322e03c13d05123dc60f5a8c77f0f86847fcc2fceec3f48ac6",
+    "system.dot": "44ae171f452aac80a62ea64b36db5687e05f7f85cc8ac3fc6cf4cb9001f4bd3f",
+    "system.pdf": "99ffd0ba0b409a4d7609f68351c46f7f72bc218a5064781b38886961b9280daf",
+    "system.svg": "d23d929d57c184e755a3ead5572b1a265d785708c22762b707164b1c1b544f3b",
+    "validation.dot": "341c17bec9814f15de594e10b0a7381018f04ed946514d87f83d9a0cffce36e0",
+    "validation.pdf": "6c293111d3fa287213ad92a6a186ab0b6d9378122787d622ded2b2a83f23e2cf",
+    "validation.svg": "ac958a4b1d6ce7f69060dab072e8d4a414bad0dd9453e0d3ef8883e254121dc8"
+  }
+}

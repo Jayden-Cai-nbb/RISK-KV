@@ -1,0 +1,18 @@
+{
+  "independent_host_peeks": 9,
+  "mig_sha256": "9d8b0ab11b9dfb6d193bfc740c2b49dc81e3bba0a104742afda6921a8e52c18e",
+  "name": "full-2gib",
+  "result": {
+    "base": 0,
+    "blocks": 33554432,
+    "cycles": 3149652256,
+    "host_run_ms": 16587,
+    "min_seconds": 0,
+    "per_channel_count": 100663296,
+    "rounds": 1,
+    "seconds": 16,
+    "seed": 324508639
+  },
+  "status": "passed",
+  "trace_available": true
+}

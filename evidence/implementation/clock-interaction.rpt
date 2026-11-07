@@ -1,0 +1,46 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------------------
+| Tool Version      : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
+| Date              : Sat Nov  7 17:09:08 2026
+| Host              : BUILD_HOST
+| Command           : report_clock_interaction -file clock-interaction.rpt
+| Design            : rkv_m1_board_top
+| Device            : xcvu440-flga2892
+| Speed File        : -1  PRODUCTION 1.26 12-04-2018
+| Temperature Grade : C
+----------------------------------------------------------------------------------------------------
+
+Clock Interaction Report
+
+Clock Interaction Table
+-----------------------
+
+                                                                                                                                                                                        WNS                            TNS Failing  TNS Total    WNS Path         Clock-Pair           Inter-Clock              
+From Clock                                                                                  To Clock                                                                                    Clock Edges  WNS(ns)  TNS(ns)    Endpoints    Endpoints  Requirement(ns)  Classification       Constraints              
+------------------------------------------------------------------------------------------  ------------------------------------------------------------------------------------------  -----------  -------  -------  -----------  -----------  ---------------  -------------------  -----------------------  
+c0_sys_clk_p                                                                                c0_sys_clk_p                                                                                rise - rise    18.65     0.00            0           23            20.83  Clean                Timed                    
+c0_sys_clk_p                                                                                mmcm_clkout0                                                                                                                         0            1                   Ignored              False Path               
+c0_sys_clk_p                                                                                mmcm_clkout6                                                                                                                         0            2                   Ignored              False Path               
+clk_out1_clock_48_to_100_50                                                                 clk_out1_clock_48_to_100_50                                                                 rise - rise     5.55     0.00            0         1024            10.00  Clean                Timed                    
+clk_out1_clock_48_to_100_50                                                                 clk_out2_clock_48_to_100_50                                                                 rise - rise     1.33     0.00            0         4112            10.00  Clean                Timed                    
+clk_out2_clock_48_to_100_50                                                                 clk_out1_clock_48_to_100_50                                                                 rise - rise     1.55     0.00            0         2368            10.00  Clean                Timed                    
+clk_out2_clock_48_to_100_50                                                                 clk_out2_clock_48_to_100_50                                                                 rise - rise     1.38     0.00            0       496823            20.00  Clean                Partial False Path       
+clk_out2_clock_48_to_100_50                                                                 mmcm_clkout0                                                                                rise - rise     4.64     0.00            0          697             5.21  Ignored              Max Delay Datapath Only  
+clk_out2_clock_48_to_100_50                                                                 mmcm_clkout5                                                                                rise - rise    19.12     0.00            0         1705            20.00  Ignored              Max Delay Datapath Only  
+dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/SERIES7_BSCAN.bscan_inst/TCK  dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/SERIES7_BSCAN.bscan_inst/TCK  rise - rise    29.17     0.00            0         1035            33.00  Clean                Timed                    
+dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/SERIES7_BSCAN.bscan_inst/TCK  mmcm_clkout5                                                                                rise - rise    32.15     0.00            0           91            33.00  Ignored              Max Delay Datapath Only  
+mmcm_clkout0                                                                                clk_out2_clock_48_to_100_50                                                                 rise - rise     3.52     0.00            0          566             5.21  Ignored              Max Delay Datapath Only  
+mmcm_clkout0                                                                                mmcm_clkout0                                                                                rise - rise     0.30     0.00            0        55702             5.21  Clean                Partial False Path       
+mmcm_clkout0                                                                                mmcm_clkout5                                                                                rise - rise    11.37     0.00            0         2012            12.00  Ignored              Max Delay Datapath Only  
+mmcm_clkout0                                                                                mmcm_clkout6                                                                                rise - rise     3.23     0.00            0           36             5.21  Clean                Timed                    
+mmcm_clkout0                                                                                pll_clk[0]_DIV                                                                              rise - rise     1.24     0.00            0          352             5.21  Clean                Timed                    
+mmcm_clkout0                                                                                pll_clk[1]_DIV                                                                              rise - rise     1.90     0.00            0          224             5.21  Clean                Timed                    
+mmcm_clkout0                                                                                pll_clk[2]_DIV                                                                              rise - rise     1.30     0.00            0          352             5.21  Clean                Timed                    
+mmcm_clkout5                                                                                clk_out2_clock_48_to_100_50                                                                 rise - rise   999.13     0.00            0         1822          1000.00  Ignored              Max Delay Datapath Only  
+mmcm_clkout5                                                                                dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/SERIES7_BSCAN.bscan_inst/TCK  rise - rise    19.81     0.00            0          107            20.83  Ignored              Max Delay Datapath Only  
+mmcm_clkout5                                                                                mmcm_clkout0                                                                                rise - rise     2.14     0.00            0         2418             3.00  Ignored              Max Delay Datapath Only  
+mmcm_clkout5                                                                                mmcm_clkout5                                                                                rise - rise    13.29     0.00            0        15597            20.83  Clean                Partial False Path       
+mmcm_clkout6                                                                                mmcm_clkout0                                                                                rise - rise     1.69     0.00            0          129             3.00  Ignored              Max Delay Datapath Only  
+mmcm_clkout6                                                                                mmcm_clkout6                                                                                rise - rise     3.49     0.00            0         5638            10.42  Clean                Partial False Path       
+
+

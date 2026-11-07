@@ -1,0 +1,16 @@
+digraph G {
+ graph [bgcolor="white",pad="0.25",nodesep="0.35",ranksep="0.55",fontname="DejaVu Sans",fontsize=18];
+ node [shape=box,style="rounded,filled",fillcolor="#e8f1fb",color="#35618e",fontname="DejaVu Sans",fontsize=12,margin="0.18,0.12"];
+ edge [color="#526475",fontname="DejaVu Sans",fontsize=10,arrowsize=0.75];
+
+ rankdir=TB;label="Frozen logical memory layout (not to scale)";labelloc=t;
+ low [label="Model weights / activations / workspace\nLogits @ 0x00003400",fillcolor="#ededed"];
+ prefix [label="Shared prefix @ 0x49818000\n15,138,816 bytes / 256 tokens"];
+ tails [label="Two private tails\n30,277,632 bytes total"];
+ pool [label="Remaining KV pool\nPool capacity 268,435,456 bytes",fillcolor="#ededed"];
+ programs [label="NPU programs\nBUILD @ 0x60000000\nDECODE @ 0x60010000",fillcolor="#ededed"];
+ template [label="Cold workspace templates @ 0x61000000\n5,290,368 bytes",fillcolor="#fff0db"];
+ top [label="Logical address limit: 0x80000000 (2 GiB)",fillcolor="#ededed"];
+ low->prefix->tails->pool->programs->template->top [label="higher address",color="#9ba9b6"];
+ template->low [style=dashed,label="restore initial values\non cleanup"];
+}

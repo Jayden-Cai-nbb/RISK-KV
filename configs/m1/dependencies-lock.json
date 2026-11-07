@@ -1,0 +1,168 @@
+{
+  "schema": "rkv-m1-dependencies-1",
+  "policy": "match recorded versions; no silent upgrade; Vivado chosen only after board project audit",
+  "records": {
+    "model-environment.json": {
+      "python": "3.12.16",
+      "executable": "${WORKSPACE}/build/reproduction/20261103T073605Z/dependencies/model-env/bin/python",
+      "torch": "2.13.0+cpu",
+      "numpy": "2.3.5",
+      "transformers": "5.19.0",
+      "safetensors": "0.8.0",
+      "packages": {
+        "tokenizers": "0.23.3",
+        "pip": "26.2.2",
+        "networkx": "3.7",
+        "idna": "3.20",
+        "torch": "2.13.0+cpu",
+        "fsspec": "2026.9.0",
+        "anyio": "4.16.0",
+        "rich": "15.0.0",
+        "hf-xet": "1.8.0",
+        "shellingham": "1.5.4",
+        "packaging": "26.3",
+        "tqdm": "4.70.1",
+        "PyYAML": "6.0.3",
+        "Pygments": "2.21.0",
+        "MarkupSafe": "3.0.4",
+        "click": "8.5.0",
+        "transformers": "5.19.0",
+        "h11": "0.16.0",
+        "numpy": "2.3.5",
+        "filelock": "4.2.4",
+        "truststore": "0.10.5",
+        "setuptools": "84.2.1",
+        "sympy": "1.14.0",
+        "httpx2": "2.16.0",
+        "regex": "2026.9.29",
+        "typer": "0.27.3",
+        "mpmath": "1.3.0",
+        "mdurl": "0.1.2",
+        "markdown-it-py": "4.2.0",
+        "httpcore2": "2.16.0",
+        "annotated-doc": "0.0.5",
+        "huggingface_hub": "2.2.0",
+        "typing_extensions": "4.16.0",
+        "safetensors": "0.8.0",
+        "Jinja2": "3.1.6"
+      },
+      "adaptations": [
+        "Standalone CPython 3.12.16 because pinned NetworkX 3.7 rejects shared Python 3.11",
+        "CPU Torch 2.13.0+cpu instead of original CUDA wheel; source workflow uses CPU tensors",
+        "Historical top-level versions pinned; unrecorded transitive versions resolved by pip and listed in this record"
+      ]
+    },
+    "compiler-verified.json": {
+      "sha256": "f574415b63f12b09bdd3475223ab492a465d23810646c90c13a4c3b676c83503",
+      "expected": "f574415b63f12b09bdd3475223ab492a465d23810646c90c13a4c3b676c83503",
+      "source": "official xPack release v14.2.0-3",
+      "destination": "build/reproduction/20261103T073605Z/dependencies/toolchain"
+    },
+    "python-verified.json": {
+      "version": "3.12.16",
+      "source": "https://github.com/astral-sh/python-build-standalone/releases/tag/20261026",
+      "sha256": "6a79e922e50006b601f29e688407659da1c2b86ebcd4e9c7254cf234be8b89de",
+      "expected": "6a79e922e50006b601f29e688407659da1c2b86ebcd4e9c7254cf234be8b89de"
+    },
+    "verilator-docker/provenance.json": {
+      "image": "verilator/verilator:v5.032",
+      "digest": "sha256:91e1527e8df70cc5a4d32b9552527d576f228eff8d949237985b85875c0b04ed",
+      "layers": [
+        {
+          "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+          "digest": "sha256:6414378b647780fee8fd903ddb9541d134a1947ce092d08bdeb23a54cb3684ac",
+          "size": 29535688,
+          "history": {
+            "created": "2024-09-11T16:25:17.895714864Z",
+            "created_by": "/bin/sh -c #(nop) ADD file:ebe009f86035c175ba244badd298a2582914415cf62783d510eab3a311a5d4e1 in / "
+          }
+        },
+        {
+          "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+          "digest": "sha256:a1cc87ab412ecdacea812147ca5b35b6d7c3d2de2225f7e0ec39aa69a4af5269",
+          "size": 121194912,
+          "history": {
+            "created": "2025-01-01T14:08:42.088914836Z",
+            "created_by": "RUN /bin/sh -c apt-get update     && DEBIAN_FRONTEND=noninteractive     && apt-get install --no-install-recommends -y                         autoconf                         bc                         bison                         build-essential                         ca-certificates                         ccache                         flex                         git                         help2man                         libfl2                         libfl-dev                         libgoogle-perftools-dev                         numactl                         perl                         perl-doc                         python3                         zlib1g                         zlib1g-dev     && apt-get clean     && rm -rf /var/lib/apt/lists/* # buildkit",
+            "comment": "buildkit.dockerfile.v0"
+          }
+        },
+        {
+          "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+          "digest": "sha256:4f4fb700ef54461cfa02571ae0db9a0dc1e0cdb5577484a6d75e68dc38e8acc1",
+          "size": 32,
+          "history": {
+            "created": "2025-01-01T14:08:42.151207306Z",
+            "created_by": "WORKDIR /tmp",
+            "comment": "buildkit.dockerfile.v0"
+          }
+        },
+        {
+          "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+          "digest": "sha256:6aeaf5d7bed09753653874a79d2e628e93811714ebe554763ea7d9d893f2948f",
+          "size": 316351285,
+          "history": {
+            "created": "2025-01-01T14:21:47.724391877Z",
+            "created_by": "RUN |2 REPO=https://github.com/verilator/verilator SOURCE_COMMIT=v5.032 /bin/sh -c git clone \"${REPO}\" verilator &&     cd verilator &&     git checkout \"${SOURCE_COMMIT}\" &&     autoconf &&     ./configure &&     make &&     make install &&     cd .. &&     rm -r verilator # buildkit",
+            "comment": "buildkit.dockerfile.v0"
+          }
+        },
+        {
+          "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+          "digest": "sha256:482b4dcc6589cc989312e1511a18ebcdf54407932a3b74ad4213bc4fd3f6f003",
+          "size": 776,
+          "history": {
+            "created": "2025-01-01T14:21:47.74426192Z",
+            "created_by": "COPY verilator-wrap.sh /usr/local/bin/verilator-wrap.sh # buildkit",
+            "comment": "buildkit.dockerfile.v0"
+          }
+        },
+        {
+          "mediaType": "application/vnd.oci.image.layer.v1.tar+gzip",
+          "digest": "sha256:a52c6b0b866fa84cded4509847483b8d79492376b01a8ad57ddb2573dabd704a",
+          "size": 94,
+          "history": {
+            "created": "2025-01-01T14:21:47.752414172Z",
+            "created_by": "WORKDIR /work",
+            "comment": "buildkit.dockerfile.v0"
+          }
+        }
+      ]
+    },
+    "verilator5032-check.json": {
+      "status": "not_selected",
+      "package": "verilator==5.32.0",
+      "distributor": "https://github.com/dau-dev/verilator-python",
+      "wheel_sha256": "aff1049baa135fed90760ebba9070af7215efc4a7ef37b4be362888330cbf658",
+      "command": [
+        "${WORKSPACE}/build/reproduction/20261103T073605Z/dependencies/verilator5032/verilator/bin/verilator",
+        "--version"
+      ],
+      "returncode": 0,
+      "stdout": " rev UNKNOWN.REV\n",
+      "stderr": "",
+      "binary_sha256": "9a4cd625230f1c2c837b7af5f74076b182d587a48420e44f7afed8c6d938bb66",
+      "reason": "Binary reports blank version and UNKNOWN.REV; do not claim matched original simulator version. Shared 5.053 remains an explicit environment difference. Building official source also needs unavailable autoconf/flex/bison."
+    }
+  },
+  "archives": [
+    {
+      "name": "xpack-riscv-none-elf-gcc-14.2.0-3-linux-x64.tar.gz",
+      "bytes": 344375405,
+      "sha256": "f574415b63f12b09bdd3475223ab492a465d23810646c90c13a4c3b676c83503",
+      "local_source": "build/reproduction/20261103T073605Z/dependencies/xpack-riscv-none-elf-gcc-14.2.0-3-linux-x64.tar.gz"
+    },
+    {
+      "name": "cpython-3.12.16-20261026-linux-x64.tar.gz",
+      "bytes": 67921566,
+      "sha256": "6a79e922e50006b601f29e688407659da1c2b86ebcd4e9c7254cf234be8b89de",
+      "local_source": "build/reproduction/20261103T073605Z/dependencies/cpython-3.12.16-20261026-linux-x64.tar.gz"
+    },
+    {
+      "name": "installation-layer.tar.gz",
+      "bytes": 316351285,
+      "sha256": "6aeaf5d7bed09753653874a79d2e628e93811714ebe554763ea7d9d893f2948f",
+      "local_source": "build/reproduction/20261103T073605Z/dependencies/verilator-docker/installation-layer.tar.gz"
+    }
+  ]
+}

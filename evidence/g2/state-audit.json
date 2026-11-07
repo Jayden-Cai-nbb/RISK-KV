@@ -1,0 +1,122 @@
+{
+  "status": "passed_isa_numeric_and_read_coverage",
+  "started_at": "2026-11-04T08:14:07.840482+00:00",
+  "cases": [
+    {
+      "phase": "build",
+      "step": 0,
+      "equal": true,
+      "sha256": "0efc67bf77b0685800968598582df38dc6d197cf841c0923ccb385934f7d5a6d",
+      "state": {
+        "tmem": {
+          "read_elements": 13623304,
+          "read_before_write": 0,
+          "first": null
+        },
+        "act": {
+          "read_elements": 3440640,
+          "read_before_write": 0,
+          "first": null
+        },
+        "ascale": {
+          "read_elements": 33600,
+          "read_before_write": 0,
+          "first": null
+        },
+        "adoff": {
+          "read_elements": 107520,
+          "read_before_write": 0,
+          "first": null
+        }
+      }
+    },
+    {
+      "phase": "decode",
+      "step": 0,
+      "equal": true,
+      "sha256": "52ac65a0da338d46f6c354272912f7f56e08f0be9c141945c55547d611d179fa",
+      "state": {
+        "tmem": {
+          "read_elements": 8609192,
+          "read_before_write": 0,
+          "first": null
+        },
+        "act": {
+          "read_elements": 2142208,
+          "read_before_write": 0,
+          "first": null
+        },
+        "ascale": {
+          "read_elements": 21964,
+          "read_before_write": 0,
+          "first": null
+        },
+        "adoff": {
+          "read_elements": 66944,
+          "read_before_write": 0,
+          "first": null
+        }
+      }
+    },
+    {
+      "phase": "decode",
+      "step": 1,
+      "equal": true,
+      "sha256": "423ce562e959d1debb4328f320581e24ec9ce74a8a64587963a110ed2d68bbad",
+      "state": {
+        "tmem": {
+          "read_elements": 8609192,
+          "read_before_write": 0,
+          "first": null
+        },
+        "act": {
+          "read_elements": 2142208,
+          "read_before_write": 0,
+          "first": null
+        },
+        "ascale": {
+          "read_elements": 21964,
+          "read_before_write": 0,
+          "first": null
+        },
+        "adoff": {
+          "read_elements": 66944,
+          "read_before_write": 0,
+          "first": null
+        }
+      }
+    },
+    {
+      "phase": "decode",
+      "step": 2,
+      "equal": true,
+      "sha256": "8d926a09591274de028f6290ebfb28baa1ca08465b58707c3382256aaf407a31",
+      "state": {
+        "tmem": {
+          "read_elements": 8609192,
+          "read_before_write": 0,
+          "first": null
+        },
+        "act": {
+          "read_elements": 2142208,
+          "read_before_write": 0,
+          "first": null
+        },
+        "ascale": {
+          "read_elements": 21964,
+          "read_before_write": 0,
+          "first": null
+        },
+        "adoff": {
+          "read_elements": 66944,
+          "read_before_write": 0,
+          "first": null
+        }
+      }
+    }
+  ],
+  "source_sha256": "393c94146c65bc87db770cec5f26c0e964d02e68d5ad278b7df2381568b4ef90",
+  "layout_sha256": "402adcdc97b3de908c87b3dd1f0aae0abf5782b34c3963894bc77840b56fd7c9",
+  "scope": "ISA only; full dimensions/native arithmetic. Decode uses explicit sealed-prefix fixture. Not cold-build or RTL evidence.",
+  "finished_at": "2026-11-04T08:14:56.118711+00:00"
+}

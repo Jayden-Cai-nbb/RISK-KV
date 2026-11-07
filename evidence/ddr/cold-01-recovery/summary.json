@@ -1,0 +1,20 @@
+{
+  "E_DDR_passed": false,
+  "M1_passed": false,
+  "cause": "host script used width48 for output port6 actual32; engine batch passed; no program/reset/start in recovery",
+  "finished_ns": 1794033050062768670,
+  "independent_host_peeks": 6,
+  "result": {
+    "base": 4032,
+    "blocks": 128,
+    "cycles": 11918,
+    "host_run_ms": 33,
+    "min_seconds": 0,
+    "per_channel_count": 384,
+    "rounds": 1,
+    "seconds": 0,
+    "seed": 305419896
+  },
+  "started_ns": 1794033041314714923,
+  "status": "COLD01_PASSED_WITH_READONLY_HOST_RECOVERY"
+}

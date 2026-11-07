@@ -1,0 +1,9 @@
+base	16777216
+blocks	1024
+seed	373054056
+rounds	1
+min_seconds	0
+host_run_ms	32
+cycles	95934
+seconds	0
+per_channel_count	3072
