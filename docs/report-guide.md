@@ -14,6 +14,8 @@
 | 实验 | 完整模型仿真、DDR实物、最终整机和收益对照 | [里程碑](milestones.md)、[证据](../evidence/README.md)、[验收](demo.md) |
 | 讨论 | 固定负载、实验时钟、共同参考依赖、传输成本 | [状态](status.md)、[路线](roadmap.md) |
 
+新增实物实验章节可直接引用[2026-11-08板上验证](board-validation.md)，各批次及异常事件原件见`evidence/board-20261108/`。
+
 ## 图表使用
 
 `docs/figures/`提供SVG、PDF及Graphviz源文件。系统图是源码级职责抽象，生命周期图是业务状态抽象；图件来源清单绑定源文件摘要。验证分层图明确当前成果与下一关口。

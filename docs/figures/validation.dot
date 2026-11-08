@@ -8,8 +8,9 @@ digraph G {
  fast [label="Protocol / CDC tests\nidentity, cancellation, retirement"];
  model [label="Full-model RTL simulation\n64 builds + 2 query pairs\nKV / logits / immutable regions",fillcolor="#e4f2e5"];
  ddr [label="Independent DDR hardware\n10 configuration cold starts\n2 GiB + 1837.498 s stress",fillcolor="#e4f2e5"];
- impl [label="Final NPU + MIG implementation\nSTA / CDC / reset / DRC"];
- final [label="Final-bit storage + numeric suite\ncontinuous service / recovery",fillcolor="#fff0db"];
+ impl [label="Final NPU + MIG implementation\nSTA / CDC / reset / DRC reviewed"];
+ final [label="Final-bit DDR + full-model hardware\n256-token prefix / 100 query batches\n10 object rebuilds",fillcolor="#e4f2e5"];
+ recovery [label="Recovery snapshot: 10 cancel / 10 error / 9 reset\nFull matrix + loss test pending",fillcolor="#fff0db"];
  eval [label="Same-resource comparison\nrebuild vs reuse\ncompute + cleanup + transport",fillcolor="#fff0db"];
- ref->model;fast->model;fast->impl;ddr->impl;impl->final;model->final;final->eval;
+ ref->model;fast->model;fast->impl;ddr->impl;impl->final;model->final;final->recovery;recovery->eval;
 }

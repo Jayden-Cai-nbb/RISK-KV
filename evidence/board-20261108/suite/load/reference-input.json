@@ -1,0 +1,125 @@
+{
+  "status": "passed_independent_native_reference",
+  "started_at": "2026-11-04T08:42:09.929986+00:00",
+  "seed_pairs": [
+    [
+      3555,
+      8429
+    ],
+    [
+      2585,
+      3197
+    ]
+  ],
+  "pairs": [
+    {
+      "pair": 0,
+      "seeds": [
+        3555,
+        8429
+      ],
+      "steps": [
+        {
+          "step": 0,
+          "input_tokens": [
+            3555,
+            8429
+          ],
+          "output_tokens": [
+            374,
+            28
+          ],
+          "logits_file": "pair-0-logits-0.npy",
+          "logits_sha256": "0a660878d8962db49e77d707f5f3b385a4638c6736d2b9cd4a703ee4c49abeb6"
+        },
+        {
+          "step": 1,
+          "input_tokens": [
+            374,
+            28
+          ],
+          "output_tokens": [
+            279,
+            16
+          ],
+          "logits_file": "pair-0-logits-1.npy",
+          "logits_sha256": "7cef4b9a64e3de0673fcab5768419785a7fb1b37a2cf4bfb433fafbce6a1ac93"
+        },
+        {
+          "step": 2,
+          "input_tokens": [
+            279,
+            16
+          ],
+          "output_tokens": [
+            7428,
+            5373
+          ],
+          "logits_file": "pair-0-logits-2.npy",
+          "logits_sha256": "a9a1487f01ebc2926e4f63785901cbb3801d9807706b88d52342caa470930e26"
+        }
+      ],
+      "context_file": "pair-0-context.bin",
+      "context_sha256": "ddfdad511764a1fff280b15959dbae91e1404b0e2797a39d856f9e8f17638492"
+    },
+    {
+      "pair": 1,
+      "seeds": [
+        2585,
+        3197
+      ],
+      "steps": [
+        {
+          "step": 0,
+          "input_tokens": [
+            2585,
+            3197
+          ],
+          "output_tokens": [
+            311,
+            28
+          ],
+          "logits_file": "pair-1-logits-0.npy",
+          "logits_sha256": "8ba1708ba06b047d623702374a2a264082e68a5e438d0e39b1365c6f914c6600"
+        },
+        {
+          "step": 1,
+          "input_tokens": [
+            311,
+            28
+          ],
+          "output_tokens": [
+            990,
+            16
+          ],
+          "logits_file": "pair-1-logits-1.npy",
+          "logits_sha256": "3cd7a0fb1f249c32f1fa890754f25d023d72621c60e8df484f273eda3c5c5d0b"
+        },
+        {
+          "step": 2,
+          "input_tokens": [
+            990,
+            16
+          ],
+          "output_tokens": [
+            25,
+            5373
+          ],
+          "logits_file": "pair-1-logits-2.npy",
+          "logits_sha256": "bfede9e56d53a0389fd36248adf4597f51015861e8cda0fe8caeb76c107eae32"
+        }
+      ],
+      "context_file": "pair-1-context.bin",
+      "context_sha256": "465cbbcd5aad459be5b2f475f7621f6336d654d57678d02c31daf88c0fc45e1d"
+    }
+  ],
+  "source_sha256": "27ad36efb14fb20997f845e4f50cf42c7dd5d55e59344b7d48e65b023f2c3349",
+  "model_sha256": "f47f71177f32bcd101b7573ec9171e6a57f4f4d31148d38e382306f42996874b",
+  "profile_sha256": "ec33cde4fd838d67e9e2874cbefbdeb5430f65221d26eedc28142e555a4477a4",
+  "workload_sha256": "dd6f95f82ec8920d69540936a2aa54f067d4c2eeb9cdeed0a59228a729c06007",
+  "prefix_fixture_sha256": "d28a53db02a530ae3660956a344409790257a5807173e2bfb2637b832d5aa1ca",
+  "scope": "complete model native ISA with independent contiguous KV layout and explicit preloaded prefix; not a cold-build experiment; common upstream arithmetic/compiler dependency; no QA quality claim",
+  "prefix_sha256": "d28a53db02a530ae3660956a344409790257a5807173e2bfb2637b832d5aa1ca",
+  "wall_seconds": 46.20684902100038,
+  "finished_at": "2026-11-04T08:43:45.725840+00:00"
+}

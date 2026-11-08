@@ -1,0 +1,17 @@
+{
+  "status": "passed_local_completed_milestone_audit",
+  "completed_batches": 100,
+  "completed_rebuilds": 10,
+  "raw_files_checked": 550,
+  "raw_bytes_checked": 10392729600,
+  "immutable_regions_checked": 16,
+  "immutable_bytes_checked": 2942892928,
+  "batch_median_host_seconds": 201.60870484937914,
+  "batch_median_readback_seconds": 171.13795221806504,
+  "frozen_inputs_checked": 118,
+  "board_acceptance_passed": false,
+  "completed_fault_recoveries": 8,
+  "fault_raw_files_checked": 42,
+  "fault_raw_bytes_checked": 543891456,
+  "scope": "All 100 batches and 10 rebuilds plus captured completed fault recoveries rehashed remotely and matched to independent local references. Full fault matrix, benchmark, isolation and acceptance remain pending."
+}

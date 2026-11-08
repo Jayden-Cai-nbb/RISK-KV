@@ -5,11 +5,15 @@ source [file join [file dirname [info script]] vio_access.tcl]
 lassign $argv ltx frequency serial nonce
 if {![regexp {^[0-9a-f]{32}$} $nonce] || ![regexp {^[0-9]+$} $serial]} {error "Invalid session identity"}
 if {$frequency ni {1000000 5000000 15000000}} {error "Unsupported tested frequency"}
+# Linux主机专用RPC输出通道：直接写父进程管道，Python仍保存逐帧原件。
+# 不把MiB级协议帧送入Vivado控制台的消息格式化路径；失败不回退或重发。
+set rpc_output [open /dev/stdout wb]
+fconfigure $rpc_output -buffering none
 proc reply {sequence status payload} {
-    global nonce
+    global nonce rpc_output
     binary scan [encoding convertto utf-8 $payload] H* encoded
-    puts "RKVJTAG $nonce $sequence $status $encoded"
-    flush stdout
+    puts $rpc_output "RKVJTAG $nonce $sequence $status $encoded"
+    flush $rpc_output
 }
 proc fixed_hex {value digits} {
     set result ""
@@ -115,6 +119,8 @@ while {[gets stdin line] >= 0} {
                 set write [expr {$operation eq "BWRITE"}]
                 if {$write} {
                     if {![regexp {^[0-9a-f]+$} $payload] || [string length $payload]!=2*$bytes} {error "Invalid bulk payload"}
+                    # 仅在完整输入验证后转换一次；偏移仍按原64-bit倒序字序计算。
+                    set payload_bytes [encoding convertto ascii $payload]
                 } elseif {$payload ne "-"} {error "Unexpected bulk payload"}
                 set responses {}
                 for {set at 0} {$at<$bytes} {incr at $count} {
@@ -122,7 +128,7 @@ while {[gets stdin line] >= 0} {
                     set arguments [list -address [format %08x [expr {$base+$at}]] -len [expr {$count/8}] -type [expr {$write ? "WRITE" : "READ"}] -burst INCR -id 0]
                     if {$write} {
                         set first [expr {2*($bytes-$at-$count)}]
-                        set part [string range $payload $first [expr {$first+2*$count-1}]]
+                        binary scan $payload_bytes @${first}a[expr {2*$count}] part
                         lappend arguments -data $part
                     }
                     set txn [create_hw_axi_txn bulk_${sequence}_${at} $axi {*}$arguments]

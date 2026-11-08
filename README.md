@@ -10,14 +10,16 @@ RISK-KV 将前缀构建、封存、查询绑定、任务提交、取消与回收
 
 ## 当前版本
 
-本仓库为 **2026-11-07 固化协作版**，实验配置标识为 `M1-experimental-demo`。
+本仓库更新至 **2026-11-08 实物验证协作版**，实验配置标识为 `M1-experimental-demo`。
 
 | 验证层级 | 已取得的结果 |
 | --- | --- |
 | 完整模型 RTL 仿真 | 64次冷构建、256-token前缀、两组双查询各三步续算及中间清理；有效KV、全部logits和不可变区与参考一致 |
 | 独立 DDR 实物 | 10次配置级冷启动、完整2 GiB读写、112轮持续压力（1837.498秒）、84处独立主机读回 |
-| 完整 NPU＋MIG 整机 | 最新实现与待完成验收见 [当前状态](docs/status.md) |
+| 完整 NPU＋MIG 实物 | 同一最终位流DDR检查、完整模型四-token、256-token前缀、100批查询、10次重建通过；异常恢复阶段结果见 [实物验证报告](docs/board-validation.md) |
 | 应用形态 | 固定负载的KV管理演示台；完整资料问答列入下一阶段 |
+
+新增：[实物验证报告](docs/board-validation.md) · [token文本对照](docs/m1/token-results.md) · [录制步骤](docs/m1/record-now.md) · [原始数据附件](https://github.com/Jayden-Cai-nbb/RISK-KV/releases/tag/v0.2.0-board-evidence)。
 
 ## 设计贡献
 

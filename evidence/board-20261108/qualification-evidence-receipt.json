@@ -1,0 +1,8 @@
+{
+  "status": "all_declared_files_matched",
+  "files": 2236,
+  "archive_bytes": 1030911,
+  "archive_sha256": "3504f0fc579b9782217c8c3baa18a5c0cc67d0db39d196dd5764259fd37bf68f",
+  "host_peeks": 84,
+  "qualification_status": "passed_final_board_ddr_qualification"
+}

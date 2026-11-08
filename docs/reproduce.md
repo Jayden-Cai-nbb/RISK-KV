@@ -94,3 +94,7 @@ M1_PYTHON=python3 ./scripts/m1 board_bit \
 `board_qualify`：最终位流存储验收；`board_suite`：同一持久连接内的装载、计算、连续服务、异常及对照；`experimental_acceptance`：实验汇总；`demo`：操作界面。参数与必需证据以各入口`--help`为准。
 
 共享锁约束所有硬件访问，未知完成状态进入隔离；`board_cold_start`显式执行整链恢复，保留旧责任记录并要求重新装载。
+
+## 新增板上结果复核
+
+[2026-11-08实物验证报告](board-validation.md)提供16个原始数值文件的下载与复核命令。只读展示工具在`tools/presentation/`，本地Vivado路径通过`VIVADO_BIN`设置，例如`VIVADO_BIN=/path/to/Vivado/2022.2/bin/vivado bash tools/presentation/open-implementation.sh`。离线DCP、bit/ltx和站点配置由实验主机提供，未包含在数值附件；原脚本中的固定相对运行目录对应本次证据归档。现场操作单中的`${WORKSPACE}`、`USER@BOARD_HOST`由协作者替换为本地值。

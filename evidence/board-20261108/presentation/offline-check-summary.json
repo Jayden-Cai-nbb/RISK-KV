@@ -1,0 +1,43 @@
+{
+  "status": "passed_offline_checkpoint_report_check",
+  "hardware_actions": [],
+  "gui_visually_checked": false,
+  "setup_slack_ns": 0.302,
+  "hold_slack_ns": 0.013,
+  "pulse_width_slack_ns": 0.138,
+  "route_errors": 0,
+  "frozen_inputs_checked": 118,
+  "files": [
+    {
+      "path": "build/reproduction/recording-20261108/offline-batch-f4ACqT/offline-timing.rpt",
+      "bytes": 712858,
+      "sha256": "a679964599c80e98519f03f6eab66e2f579b355990e51d886688fd496ace39a1"
+    },
+    {
+      "path": "build/reproduction/recording-20261108/offline-batch-f4ACqT/offline-utilization.rpt",
+      "bytes": 19117,
+      "sha256": "90344d113f4070700fee7828fb94fa0d6bb4ee1f315eda680c4faf8f4fdeee3a"
+    },
+    {
+      "path": "build/reproduction/recording-20261108/offline-batch-f4ACqT/offline-hierarchy.rpt",
+      "bytes": 15907,
+      "sha256": "b63975f1deb7a2e1ad5392e5bcb0f9d72fea792f631dbe5d7a9b9d76285b4b1a"
+    },
+    {
+      "path": "build/reproduction/recording-20261108/offline-batch-f4ACqT/offline-route.rpt",
+      "bytes": 651,
+      "sha256": "45591e0664b840ac74238ac7b7e5690cbb79326d50b45517afdfc3150529fab5"
+    },
+    {
+      "path": "build/reproduction/recording-20261108/offline-batch-f4ACqT/vivado.log",
+      "bytes": 8409,
+      "sha256": "bfb107eaca570b784bfc365d3d3afda612b2113bd1ca68d29d959c1619805b87"
+    },
+    {
+      "path": "build/reproduction/recording-20261108/offline-batch-f4ACqT/vivado.jou",
+      "bytes": 1070,
+      "sha256": "f46edd1d3c7d38af5c568fcf2f7cf6f0b11ff303fa2831d8320570f3e000f8e8"
+    }
+  ],
+  "time_ns": 1794123739781879058
+}

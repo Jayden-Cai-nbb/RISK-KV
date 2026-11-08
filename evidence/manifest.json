@@ -1288,6 +1288,1693 @@
       "original_sha256": "e1f86adfed907da763c8afd9bd8f27e6cd4f5fac7b3b3c0863793b9e285a2c76",
       "published_sha256": "e1f86adfed907da763c8afd9bd8f27e6cd4f5fac7b3b3c0863793b9e285a2c76",
       "normalization": "byte-identical"
+    },
+    {
+      "path": "evidence/board-20261108/qualification-local-verification.json",
+      "source": "build/reproduction/g3-board-final-20261107/qualification-local-verification.json",
+      "original_sha256": "51798939e1e7ffb6a85da386fbb3d1b72181997c019eb8e94271513ac917d523",
+      "published_sha256": "3b66e9ad24650638c87d70781396af57870e05ede90ad4ca5a400ec988cdfa8b",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/qualification-evidence-receipt.json",
+      "source": "build/reproduction/g3-board-final-20261107/qualification-evidence-receipt.json",
+      "original_sha256": "ba499f0f91ac532022ccfa4e55c81089d91033bc24f7b40ecbe9d8f4ee4d9f27",
+      "published_sha256": "a9d9aa6254aa7335c36798b7a47adbe3604998782a5b4897f03bdcf6c86b8477",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/physical-review.json",
+      "source": "build/reproduction/g3-board-final-20261107/physical-download/build/reproduction/g3-board-final-20261107/physical-review.json",
+      "original_sha256": "83ba95fedcbdf1ebe84c6c973308d35276754a913b1c5fee0f4265caeff49237",
+      "published_sha256": "83ba95fedcbdf1ebe84c6c973308d35276754a913b1c5fee0f4265caeff49237",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/physical-review.md",
+      "source": "build/reproduction/g3-board-final-20261107/physical-review.md",
+      "original_sha256": "56ede4e41dbd8d5908387e91ecebe69cc0829bf517e8113b0e9a9da883562e7e",
+      "published_sha256": "56ede4e41dbd8d5908387e91ecebe69cc0829bf517e8113b0e9a9da883562e7e",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/transfer-local-verification.json",
+      "source": "build/reproduction/g3-board-final-20261107/transfer-local-verification.json",
+      "original_sha256": "e5c7eb3db97386abc344de1a5ebea8693cdbb38e4d04ff6802ba4f5900a49e17",
+      "published_sha256": "e5c7eb3db97386abc344de1a5ebea8693cdbb38e4d04ff6802ba4f5900a49e17",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/ddr/qualification-summary.json",
+      "source": "build/reproduction/g3-board-final-20261107/qualification-download/qualification-v1/summary.json",
+      "original_sha256": "6b5171c33f9a0dcef4e9735a7ae0527b5451a10774bafd1aa9587619da853516",
+      "published_sha256": "6b5171c33f9a0dcef4e9735a7ae0527b5451a10774bafd1aa9587619da853516",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/ddr/ddr-host.json",
+      "source": "build/publication/20261108/download/build/reproduction/g3-board-final-20261107/board-suite-v3/ddr/ddr-host.json",
+      "original_sha256": "abab21327e918b329e29d84e69ca73f66d8ad431ac788a693de77c83531549f7",
+      "published_sha256": "abab21327e918b329e29d84e69ca73f66d8ad431ac788a693de77c83531549f7",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/ddr/ddr.json",
+      "source": "build/publication/20261108/download/build/reproduction/g3-board-final-20261107/board-suite-v3/ddr/ddr.json",
+      "original_sha256": "45d2f68894e481339e91b6c7846310ce51948d4e160999481cda8db4feb782c2",
+      "published_sha256": "45d2f68894e481339e91b6c7846310ce51948d4e160999481cda8db4feb782c2",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/ddr/reference-input.json",
+      "source": "build/publication/20261108/download/build/reproduction/g3-board-final-20261107/board-suite-v3/ddr/reference-input.json",
+      "original_sha256": "0df4ef2b85c5d417b977e24d7c55e42fa4492a48406828608b3a969e2c469c06",
+      "published_sha256": "0df4ef2b85c5d417b977e24d7c55e42fa4492a48406828608b3a969e2c469c06",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/ddr/report.json",
+      "source": "build/publication/20261108/download/build/reproduction/g3-board-final-20261107/board-suite-v3/ddr/report.json",
+      "original_sha256": "70d4b1c92cc80a506ca270e4b7cd3c46d92192111feecb651e6d15b699e40632",
+      "published_sha256": "4a63a326cea8b212ee7ab5ffd641040b68f5b3c5df6400349dc258a30fdeefa1",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/load/load.json",
+      "source": "build/publication/20261108/download/build/reproduction/g3-board-final-20261107/board-suite-v3/load/load.json",
+      "original_sha256": "59387ea9e70c5105853b10bf61b996ac3f410b524384c0160951ccc652bd4d0b",
+      "published_sha256": "59387ea9e70c5105853b10bf61b996ac3f410b524384c0160951ccc652bd4d0b",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/load/reference-input.json",
+      "source": "build/publication/20261108/download/build/reproduction/g3-board-final-20261107/board-suite-v3/load/reference-input.json",
+      "original_sha256": "0df4ef2b85c5d417b977e24d7c55e42fa4492a48406828608b3a969e2c469c06",
+      "published_sha256": "0df4ef2b85c5d417b977e24d7c55e42fa4492a48406828608b3a969e2c469c06",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/load/report.json",
+      "source": "build/publication/20261108/download/build/reproduction/g3-board-final-20261107/board-suite-v3/load/report.json",
+      "original_sha256": "d949b6968ab2db1bedee17f85499eaa39802851f5595136de185271611f4ac5d",
+      "published_sha256": "4806fd8738ba61db2478d486f3e3f3d68a11490866d92d48e790c2ee9367ca9e",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/smoke/build.json",
+      "source": "build/publication/20261108/download/build/reproduction/g3-board-final-20261107/board-suite-v3/smoke/build.json",
+      "original_sha256": "6cad2d63ad2aa6278d78787bb82a5f424e7c4b490e7d1579aa06b31d5c64795c",
+      "published_sha256": "6cad2d63ad2aa6278d78787bb82a5f424e7c4b490e7d1579aa06b31d5c64795c",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/smoke/immutable.json",
+      "source": "build/publication/20261108/download/build/reproduction/g3-board-final-20261107/board-suite-v3/smoke/immutable.json",
+      "original_sha256": "f0611f948a0918373a71a1277249e7ab3fb1682a71c1737cd90c80f93fc90fc1",
+      "published_sha256": "f0611f948a0918373a71a1277249e7ab3fb1682a71c1737cd90c80f93fc90fc1",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/smoke/reference-input.json",
+      "source": "build/publication/20261108/download/build/reproduction/g3-board-final-20261107/board-suite-v3/smoke/reference-input.json",
+      "original_sha256": "0df4ef2b85c5d417b977e24d7c55e42fa4492a48406828608b3a969e2c469c06",
+      "published_sha256": "0df4ef2b85c5d417b977e24d7c55e42fa4492a48406828608b3a969e2c469c06",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/smoke/report.json",
+      "source": "build/publication/20261108/download/build/reproduction/g3-board-final-20261107/board-suite-v3/smoke/report.json",
+      "original_sha256": "d21a2d5826f54016303c4345823cf16546bc9d5dc3c6d134673bc188b9288f1d",
+      "published_sha256": "2e3ada9e61ab96fa99925d0d69ff5c0c8b58c93b5f3cd0a2d9a4f2323b1848ce",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-000/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-000/result.json",
+      "original_sha256": "2fbd9baa098ce71048a609ad22b7c33daf2e404c5ac7979900a6997ccd1ed1c7",
+      "published_sha256": "2fbd9baa098ce71048a609ad22b7c33daf2e404c5ac7979900a6997ccd1ed1c7",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-001/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-001/result.json",
+      "original_sha256": "f75c55dd963d2ce37572a6a94fdc4e302f42ee8637fc12f5add72cc9e78829b1",
+      "published_sha256": "f75c55dd963d2ce37572a6a94fdc4e302f42ee8637fc12f5add72cc9e78829b1",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-002/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-002/result.json",
+      "original_sha256": "83bf890113f68f8dda5ce6f2e5414d293990129f4a02d3a60498bb1332324ac0",
+      "published_sha256": "83bf890113f68f8dda5ce6f2e5414d293990129f4a02d3a60498bb1332324ac0",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-003/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-003/result.json",
+      "original_sha256": "c65241e6538671cb6a9f7a0a61952fe0b4a2a09fd7c86261ae9edf1965d343e8",
+      "published_sha256": "c65241e6538671cb6a9f7a0a61952fe0b4a2a09fd7c86261ae9edf1965d343e8",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-004/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-004/result.json",
+      "original_sha256": "d022eca0343938daa2f53d29a8c1138483058f3ac9bb3dbb1601c5e05ad7ee6c",
+      "published_sha256": "d022eca0343938daa2f53d29a8c1138483058f3ac9bb3dbb1601c5e05ad7ee6c",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-005/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-005/result.json",
+      "original_sha256": "5ed90703ccd7215d179e428d81fabc8497caaa65cd094f8c72d9bdb33ef8f1af",
+      "published_sha256": "5ed90703ccd7215d179e428d81fabc8497caaa65cd094f8c72d9bdb33ef8f1af",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-006/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-006/result.json",
+      "original_sha256": "cde3caccdb9927f2d9eda4c490d0fc9be3118b789cb523bbc32a9abb47008907",
+      "published_sha256": "cde3caccdb9927f2d9eda4c490d0fc9be3118b789cb523bbc32a9abb47008907",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-007/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-007/result.json",
+      "original_sha256": "aa3f8cf619b50fb470da2433723faebea51bdfb18990a5da15991746e361bfdd",
+      "published_sha256": "aa3f8cf619b50fb470da2433723faebea51bdfb18990a5da15991746e361bfdd",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-008/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-008/result.json",
+      "original_sha256": "68ecdae5fc869b104c9492bbe8885f9d2ab09316c2634150d4866d52042a7544",
+      "published_sha256": "68ecdae5fc869b104c9492bbe8885f9d2ab09316c2634150d4866d52042a7544",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-009/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-009/result.json",
+      "original_sha256": "d82f550ed55924eb115e102d2fd5ab8e65fe6dcac708c95c62d53b2f607f9e3a",
+      "published_sha256": "d82f550ed55924eb115e102d2fd5ab8e65fe6dcac708c95c62d53b2f607f9e3a",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-010/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-010/result.json",
+      "original_sha256": "9d60676022b2fadbb97b9b8af40e187cc30454d44f3da8ced167ba67d59e0c53",
+      "published_sha256": "9d60676022b2fadbb97b9b8af40e187cc30454d44f3da8ced167ba67d59e0c53",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-011/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-011/result.json",
+      "original_sha256": "2e0cfd89e44013acfd59ec38e770980cf79d09ab60e291a698ca37eafd485df3",
+      "published_sha256": "2e0cfd89e44013acfd59ec38e770980cf79d09ab60e291a698ca37eafd485df3",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-012/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-012/result.json",
+      "original_sha256": "3f89be744b1e79dd3a2a9f5cd692e31e04a068d08c0dbedca9f26e570664af2c",
+      "published_sha256": "3f89be744b1e79dd3a2a9f5cd692e31e04a068d08c0dbedca9f26e570664af2c",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-013/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-013/result.json",
+      "original_sha256": "b745802ae7aa02c59a32f1b446a1ff72d96c2fca85079e63a68c27a361c332b3",
+      "published_sha256": "b745802ae7aa02c59a32f1b446a1ff72d96c2fca85079e63a68c27a361c332b3",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-014/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-014/result.json",
+      "original_sha256": "1a53c89b125fe6d988f6095b2c48ff3441ed1c92be8dcf5294f3195e93473f0f",
+      "published_sha256": "1a53c89b125fe6d988f6095b2c48ff3441ed1c92be8dcf5294f3195e93473f0f",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-015/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-015/result.json",
+      "original_sha256": "b62f0efc0f46be66d77968b7580f6920bf2f476ea1e2c55f1e3fffa4282e49f6",
+      "published_sha256": "b62f0efc0f46be66d77968b7580f6920bf2f476ea1e2c55f1e3fffa4282e49f6",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-016/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-016/result.json",
+      "original_sha256": "8fed7fc2b8421dedffcb7ef29592fac4199ce173010f884bb9a3781a20d08102",
+      "published_sha256": "8fed7fc2b8421dedffcb7ef29592fac4199ce173010f884bb9a3781a20d08102",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-017/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-017/result.json",
+      "original_sha256": "826a6b0e3d29d00cc3b56c4c085ba4aced5d2e5e2285eeeb4246f69aa8f8242e",
+      "published_sha256": "826a6b0e3d29d00cc3b56c4c085ba4aced5d2e5e2285eeeb4246f69aa8f8242e",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-018/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-018/result.json",
+      "original_sha256": "44c50c9ee5111964b113648d6565a8cef23a812cdca8f1ef4a339064fea144e5",
+      "published_sha256": "44c50c9ee5111964b113648d6565a8cef23a812cdca8f1ef4a339064fea144e5",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-019/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-019/result.json",
+      "original_sha256": "79b876142d47410e58938930c5d4db26128ef9d1ebca4e2c6b1d852a71d28b12",
+      "published_sha256": "79b876142d47410e58938930c5d4db26128ef9d1ebca4e2c6b1d852a71d28b12",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-020/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-020/result.json",
+      "original_sha256": "87f850c1b0bbf32d5fa7be18bb0721506aa3b93e8996226a04a0293d649bf4e7",
+      "published_sha256": "87f850c1b0bbf32d5fa7be18bb0721506aa3b93e8996226a04a0293d649bf4e7",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-021/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-021/result.json",
+      "original_sha256": "435ad907369c3c62a649d48968f3348385a37e62bbe6b93d54072486f805e6b1",
+      "published_sha256": "435ad907369c3c62a649d48968f3348385a37e62bbe6b93d54072486f805e6b1",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-022/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-022/result.json",
+      "original_sha256": "faa5aa4ba4d24d371cc138f4b07594270b1e44afc7f98d2c5da73cc336fa0e1b",
+      "published_sha256": "faa5aa4ba4d24d371cc138f4b07594270b1e44afc7f98d2c5da73cc336fa0e1b",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-023/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-023/result.json",
+      "original_sha256": "d149abe3ace2c86b65849a9faab982ecc739c9af05956e8809624b63a0ef2525",
+      "published_sha256": "d149abe3ace2c86b65849a9faab982ecc739c9af05956e8809624b63a0ef2525",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-024/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-024/result.json",
+      "original_sha256": "c0e285b58fb959e47ecbf343c1f102e00f7e55b0529bdeb6f5b8fbba86cfde76",
+      "published_sha256": "c0e285b58fb959e47ecbf343c1f102e00f7e55b0529bdeb6f5b8fbba86cfde76",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-025/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-025/result.json",
+      "original_sha256": "683820314dd7c0ecb9dfeda8d0778910b08500e195e6383dc957f9d4685864b0",
+      "published_sha256": "683820314dd7c0ecb9dfeda8d0778910b08500e195e6383dc957f9d4685864b0",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-026/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-026/result.json",
+      "original_sha256": "3854fadbb08ffcb8834ac0a2c0fe98cdb7acbc892960071b3040bcac3ed141d3",
+      "published_sha256": "3854fadbb08ffcb8834ac0a2c0fe98cdb7acbc892960071b3040bcac3ed141d3",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-027/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-027/result.json",
+      "original_sha256": "244bcffddecae33b3037c71c6f31a74d93a5b175386ec6f7f2037997b113d005",
+      "published_sha256": "244bcffddecae33b3037c71c6f31a74d93a5b175386ec6f7f2037997b113d005",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-028/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-028/result.json",
+      "original_sha256": "a1087aca6cefde8ab734f11a87dec49f9921368c3425e03509326a81bcd3d857",
+      "published_sha256": "a1087aca6cefde8ab734f11a87dec49f9921368c3425e03509326a81bcd3d857",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-029/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-029/result.json",
+      "original_sha256": "17e05b71fa41b7fa4ae0e24ab0df612223bae76e2366368c2f04b3258277e7e2",
+      "published_sha256": "17e05b71fa41b7fa4ae0e24ab0df612223bae76e2366368c2f04b3258277e7e2",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-030/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-030/result.json",
+      "original_sha256": "3c0d1f60a80ae2645cf86d6b7fb075e9ef829e9d6828c416c1f5d6a665bb4626",
+      "published_sha256": "3c0d1f60a80ae2645cf86d6b7fb075e9ef829e9d6828c416c1f5d6a665bb4626",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-031/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-031/result.json",
+      "original_sha256": "7f9151b2798e1891019ce17992cb32ba241b9270349b1582c5a2556ba4cae1b6",
+      "published_sha256": "7f9151b2798e1891019ce17992cb32ba241b9270349b1582c5a2556ba4cae1b6",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-032/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-032/result.json",
+      "original_sha256": "a0a08c2aec8b9352a146beb5c9ca4d0f36f3d5cc74d3865ec2a48ecbcf1dafd2",
+      "published_sha256": "a0a08c2aec8b9352a146beb5c9ca4d0f36f3d5cc74d3865ec2a48ecbcf1dafd2",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-033/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-033/result.json",
+      "original_sha256": "257633e54fb0ce8989caa392ad13fea83c34149f80a073774285149280452f9e",
+      "published_sha256": "257633e54fb0ce8989caa392ad13fea83c34149f80a073774285149280452f9e",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-034/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-034/result.json",
+      "original_sha256": "4e9357a2435b15e0206484a2283d8c3e371cde55cbe45a0f6dbd1dc1950796a8",
+      "published_sha256": "4e9357a2435b15e0206484a2283d8c3e371cde55cbe45a0f6dbd1dc1950796a8",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-035/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-035/result.json",
+      "original_sha256": "71158400d00c14b4ee4d83e315cf112eddf41a469be3feed4b31c7ff4e8e92fc",
+      "published_sha256": "71158400d00c14b4ee4d83e315cf112eddf41a469be3feed4b31c7ff4e8e92fc",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-036/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-036/result.json",
+      "original_sha256": "2ecb835fee52065bece0de7097796f4e5c6f70691f67cec1ad5141f353dd3190",
+      "published_sha256": "2ecb835fee52065bece0de7097796f4e5c6f70691f67cec1ad5141f353dd3190",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-037/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-037/result.json",
+      "original_sha256": "0091ccfd771eda89677a051004123b7bea783ba6ddadf9be63788a2fa22e2dd9",
+      "published_sha256": "0091ccfd771eda89677a051004123b7bea783ba6ddadf9be63788a2fa22e2dd9",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-038/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-038/result.json",
+      "original_sha256": "79ad22851444fc14ad0d72c7b747bd6b88159ea7d2b5c43a15ef19ca73eb41db",
+      "published_sha256": "79ad22851444fc14ad0d72c7b747bd6b88159ea7d2b5c43a15ef19ca73eb41db",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-039/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-039/result.json",
+      "original_sha256": "91ff837f599f31f9c519ca9b805eccd9b2e3501b95a1d6c3b6afd0639be00273",
+      "published_sha256": "91ff837f599f31f9c519ca9b805eccd9b2e3501b95a1d6c3b6afd0639be00273",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-040/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-040/result.json",
+      "original_sha256": "52230a1fa9ca550af772363780cebba5068ff6e43704ef4db6eb449459172adf",
+      "published_sha256": "52230a1fa9ca550af772363780cebba5068ff6e43704ef4db6eb449459172adf",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-041/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-041/result.json",
+      "original_sha256": "3d0b551ed7fb0ccc65c1dd77312b4f32c2946dfbc16ca1239877fcd68c4d2265",
+      "published_sha256": "3d0b551ed7fb0ccc65c1dd77312b4f32c2946dfbc16ca1239877fcd68c4d2265",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-042/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-042/result.json",
+      "original_sha256": "c3d5f30fbb40c74156f3bc92da2fbc8d9f8778cf592bc1b9a74a03b0a22b5577",
+      "published_sha256": "c3d5f30fbb40c74156f3bc92da2fbc8d9f8778cf592bc1b9a74a03b0a22b5577",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-043/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-043/result.json",
+      "original_sha256": "f13198d2dfd9404f1bd0528f18bc22e265811c591f512bfff232f8c7e5c5d89c",
+      "published_sha256": "f13198d2dfd9404f1bd0528f18bc22e265811c591f512bfff232f8c7e5c5d89c",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-044/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-044/result.json",
+      "original_sha256": "0ab56d2fc75586b92ee2e611365a0564b50d7aaefe2c51d3aaf887052f7a6010",
+      "published_sha256": "0ab56d2fc75586b92ee2e611365a0564b50d7aaefe2c51d3aaf887052f7a6010",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-045/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-045/result.json",
+      "original_sha256": "28694f74f8d50d7b65ddfcb01764961da58ae48ad172c537fded61a14ec24a51",
+      "published_sha256": "28694f74f8d50d7b65ddfcb01764961da58ae48ad172c537fded61a14ec24a51",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-046/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-046/result.json",
+      "original_sha256": "7eb5fb8fbc19a6f87c25445b061bfec76394d97ec58db3148e3f317ea3669d8c",
+      "published_sha256": "7eb5fb8fbc19a6f87c25445b061bfec76394d97ec58db3148e3f317ea3669d8c",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-047/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-047/result.json",
+      "original_sha256": "d8403700ec01dd1797cd87209bc3cc5ac236d4e595413429307bc91cd7605cb8",
+      "published_sha256": "d8403700ec01dd1797cd87209bc3cc5ac236d4e595413429307bc91cd7605cb8",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-048/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-048/result.json",
+      "original_sha256": "99490ef555ac2e4e4795e20b1e27b2958942ee3cb5644d8e9932ba92ce2055ad",
+      "published_sha256": "99490ef555ac2e4e4795e20b1e27b2958942ee3cb5644d8e9932ba92ce2055ad",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-049/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-049/result.json",
+      "original_sha256": "dc9ecc7769e1eb55d60a4890b5468a5fe061a2da7a258a0eaa6575c06c42ac1a",
+      "published_sha256": "dc9ecc7769e1eb55d60a4890b5468a5fe061a2da7a258a0eaa6575c06c42ac1a",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-050/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-050/result.json",
+      "original_sha256": "4d5c4feedac82bd71f2d6ac3383a822d779d0a65374d6c7e1e2a8da19134d1ba",
+      "published_sha256": "4d5c4feedac82bd71f2d6ac3383a822d779d0a65374d6c7e1e2a8da19134d1ba",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-051/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-051/result.json",
+      "original_sha256": "4368c015c01d369e61b522da226ac8150bcbe6e818376562d0688dbc7f54bcc5",
+      "published_sha256": "4368c015c01d369e61b522da226ac8150bcbe6e818376562d0688dbc7f54bcc5",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-052/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-052/result.json",
+      "original_sha256": "19ab4c6bf9853ee6789d06f04f2e34872d21ed13b273bfe00662e5edce9d3f94",
+      "published_sha256": "19ab4c6bf9853ee6789d06f04f2e34872d21ed13b273bfe00662e5edce9d3f94",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-053/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-053/result.json",
+      "original_sha256": "963c2a1ce290df6214b01cb70cfdf08754c167dac7050295f2dbd8e6d557e673",
+      "published_sha256": "963c2a1ce290df6214b01cb70cfdf08754c167dac7050295f2dbd8e6d557e673",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-054/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-054/result.json",
+      "original_sha256": "6880edba8a92d912c936786c0760a8f738e6f3791489393d4f43952e5431ab00",
+      "published_sha256": "6880edba8a92d912c936786c0760a8f738e6f3791489393d4f43952e5431ab00",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-055/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-055/result.json",
+      "original_sha256": "6a454b14770cb668f9e8f11c6d642254c36d09860148974d7bff047f18bf5d61",
+      "published_sha256": "6a454b14770cb668f9e8f11c6d642254c36d09860148974d7bff047f18bf5d61",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-056/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-056/result.json",
+      "original_sha256": "9147b9770e7ff449b3533ce4b29a5e92bd9e103d1417404231cd5a0acdc42f80",
+      "published_sha256": "9147b9770e7ff449b3533ce4b29a5e92bd9e103d1417404231cd5a0acdc42f80",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-057/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-057/result.json",
+      "original_sha256": "882c43e14ffc299fbe0068491558683ad93f43cd822fc88277660cd4897c4041",
+      "published_sha256": "882c43e14ffc299fbe0068491558683ad93f43cd822fc88277660cd4897c4041",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-058/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-058/result.json",
+      "original_sha256": "af1024b27bf055f819d5706e01dd68c8399e4bb742cbc04bee79f664bdb5e9c5",
+      "published_sha256": "af1024b27bf055f819d5706e01dd68c8399e4bb742cbc04bee79f664bdb5e9c5",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-059/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-059/result.json",
+      "original_sha256": "2b3e53f7801e876aa6acc64cb048e3a676c5e3dcaf6f06d2fd1687394a3e2b29",
+      "published_sha256": "2b3e53f7801e876aa6acc64cb048e3a676c5e3dcaf6f06d2fd1687394a3e2b29",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-060/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-060/result.json",
+      "original_sha256": "eb1438f9df026d506c9815ffbbf051f8840e04d62caf7cf791e97b7e169c39bf",
+      "published_sha256": "eb1438f9df026d506c9815ffbbf051f8840e04d62caf7cf791e97b7e169c39bf",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-061/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-061/result.json",
+      "original_sha256": "a9d29758f74eb9c6b5735b56eb9daac76332c39f1001454335263629ee278d73",
+      "published_sha256": "a9d29758f74eb9c6b5735b56eb9daac76332c39f1001454335263629ee278d73",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-062/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-062/result.json",
+      "original_sha256": "6bc29cada9ec994fa8ca3953cb72e1f253421dfa2d930cca46ba920b4645b067",
+      "published_sha256": "6bc29cada9ec994fa8ca3953cb72e1f253421dfa2d930cca46ba920b4645b067",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-063/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-063/result.json",
+      "original_sha256": "05783b02a3db3341f5fd9bb6aeb97dad9370012f78699baa37563d136bd5cd9b",
+      "published_sha256": "05783b02a3db3341f5fd9bb6aeb97dad9370012f78699baa37563d136bd5cd9b",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-064/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-064/result.json",
+      "original_sha256": "5f626da567f5a90dd5d2ad61eb12ac8589f022b23cc012976e395a84e93b6920",
+      "published_sha256": "5f626da567f5a90dd5d2ad61eb12ac8589f022b23cc012976e395a84e93b6920",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-065/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-065/result.json",
+      "original_sha256": "44e556c625543ed9a6d7b73e874557f7a2630b9414c72f5ba8bb3e480044d0b6",
+      "published_sha256": "44e556c625543ed9a6d7b73e874557f7a2630b9414c72f5ba8bb3e480044d0b6",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-066/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-066/result.json",
+      "original_sha256": "d8feba1daedcfa5148b40e7674b3c885fde7b662c45b832c54715fef0ac0f8a2",
+      "published_sha256": "d8feba1daedcfa5148b40e7674b3c885fde7b662c45b832c54715fef0ac0f8a2",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-067/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-067/result.json",
+      "original_sha256": "27d172187598fb9f44cb74a73bc226b6e950fe1bd2cf5010a589fbc36920f0b4",
+      "published_sha256": "27d172187598fb9f44cb74a73bc226b6e950fe1bd2cf5010a589fbc36920f0b4",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-068/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-068/result.json",
+      "original_sha256": "bba1c7b13957715095b81f12e76172292338ee4110c691143863ad9068a56e39",
+      "published_sha256": "bba1c7b13957715095b81f12e76172292338ee4110c691143863ad9068a56e39",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-069/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-069/result.json",
+      "original_sha256": "47486153f97451ee72b6afe9e7cfd49490d271a1a625412995bf9d1cf8781fb8",
+      "published_sha256": "47486153f97451ee72b6afe9e7cfd49490d271a1a625412995bf9d1cf8781fb8",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-070/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-070/result.json",
+      "original_sha256": "7a099ed6800d71eb7433861c8d00bb695860623f3696b8de9a40de1ce271a7b3",
+      "published_sha256": "7a099ed6800d71eb7433861c8d00bb695860623f3696b8de9a40de1ce271a7b3",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-071/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-071/result.json",
+      "original_sha256": "41389c4f0adff20e1a6e79a655bf99113666eedd9b28f33eff36f17e9d4b2c15",
+      "published_sha256": "41389c4f0adff20e1a6e79a655bf99113666eedd9b28f33eff36f17e9d4b2c15",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-072/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-072/result.json",
+      "original_sha256": "b3bc0ab3836a37cc1f38a3fd415eb4e92119ccbe997395506d46cda3cd0748ef",
+      "published_sha256": "b3bc0ab3836a37cc1f38a3fd415eb4e92119ccbe997395506d46cda3cd0748ef",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-073/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-073/result.json",
+      "original_sha256": "c9b43f4439172db51a91e119dd6bfc6a883f94cac897b78cab8f54ea1bb6f747",
+      "published_sha256": "c9b43f4439172db51a91e119dd6bfc6a883f94cac897b78cab8f54ea1bb6f747",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-074/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-074/result.json",
+      "original_sha256": "bc3141009dc54b5af9fb15f64a61829f041abfd3b50ac9f2cd3d75f546cf1638",
+      "published_sha256": "bc3141009dc54b5af9fb15f64a61829f041abfd3b50ac9f2cd3d75f546cf1638",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-075/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-075/result.json",
+      "original_sha256": "3112c4220088550d889a6fa82cda8d71893ed8cf06e62c7056b412d128cf410d",
+      "published_sha256": "3112c4220088550d889a6fa82cda8d71893ed8cf06e62c7056b412d128cf410d",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-076/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-076/result.json",
+      "original_sha256": "13c6d3e2056991d60960e0803796092929b3493457f2d6c9ad71d8a8694ac2c7",
+      "published_sha256": "13c6d3e2056991d60960e0803796092929b3493457f2d6c9ad71d8a8694ac2c7",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-077/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-077/result.json",
+      "original_sha256": "96bf35a41b6dc2d533d0795e3b1c1d94e5a6cb863026b1cbb3cfd89af33c0ad4",
+      "published_sha256": "96bf35a41b6dc2d533d0795e3b1c1d94e5a6cb863026b1cbb3cfd89af33c0ad4",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-078/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-078/result.json",
+      "original_sha256": "4cfa2eb276ee3586ab42fb7b12a8503f2b754524aeb74a1ff91e5691edd7f079",
+      "published_sha256": "4cfa2eb276ee3586ab42fb7b12a8503f2b754524aeb74a1ff91e5691edd7f079",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-079/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-079/result.json",
+      "original_sha256": "8ad21cbb600a62d468a0ef275d3d855ccadf418421c3b0cb8318a77e80795067",
+      "published_sha256": "8ad21cbb600a62d468a0ef275d3d855ccadf418421c3b0cb8318a77e80795067",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-080/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-080/result.json",
+      "original_sha256": "3f6cd4310bc664c9d29d23e64508cf20bbdc18f259ad059ec21fd04c1174773f",
+      "published_sha256": "3f6cd4310bc664c9d29d23e64508cf20bbdc18f259ad059ec21fd04c1174773f",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-081/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-081/result.json",
+      "original_sha256": "872e11b35c0db182433c01ca785320eaa890d21a7fc37f9b91062bdc198bbb17",
+      "published_sha256": "872e11b35c0db182433c01ca785320eaa890d21a7fc37f9b91062bdc198bbb17",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-082/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-082/result.json",
+      "original_sha256": "3e899bf7b3d2d5571073689bcd0e9807d55bb1c699d9fd590af4b6b6c0e1c675",
+      "published_sha256": "3e899bf7b3d2d5571073689bcd0e9807d55bb1c699d9fd590af4b6b6c0e1c675",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-083/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-083/result.json",
+      "original_sha256": "093fbd9fda4b11d44c6f735a28616b5c3fc80460e4c13f90f8267ba3a86a29ca",
+      "published_sha256": "093fbd9fda4b11d44c6f735a28616b5c3fc80460e4c13f90f8267ba3a86a29ca",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-084/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-084/result.json",
+      "original_sha256": "b56b75adc39a3a7343868fe96ffc505c01e234103e061e250d5b5bec655d8989",
+      "published_sha256": "b56b75adc39a3a7343868fe96ffc505c01e234103e061e250d5b5bec655d8989",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-085/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-085/result.json",
+      "original_sha256": "96d096b1fe69fac79e4ecc127f6a1d44660a40349a61f30c4e0e6e27d20ee58a",
+      "published_sha256": "96d096b1fe69fac79e4ecc127f6a1d44660a40349a61f30c4e0e6e27d20ee58a",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-086/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-086/result.json",
+      "original_sha256": "5464ceab7203e439987e92d8a1224beda43e2b2822fb89195bc24812efdd103e",
+      "published_sha256": "5464ceab7203e439987e92d8a1224beda43e2b2822fb89195bc24812efdd103e",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-087/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-087/result.json",
+      "original_sha256": "5a26070ad82c2be189cd020c091828a04900baa9d1d23507580180bb23cce463",
+      "published_sha256": "5a26070ad82c2be189cd020c091828a04900baa9d1d23507580180bb23cce463",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-088/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-088/result.json",
+      "original_sha256": "6bc996a21f56c5a415b47c902a6274408ed3cba875fee05664d7c34dde74ce04",
+      "published_sha256": "6bc996a21f56c5a415b47c902a6274408ed3cba875fee05664d7c34dde74ce04",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-089/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-089/result.json",
+      "original_sha256": "4df320b9c6ff994d289bee3b098ef74fdec709308d7236aff883fd87f87be4d1",
+      "published_sha256": "4df320b9c6ff994d289bee3b098ef74fdec709308d7236aff883fd87f87be4d1",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-090/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-090/result.json",
+      "original_sha256": "5e465bfe944d0164768e885d31ae65de77331cde854a7b65bb32226eead25d49",
+      "published_sha256": "5e465bfe944d0164768e885d31ae65de77331cde854a7b65bb32226eead25d49",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-091/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-091/result.json",
+      "original_sha256": "20059b0e6eeda5bb3e3c32f23bc3af82b9318b312050dc900471cbd827378b7b",
+      "published_sha256": "20059b0e6eeda5bb3e3c32f23bc3af82b9318b312050dc900471cbd827378b7b",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-092/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-092/result.json",
+      "original_sha256": "dd8c4ae00411337fd9d984252991d33d17bdd59364b72bbd176dbd9cb33f2309",
+      "published_sha256": "dd8c4ae00411337fd9d984252991d33d17bdd59364b72bbd176dbd9cb33f2309",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-093/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-093/result.json",
+      "original_sha256": "8a18ca5b9090c350bdc8c8f6d433308ee525d84e47f102108636280715040559",
+      "published_sha256": "8a18ca5b9090c350bdc8c8f6d433308ee525d84e47f102108636280715040559",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-094/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-094/result.json",
+      "original_sha256": "fd1a30559285389291cd07b0822d8dd13bab8a973229e54c8455f213191ddec2",
+      "published_sha256": "fd1a30559285389291cd07b0822d8dd13bab8a973229e54c8455f213191ddec2",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-095/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-095/result.json",
+      "original_sha256": "53308dfb3a3a7bec44d20cd2c5b4b346f2c9e72f4dce19d2a12cda060c8a860c",
+      "published_sha256": "53308dfb3a3a7bec44d20cd2c5b4b346f2c9e72f4dce19d2a12cda060c8a860c",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-096/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-096/result.json",
+      "original_sha256": "1d6241b93d0d747bb2bd7d12077334869fba6dd9d226da329dd5bcf21a0b153f",
+      "published_sha256": "1d6241b93d0d747bb2bd7d12077334869fba6dd9d226da329dd5bcf21a0b153f",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-097/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-097/result.json",
+      "original_sha256": "97957140485a49bf38b81c8b2ae343b47c99d32861c81bb48969c3c27c6f04cb",
+      "published_sha256": "97957140485a49bf38b81c8b2ae343b47c99d32861c81bb48969c3c27c6f04cb",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-098/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-098/result.json",
+      "original_sha256": "080b3a350aa5a1d3a1ea6de15f9a104232c9c0748692bfe0a59767639b49db45",
+      "published_sha256": "080b3a350aa5a1d3a1ea6de15f9a104232c9c0748692bfe0a59767639b49db45",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/batch-099/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/batch-099/result.json",
+      "original_sha256": "57e3c9400af387b452e382c8ff49a06f90801514d507a05af689d313a0154502",
+      "published_sha256": "57e3c9400af387b452e382c8ff49a06f90801514d507a05af689d313a0154502",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/build.json",
+      "original_sha256": "bd50fae9f8f7feb7881f505d537be64219ee1619faac09cfdae51215571e4fe3",
+      "published_sha256": "bd50fae9f8f7feb7881f505d537be64219ee1619faac09cfdae51215571e4fe3",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/raw-reference-sha256.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/raw-reference-sha256.json",
+      "original_sha256": "8d0f954c765ce87515ce3664ff96f47e89890cce99b259b7ea9368267ccd3010",
+      "published_sha256": "8d0f954c765ce87515ce3664ff96f47e89890cce99b259b7ea9368267ccd3010",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/rebuild-00/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/rebuild-00/build.json",
+      "original_sha256": "7ffbfa49c6d42b57422209315b3cc3001d9fee3f319641212b98655c0698f0c0",
+      "published_sha256": "7ffbfa49c6d42b57422209315b3cc3001d9fee3f319641212b98655c0698f0c0",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/rebuild-00/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/rebuild-00/query/result.json",
+      "original_sha256": "fd8e7fccb54cbd254722f275a383a9f765ae2c909bc6f28a2959039fddc0a9be",
+      "published_sha256": "fd8e7fccb54cbd254722f275a383a9f765ae2c909bc6f28a2959039fddc0a9be",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/rebuild-01/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/rebuild-01/build.json",
+      "original_sha256": "2f6a68eb9680f7395912948405796dc07f7c45bcb6f7813bf7c4970637828a49",
+      "published_sha256": "2f6a68eb9680f7395912948405796dc07f7c45bcb6f7813bf7c4970637828a49",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/rebuild-01/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/rebuild-01/query/result.json",
+      "original_sha256": "d13dcbe2671178b0c7ae37d0f0332da645db05435ea3294cd97737f714003509",
+      "published_sha256": "d13dcbe2671178b0c7ae37d0f0332da645db05435ea3294cd97737f714003509",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/rebuild-02/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/rebuild-02/build.json",
+      "original_sha256": "a7fe806c4e4b7dc69e39ab013b56dfc4bd38398113cf8e1fb2605ad98ec635c0",
+      "published_sha256": "a7fe806c4e4b7dc69e39ab013b56dfc4bd38398113cf8e1fb2605ad98ec635c0",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/rebuild-02/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/rebuild-02/query/result.json",
+      "original_sha256": "4c48c0be941fdf558e37487cbfa0a23d5c18ec6f2d838e9da0685b1bc4ba795f",
+      "published_sha256": "4c48c0be941fdf558e37487cbfa0a23d5c18ec6f2d838e9da0685b1bc4ba795f",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/rebuild-03/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/rebuild-03/build.json",
+      "original_sha256": "c15b328386dd57764308f93b9e823da1f54ad516ef112aedb83dee3b73de405f",
+      "published_sha256": "c15b328386dd57764308f93b9e823da1f54ad516ef112aedb83dee3b73de405f",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/rebuild-03/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/rebuild-03/query/result.json",
+      "original_sha256": "dc37ede676991b487e0c7f679cd650ce359c7bd571965bf053d91ab8f3d26809",
+      "published_sha256": "dc37ede676991b487e0c7f679cd650ce359c7bd571965bf053d91ab8f3d26809",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/rebuild-04/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/rebuild-04/build.json",
+      "original_sha256": "5aca0d94d187fee69dd387e5fdbb5de35a01dbcdd798e3b1a93275b9966ea0ed",
+      "published_sha256": "5aca0d94d187fee69dd387e5fdbb5de35a01dbcdd798e3b1a93275b9966ea0ed",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/rebuild-04/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/rebuild-04/query/result.json",
+      "original_sha256": "b19005d7822c94e00c7e3463d07ae0d903e64f5115c8f4a29cf04772ceae1061",
+      "published_sha256": "b19005d7822c94e00c7e3463d07ae0d903e64f5115c8f4a29cf04772ceae1061",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/rebuild-05/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/rebuild-05/build.json",
+      "original_sha256": "d33f91704955fec97fbceb5ce3c96a05aa64818ae3b89edf8f0d156087eb2bf5",
+      "published_sha256": "d33f91704955fec97fbceb5ce3c96a05aa64818ae3b89edf8f0d156087eb2bf5",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/rebuild-05/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/rebuild-05/query/result.json",
+      "original_sha256": "9059a37c74f5584eb3b02f451eb476faa61a0dcc98266499a19b919a80d872f4",
+      "published_sha256": "9059a37c74f5584eb3b02f451eb476faa61a0dcc98266499a19b919a80d872f4",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/rebuild-06/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/rebuild-06/build.json",
+      "original_sha256": "dbfc5653c90408de18cbf811198e894de9441403437b5cd36cfd39e78edca79d",
+      "published_sha256": "dbfc5653c90408de18cbf811198e894de9441403437b5cd36cfd39e78edca79d",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/rebuild-06/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/rebuild-06/query/result.json",
+      "original_sha256": "59d36e7da603e138951524b46aed9a7b3084afdb99fbc9755cc4e346bdd6db34",
+      "published_sha256": "59d36e7da603e138951524b46aed9a7b3084afdb99fbc9755cc4e346bdd6db34",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/rebuild-07/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/rebuild-07/build.json",
+      "original_sha256": "a17992b1ae989b392e10913c37e404fbdcdb63454f289656110f2bc702309dc4",
+      "published_sha256": "a17992b1ae989b392e10913c37e404fbdcdb63454f289656110f2bc702309dc4",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/rebuild-07/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/rebuild-07/query/result.json",
+      "original_sha256": "26559fdc82dfc58c822e16b8bd9c809dd30f5abaa93560f5e393ce9053f8b4ec",
+      "published_sha256": "26559fdc82dfc58c822e16b8bd9c809dd30f5abaa93560f5e393ce9053f8b4ec",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/rebuild-08/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/rebuild-08/build.json",
+      "original_sha256": "060d656af0fc28e14ab5ebf08b42cb6202d7501ba3ca88e20b1b32118e2bb8b4",
+      "published_sha256": "060d656af0fc28e14ab5ebf08b42cb6202d7501ba3ca88e20b1b32118e2bb8b4",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/rebuild-08/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/rebuild-08/query/result.json",
+      "original_sha256": "8d919abea2313c8b7765cfdf084b7557b577289486c9d3a21ba2d6a6f95d0cd6",
+      "published_sha256": "8d919abea2313c8b7765cfdf084b7557b577289486c9d3a21ba2d6a6f95d0cd6",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/rebuild-09/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/rebuild-09/build.json",
+      "original_sha256": "54c41af91665730b19f7f6831f023b39771afb4af5314d3ae882980e3dec0f5b",
+      "published_sha256": "54c41af91665730b19f7f6831f023b39771afb4af5314d3ae882980e3dec0f5b",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/rebuild-09/query/immutable.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/rebuild-09/query/immutable.json",
+      "original_sha256": "8d43cfba5f28547d83c037de5c933308e2b7a9b5a9cb02bc7e7d9e7023fcb914",
+      "published_sha256": "8d43cfba5f28547d83c037de5c933308e2b7a9b5a9cb02bc7e7d9e7023fcb914",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/rebuild-09/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/rebuild-09/query/result.json",
+      "original_sha256": "e012484821939405e34b94f3091230461cefbb9e5a4ff31dc32ee9803c763b3b",
+      "published_sha256": "e012484821939405e34b94f3091230461cefbb9e5a4ff31dc32ee9803c763b3b",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/reference-input.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/reference-input.json",
+      "original_sha256": "0df4ef2b85c5d417b977e24d7c55e42fa4492a48406828608b3a969e2c469c06",
+      "published_sha256": "0df4ef2b85c5d417b977e24d7c55e42fa4492a48406828608b3a969e2c469c06",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/continuous/report.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/snapshots/board-suite-v3/continuous/report.json",
+      "original_sha256": "b9b29579e53032d14ae13faf56fcccdd866434a31d144468c51e3f54b8b3fc1b",
+      "published_sha256": "6a9822433eb37d435c864576d764b2c8f138ad23b38a9c9ba2c90ea20fc29368",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/cancel-00/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/cancel-00/build.json",
+      "original_sha256": "3ff265024288ae55e1cb4a657876cb505f285c581ed1aa5c1d9b245680781ff9",
+      "published_sha256": "3ff265024288ae55e1cb4a657876cb505f285c581ed1aa5c1d9b245680781ff9",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/cancel-00/recovered/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/cancel-00/recovered/build.json",
+      "original_sha256": "7dd834a0d03fcf3a88bed28047d8160eb06e1e8217a292450e85b13b354f47d7",
+      "published_sha256": "7dd834a0d03fcf3a88bed28047d8160eb06e1e8217a292450e85b13b354f47d7",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/cancel-00/recovered/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/cancel-00/recovered/query/result.json",
+      "original_sha256": "7aeca21bb160f94e30ea039fae6bbb86a9429b4c64040985ad767cdce9683121",
+      "published_sha256": "7aeca21bb160f94e30ea039fae6bbb86a9429b4c64040985ad767cdce9683121",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/cancel-01/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/cancel-01/build.json",
+      "original_sha256": "dbe5071cb9c8fc14594423be3dde7c219aa2e4951496d071973fac27dd2cc8b9",
+      "published_sha256": "dbe5071cb9c8fc14594423be3dde7c219aa2e4951496d071973fac27dd2cc8b9",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/cancel-01/recovered/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/cancel-01/recovered/build.json",
+      "original_sha256": "8acc4b2556acec284475aa6b8045dc145e8362d37c2c74f4633a346f67ccfe26",
+      "published_sha256": "8acc4b2556acec284475aa6b8045dc145e8362d37c2c74f4633a346f67ccfe26",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/cancel-01/recovered/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/cancel-01/recovered/query/result.json",
+      "original_sha256": "883dab97963d45225deeb66fa7b183aeb4078d84bca6f91c6b8cf849fa961fc0",
+      "published_sha256": "883dab97963d45225deeb66fa7b183aeb4078d84bca6f91c6b8cf849fa961fc0",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/cancel-02/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/cancel-02/build.json",
+      "original_sha256": "96d438360bfb8f6e3026eefdd794fb9516ef0c94b714c236d45915038ffd00e0",
+      "published_sha256": "96d438360bfb8f6e3026eefdd794fb9516ef0c94b714c236d45915038ffd00e0",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/cancel-02/recovered/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/cancel-02/recovered/build.json",
+      "original_sha256": "a990c3817ed41fe81db94a842beafe79ff2f86f97114471966e150db522efb97",
+      "published_sha256": "a990c3817ed41fe81db94a842beafe79ff2f86f97114471966e150db522efb97",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/cancel-02/recovered/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/cancel-02/recovered/query/result.json",
+      "original_sha256": "e9902104cd85c72077ec04260d637fd15924c53bfabe6cd50fd509932a537ebc",
+      "published_sha256": "e9902104cd85c72077ec04260d637fd15924c53bfabe6cd50fd509932a537ebc",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/cancel-03/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/cancel-03/build.json",
+      "original_sha256": "4dbbba72d2b685551150a4f8cb5a842ee91df2ec44cd9acf58648032adefb547",
+      "published_sha256": "4dbbba72d2b685551150a4f8cb5a842ee91df2ec44cd9acf58648032adefb547",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/cancel-03/recovered/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/cancel-03/recovered/build.json",
+      "original_sha256": "2978a66f442f0090f60e1ed35721800fec26adabde444c728dbfa5e0306308d8",
+      "published_sha256": "2978a66f442f0090f60e1ed35721800fec26adabde444c728dbfa5e0306308d8",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/cancel-03/recovered/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/cancel-03/recovered/query/result.json",
+      "original_sha256": "08947903f2bfed707e56da9b4898b8cbc50e72b1b615fd651c99bcd529aede5d",
+      "published_sha256": "08947903f2bfed707e56da9b4898b8cbc50e72b1b615fd651c99bcd529aede5d",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/cancel-04/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/cancel-04/build.json",
+      "original_sha256": "3ff265024288ae55e1cb4a657876cb505f285c581ed1aa5c1d9b245680781ff9",
+      "published_sha256": "3ff265024288ae55e1cb4a657876cb505f285c581ed1aa5c1d9b245680781ff9",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/cancel-04/recovered/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/cancel-04/recovered/build.json",
+      "original_sha256": "e1c262c336148e21789175244aa9998516ada90233f7fe0f3553c0d58fcc1d4d",
+      "published_sha256": "e1c262c336148e21789175244aa9998516ada90233f7fe0f3553c0d58fcc1d4d",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/cancel-04/recovered/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/cancel-04/recovered/query/result.json",
+      "original_sha256": "f0cba567b2d18a8dd18f7c8338c6bd0ee2641ba08ef9f1cdc1a56ae65f637873",
+      "published_sha256": "f0cba567b2d18a8dd18f7c8338c6bd0ee2641ba08ef9f1cdc1a56ae65f637873",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/cancel-05/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/cancel-05/build.json",
+      "original_sha256": "42819a85f857050fca7d63b953ece218e3e290c7c7e14ec377a69c08ff020909",
+      "published_sha256": "42819a85f857050fca7d63b953ece218e3e290c7c7e14ec377a69c08ff020909",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/cancel-05/recovered/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/cancel-05/recovered/build.json",
+      "original_sha256": "0c0a4eb084ec17acae2ea45ba1c4fac545c6e20c4ab08c6947727d70c56ae9b9",
+      "published_sha256": "0c0a4eb084ec17acae2ea45ba1c4fac545c6e20c4ab08c6947727d70c56ae9b9",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/cancel-05/recovered/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/cancel-05/recovered/query/result.json",
+      "original_sha256": "415c023e7ad5babe31125275e476396cdbea664402651808d46dbb2df3ec45c7",
+      "published_sha256": "415c023e7ad5babe31125275e476396cdbea664402651808d46dbb2df3ec45c7",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/cancel-06/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/cancel-06/build.json",
+      "original_sha256": "8ef6811582f536a63a499f16e877f9089a1047821b5793e1cffc3c7f79b46936",
+      "published_sha256": "8ef6811582f536a63a499f16e877f9089a1047821b5793e1cffc3c7f79b46936",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/cancel-06/recovered/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/cancel-06/recovered/build.json",
+      "original_sha256": "e74a83556a0ec0a26a1cef9a2c141ca3a91b17cc1c309386facacbd492a4b51a",
+      "published_sha256": "e74a83556a0ec0a26a1cef9a2c141ca3a91b17cc1c309386facacbd492a4b51a",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/cancel-06/recovered/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/cancel-06/recovered/query/result.json",
+      "original_sha256": "98531b7da45b41dd2836ebf48cbcb8e821b645dde0ebf1055a902135b4bb94e2",
+      "published_sha256": "98531b7da45b41dd2836ebf48cbcb8e821b645dde0ebf1055a902135b4bb94e2",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/cancel-07/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/cancel-07/build.json",
+      "original_sha256": "ae84f6a038e60b1286748dc181b38ab1ba52cb415b5d183b538cf61b5a02ff4f",
+      "published_sha256": "ae84f6a038e60b1286748dc181b38ab1ba52cb415b5d183b538cf61b5a02ff4f",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/cancel-07/recovered/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/cancel-07/recovered/build.json",
+      "original_sha256": "3368e8e9e56a0a596dc3c2c9c5fd89e5ceca3b3b695e68f628a809c9cddc1103",
+      "published_sha256": "3368e8e9e56a0a596dc3c2c9c5fd89e5ceca3b3b695e68f628a809c9cddc1103",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/cancel-07/recovered/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/cancel-07/recovered/query/result.json",
+      "original_sha256": "a79514370000f64cb179ac6f49c56adeefe3870def2035d776518b462f6ea5d3",
+      "published_sha256": "a79514370000f64cb179ac6f49c56adeefe3870def2035d776518b462f6ea5d3",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/cancel-08/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/cancel-08/build.json",
+      "original_sha256": "3ff265024288ae55e1cb4a657876cb505f285c581ed1aa5c1d9b245680781ff9",
+      "published_sha256": "3ff265024288ae55e1cb4a657876cb505f285c581ed1aa5c1d9b245680781ff9",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/cancel-08/recovered/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/cancel-08/recovered/build.json",
+      "original_sha256": "0fc1b68e3f0361955ba0d0c9330a9b75f07cf3501c627508e2a5f33c3005d509",
+      "published_sha256": "0fc1b68e3f0361955ba0d0c9330a9b75f07cf3501c627508e2a5f33c3005d509",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/cancel-08/recovered/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/cancel-08/recovered/query/result.json",
+      "original_sha256": "bcdfebeabb56a2253b0285613ae5b036e6be34c787d6c8467428e30f945dd53b",
+      "published_sha256": "bcdfebeabb56a2253b0285613ae5b036e6be34c787d6c8467428e30f945dd53b",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/cancel-09/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/cancel-09/build.json",
+      "original_sha256": "15936e6b77f48cf81adf3cb7d02a88e97b449eda36e2942f9ab3a5ee2535cad8",
+      "published_sha256": "15936e6b77f48cf81adf3cb7d02a88e97b449eda36e2942f9ab3a5ee2535cad8",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/cancel-09/recovered/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/cancel-09/recovered/build.json",
+      "original_sha256": "e1f9b29c2dd865a357154667c98f98bde0978bfa549033ca2f1c435d16425c7c",
+      "published_sha256": "e1f9b29c2dd865a357154667c98f98bde0978bfa549033ca2f1c435d16425c7c",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/cancel-09/recovered/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/cancel-09/recovered/query/result.json",
+      "original_sha256": "fb47fd8820455810e1bd95bbb97de4e6ddb9bcdaeef783b81151597173dbf6e7",
+      "published_sha256": "fb47fd8820455810e1bd95bbb97de4e6ddb9bcdaeef783b81151597173dbf6e7",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/error-00/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/error-00/build.json",
+      "original_sha256": "3ff265024288ae55e1cb4a657876cb505f285c581ed1aa5c1d9b245680781ff9",
+      "published_sha256": "3ff265024288ae55e1cb4a657876cb505f285c581ed1aa5c1d9b245680781ff9",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/error-00/recovered/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/error-00/recovered/build.json",
+      "original_sha256": "f3dbd48263a99de44ee9dc857341fed8c99e909be513ca72d314a2e693883d44",
+      "published_sha256": "f3dbd48263a99de44ee9dc857341fed8c99e909be513ca72d314a2e693883d44",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/error-00/recovered/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/error-00/recovered/query/result.json",
+      "original_sha256": "9edf52efc3ad2edbbd96374890776ed0cc70ad23a94f52be62a69b273176d310",
+      "published_sha256": "9edf52efc3ad2edbbd96374890776ed0cc70ad23a94f52be62a69b273176d310",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/error-01/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/error-01/build.json",
+      "original_sha256": "209a6d4061898a06e73de2ec7309c75d119fe1cad0183598c77fd24c4d8f8bd4",
+      "published_sha256": "209a6d4061898a06e73de2ec7309c75d119fe1cad0183598c77fd24c4d8f8bd4",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/error-01/recovered/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/error-01/recovered/build.json",
+      "original_sha256": "3e01e75cad53c88a02d1e5443e00cb289f22b74bce6ac95c9ed84e493995938b",
+      "published_sha256": "3e01e75cad53c88a02d1e5443e00cb289f22b74bce6ac95c9ed84e493995938b",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/error-01/recovered/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/error-01/recovered/query/result.json",
+      "original_sha256": "7442ca818958e34d6b3e005e77760c435fe4c0c7631a19369ddc9351542407ca",
+      "published_sha256": "7442ca818958e34d6b3e005e77760c435fe4c0c7631a19369ddc9351542407ca",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/error-02/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/error-02/build.json",
+      "original_sha256": "dff9b0499915c53f62fb592fa8e245b38628e2af325973b82c909eb4ebdbc3fc",
+      "published_sha256": "dff9b0499915c53f62fb592fa8e245b38628e2af325973b82c909eb4ebdbc3fc",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/error-02/recovered/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/error-02/recovered/build.json",
+      "original_sha256": "f368699cdcaf097e2b6b212282cfd376accde0a285e98906d35a36a7440ac83a",
+      "published_sha256": "f368699cdcaf097e2b6b212282cfd376accde0a285e98906d35a36a7440ac83a",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/error-02/recovered/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/error-02/recovered/query/result.json",
+      "original_sha256": "9e1b59051847d9362e808ac84cecf46f0c61624edeacc1172fd7ca18ea6b4f25",
+      "published_sha256": "9e1b59051847d9362e808ac84cecf46f0c61624edeacc1172fd7ca18ea6b4f25",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/error-03/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/error-03/build.json",
+      "original_sha256": "eb20a53b8663572b1b93a9bf888c412b5ea4baf131fe50a43bf26eed2891e39e",
+      "published_sha256": "eb20a53b8663572b1b93a9bf888c412b5ea4baf131fe50a43bf26eed2891e39e",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/error-03/recovered/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/error-03/recovered/build.json",
+      "original_sha256": "b10bc919b848d27f34bd789729b289df4eec963ff75d5e9fbb2b33b030a24a87",
+      "published_sha256": "b10bc919b848d27f34bd789729b289df4eec963ff75d5e9fbb2b33b030a24a87",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/error-03/recovered/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/error-03/recovered/query/result.json",
+      "original_sha256": "e00156f3445b526404c002322689a669cc7915afc45ab76d1d7245ea09d4f9b4",
+      "published_sha256": "e00156f3445b526404c002322689a669cc7915afc45ab76d1d7245ea09d4f9b4",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/error-04/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/error-04/build.json",
+      "original_sha256": "3ff265024288ae55e1cb4a657876cb505f285c581ed1aa5c1d9b245680781ff9",
+      "published_sha256": "3ff265024288ae55e1cb4a657876cb505f285c581ed1aa5c1d9b245680781ff9",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/error-04/recovered/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/error-04/recovered/build.json",
+      "original_sha256": "a7e360daee360aad34b50af6660c3bb99117869cd72ba25f6d283af32f79cd01",
+      "published_sha256": "a7e360daee360aad34b50af6660c3bb99117869cd72ba25f6d283af32f79cd01",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/error-04/recovered/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/error-04/recovered/query/result.json",
+      "original_sha256": "e6a7e326e2ad256b1e50ead4995339a7827baac992c59a3a5e680f31f85dc790",
+      "published_sha256": "e6a7e326e2ad256b1e50ead4995339a7827baac992c59a3a5e680f31f85dc790",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/error-05/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/error-05/build.json",
+      "original_sha256": "c4fbbeb7573c5a9af8dca9df90d106fe088e364f3b6faf7bacc873c80005ea73",
+      "published_sha256": "c4fbbeb7573c5a9af8dca9df90d106fe088e364f3b6faf7bacc873c80005ea73",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/error-05/recovered/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/error-05/recovered/build.json",
+      "original_sha256": "6bfcad28c7a8d57674243cee8a0ef6da874a4a824bc4ba034ec80ff236471609",
+      "published_sha256": "6bfcad28c7a8d57674243cee8a0ef6da874a4a824bc4ba034ec80ff236471609",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/error-05/recovered/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/error-05/recovered/query/result.json",
+      "original_sha256": "4f1b8ec95aa45ba09a1a40eb948c4295dfaa63b5ca13ca37b6d0d1eaff0f4ee9",
+      "published_sha256": "4f1b8ec95aa45ba09a1a40eb948c4295dfaa63b5ca13ca37b6d0d1eaff0f4ee9",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/error-06/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/error-06/build.json",
+      "original_sha256": "d76bf89ea1441c9bb19f836ea8434164b1043bc78ccf3db338f4beed27f1839f",
+      "published_sha256": "d76bf89ea1441c9bb19f836ea8434164b1043bc78ccf3db338f4beed27f1839f",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/error-06/recovered/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/error-06/recovered/build.json",
+      "original_sha256": "f72064b55cecb28ebc3e6f8c133b4601c3b22a64cd731df3a9deaa4d593ba172",
+      "published_sha256": "f72064b55cecb28ebc3e6f8c133b4601c3b22a64cd731df3a9deaa4d593ba172",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/error-06/recovered/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/error-06/recovered/query/result.json",
+      "original_sha256": "46f788946fdd6449d99cbd41c7c5b21b5e3aea6ca3f20db0f3232de974fcef4e",
+      "published_sha256": "46f788946fdd6449d99cbd41c7c5b21b5e3aea6ca3f20db0f3232de974fcef4e",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/error-07/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/error-07/build.json",
+      "original_sha256": "df30edf0601346e958f7164907530c74fecfcb0e5bc41404c9524cf4db2d66ea",
+      "published_sha256": "df30edf0601346e958f7164907530c74fecfcb0e5bc41404c9524cf4db2d66ea",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/error-07/recovered/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/error-07/recovered/build.json",
+      "original_sha256": "b6bd01214726c086164987810220a91bff79e4acd9986452fba50700aba18029",
+      "published_sha256": "b6bd01214726c086164987810220a91bff79e4acd9986452fba50700aba18029",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/error-07/recovered/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/error-07/recovered/query/result.json",
+      "original_sha256": "bb512f21e05ed12b20091bc06f6b5eeaa7b80097d03255e4d9917b41836f462c",
+      "published_sha256": "bb512f21e05ed12b20091bc06f6b5eeaa7b80097d03255e4d9917b41836f462c",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/error-08/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/error-08/build.json",
+      "original_sha256": "3ff265024288ae55e1cb4a657876cb505f285c581ed1aa5c1d9b245680781ff9",
+      "published_sha256": "3ff265024288ae55e1cb4a657876cb505f285c581ed1aa5c1d9b245680781ff9",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/error-08/recovered/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/error-08/recovered/build.json",
+      "original_sha256": "05d8363efc6ff32ddceeb7f679dfbdef4ee863fc11565c2b6f8f137795583dc3",
+      "published_sha256": "05d8363efc6ff32ddceeb7f679dfbdef4ee863fc11565c2b6f8f137795583dc3",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/error-08/recovered/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/error-08/recovered/query/result.json",
+      "original_sha256": "784b1e3819eb0f01f0056e0641218fd7fca4c6372f59329066eb34fd2a076043",
+      "published_sha256": "784b1e3819eb0f01f0056e0641218fd7fca4c6372f59329066eb34fd2a076043",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/error-09/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/error-09/build.json",
+      "original_sha256": "85e3dc07831323754346c2e4e18f7f46625ad5d508bd9382e283e9854d0a599f",
+      "published_sha256": "85e3dc07831323754346c2e4e18f7f46625ad5d508bd9382e283e9854d0a599f",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/error-09/recovered/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/error-09/recovered/build.json",
+      "original_sha256": "8d22e0624ccda473f4fb821d31c329da8c6d2c55fe10f463663248b519a6b232",
+      "published_sha256": "8d22e0624ccda473f4fb821d31c329da8c6d2c55fe10f463663248b519a6b232",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/error-09/recovered/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/error-09/recovered/query/result.json",
+      "original_sha256": "1df51bda93d7e4d34b6640a0fc0225f1f9b641989cb1e7f622f9496b0080f33f",
+      "published_sha256": "1df51bda93d7e4d34b6640a0fc0225f1f9b641989cb1e7f622f9496b0080f33f",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/faults.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/faults.json",
+      "original_sha256": "a98d84467fb2283d0c6b6bc9d52708d6255faaa8a2ecbf96aba4bf6b32376960",
+      "published_sha256": "a98d84467fb2283d0c6b6bc9d52708d6255faaa8a2ecbf96aba4bf6b32376960",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/reset-00/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/reset-00/build.json",
+      "original_sha256": "3ff265024288ae55e1cb4a657876cb505f285c581ed1aa5c1d9b245680781ff9",
+      "published_sha256": "3ff265024288ae55e1cb4a657876cb505f285c581ed1aa5c1d9b245680781ff9",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/reset-00/recovered/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/reset-00/recovered/build.json",
+      "original_sha256": "c83a70b33e1378914892a1e667d7f7c5dd764d88064ea6e72426baf0917ecc8c",
+      "published_sha256": "c83a70b33e1378914892a1e667d7f7c5dd764d88064ea6e72426baf0917ecc8c",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/reset-00/recovered/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/reset-00/recovered/query/result.json",
+      "original_sha256": "cd00d91e763cc7f9782acdef403bfe414d481b5bb354ecfb29b173b0007dc590",
+      "published_sha256": "cd00d91e763cc7f9782acdef403bfe414d481b5bb354ecfb29b173b0007dc590",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/reset-01/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/reset-01/build.json",
+      "original_sha256": "dd8a774de510d17035700f9645244b78d05acd3500dc3cf832a015b489453a7a",
+      "published_sha256": "dd8a774de510d17035700f9645244b78d05acd3500dc3cf832a015b489453a7a",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/reset-01/recovered/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/reset-01/recovered/build.json",
+      "original_sha256": "d135a556ff96d704ecd6c26c2b07de7f0815900d12dbfedf3e0e4caeb12fa61c",
+      "published_sha256": "d135a556ff96d704ecd6c26c2b07de7f0815900d12dbfedf3e0e4caeb12fa61c",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/reset-01/recovered/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/reset-01/recovered/query/result.json",
+      "original_sha256": "8f6abb60ebacc5e148be32c1a01f66232501b2e1d358603e5da4e600191522aa",
+      "published_sha256": "8f6abb60ebacc5e148be32c1a01f66232501b2e1d358603e5da4e600191522aa",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/reset-02/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/reset-02/build.json",
+      "original_sha256": "d1d46b7d9efa40b793da491c99be15010f211e99c39c580c9b0b181510755ae5",
+      "published_sha256": "d1d46b7d9efa40b793da491c99be15010f211e99c39c580c9b0b181510755ae5",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/reset-02/recovered/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/reset-02/recovered/build.json",
+      "original_sha256": "af7e2455f07084b8b55cb75e54f2a664cfb38b102f5865ab5d837bb0e15533f9",
+      "published_sha256": "af7e2455f07084b8b55cb75e54f2a664cfb38b102f5865ab5d837bb0e15533f9",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/reset-02/recovered/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/reset-02/recovered/query/result.json",
+      "original_sha256": "8b55ea7a7ad2d0354b46f28629684ef59d025be162f95a5c7994b2db9eb09e70",
+      "published_sha256": "8b55ea7a7ad2d0354b46f28629684ef59d025be162f95a5c7994b2db9eb09e70",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/reset-03/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/reset-03/build.json",
+      "original_sha256": "236382747157d30ee0c0024fd3388b5e1ce6d259c9088d0420318dece53444a6",
+      "published_sha256": "236382747157d30ee0c0024fd3388b5e1ce6d259c9088d0420318dece53444a6",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/reset-03/recovered/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/reset-03/recovered/build.json",
+      "original_sha256": "9b516898d6a7b769d68838a4074955147829ec86bb6641b032f86364ae606e6a",
+      "published_sha256": "9b516898d6a7b769d68838a4074955147829ec86bb6641b032f86364ae606e6a",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/reset-03/recovered/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/reset-03/recovered/query/result.json",
+      "original_sha256": "c1afbdc5b26ac90c430c7f3f769bce48bc4b743753f0033fec0b72ef23b0be65",
+      "published_sha256": "c1afbdc5b26ac90c430c7f3f769bce48bc4b743753f0033fec0b72ef23b0be65",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/reset-04/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/reset-04/build.json",
+      "original_sha256": "3ff265024288ae55e1cb4a657876cb505f285c581ed1aa5c1d9b245680781ff9",
+      "published_sha256": "3ff265024288ae55e1cb4a657876cb505f285c581ed1aa5c1d9b245680781ff9",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/reset-04/recovered/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/reset-04/recovered/build.json",
+      "original_sha256": "6314954be130d99ad63005488f4777a9beb8a005d4088aac72890ace37eff21c",
+      "published_sha256": "6314954be130d99ad63005488f4777a9beb8a005d4088aac72890ace37eff21c",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/reset-04/recovered/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/reset-04/recovered/query/result.json",
+      "original_sha256": "02360eabfd068c9ff0d28312515a9ebcf37c17708203734d2e62e70493a24c7f",
+      "published_sha256": "02360eabfd068c9ff0d28312515a9ebcf37c17708203734d2e62e70493a24c7f",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/reset-05/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/reset-05/build.json",
+      "original_sha256": "477cba4beb3e6b3413549c4298403d7fbc0c72e06ebe524d3bb6de5d23f95917",
+      "published_sha256": "477cba4beb3e6b3413549c4298403d7fbc0c72e06ebe524d3bb6de5d23f95917",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/reset-05/recovered/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/reset-05/recovered/build.json",
+      "original_sha256": "f441efbd1a56a081c0e7abaf0266a8884c0bae7f11859f601481a1711a270fee",
+      "published_sha256": "f441efbd1a56a081c0e7abaf0266a8884c0bae7f11859f601481a1711a270fee",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/reset-05/recovered/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/reset-05/recovered/query/result.json",
+      "original_sha256": "be1e4fc50bf57abbad6be2ee4b8185ca1665860a53527574843e11828b17e374",
+      "published_sha256": "be1e4fc50bf57abbad6be2ee4b8185ca1665860a53527574843e11828b17e374",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/reset-06/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/reset-06/build.json",
+      "original_sha256": "950a5b05c566b9f3e22bcb779eeba1ead8a62e4729a8b065e2947976bd0a0bd0",
+      "published_sha256": "950a5b05c566b9f3e22bcb779eeba1ead8a62e4729a8b065e2947976bd0a0bd0",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/reset-06/recovered/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/reset-06/recovered/build.json",
+      "original_sha256": "954dfa0cd529b04453ac81d7485f001daf668d777bbac2add2dbc57b6053106f",
+      "published_sha256": "954dfa0cd529b04453ac81d7485f001daf668d777bbac2add2dbc57b6053106f",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/reset-06/recovered/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/reset-06/recovered/query/result.json",
+      "original_sha256": "80e4d877758d2ef6666cdce282739018f3f1e2d5e8a104cfb0bd09b1f9052153",
+      "published_sha256": "80e4d877758d2ef6666cdce282739018f3f1e2d5e8a104cfb0bd09b1f9052153",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/reset-07/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/reset-07/build.json",
+      "original_sha256": "bb2c5092bff017daa38b2465ccdaa394ab74eb836fca79467105ae883c2e27c0",
+      "published_sha256": "bb2c5092bff017daa38b2465ccdaa394ab74eb836fca79467105ae883c2e27c0",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/reset-07/recovered/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/reset-07/recovered/build.json",
+      "original_sha256": "7058ab707bc03749815c65e545eb5664a26d71f37d97e9e39a99d8b9d2b5f271",
+      "published_sha256": "7058ab707bc03749815c65e545eb5664a26d71f37d97e9e39a99d8b9d2b5f271",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/reset-07/recovered/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/reset-07/recovered/query/result.json",
+      "original_sha256": "84688c72cacfbfafef311cecf58b2f7134d3ec077335fcb18a6e665ce26705a6",
+      "published_sha256": "84688c72cacfbfafef311cecf58b2f7134d3ec077335fcb18a6e665ce26705a6",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/reset-08/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/reset-08/build.json",
+      "original_sha256": "3ff265024288ae55e1cb4a657876cb505f285c581ed1aa5c1d9b245680781ff9",
+      "published_sha256": "3ff265024288ae55e1cb4a657876cb505f285c581ed1aa5c1d9b245680781ff9",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/reset-08/recovered/build.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/reset-08/recovered/build.json",
+      "original_sha256": "2705e40fa04f7c76e28cfeaf557550c1f84617527ece1207fe194ddad71d2d4c",
+      "published_sha256": "2705e40fa04f7c76e28cfeaf557550c1f84617527ece1207fe194ddad71d2d4c",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/faults/reset-08/recovered/query/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/faults/reset-08/recovered/query/result.json",
+      "original_sha256": "8eace0e4711d54b4067ad3ee22ad7a9f45887753650c62b5305d22dfdc9a30c1",
+      "published_sha256": "8eace0e4711d54b4067ad3ee22ad7a9f45887753650c62b5305d22dfdc9a30c1",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/suite/summary.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/snapshots/board-suite-v3/summary.json",
+      "original_sha256": "a6dcc843a85dce15a4878460f00c089be9a02a3b15c8cdf862c610fb539ea129",
+      "published_sha256": "a6dcc843a85dce15a4878460f00c089be9a02a3b15c8cdf862c610fb539ea129",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/continuous-audit/check.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/check.json",
+      "original_sha256": "990a83c0c144ca46bbe013a370c2c6eeb6490582cac91bbfb7251fbfb7cf7d24",
+      "published_sha256": "990a83c0c144ca46bbe013a370c2c6eeb6490582cac91bbfb7251fbfb7cf7d24",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/continuous-audit/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/local-verification.json",
+      "original_sha256": "8d38d2b701abd3f4d10e6b743bc0da318a42180f811e44304277f9f8b16b6072",
+      "published_sha256": "8d38d2b701abd3f4d10e6b743bc0da318a42180f811e44304277f9f8b16b6072",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/continuous-audit/verify_original.py",
+      "source": "build/reproduction/g3-board-final-20261107/status-check-20261108-v4/verify_local.py",
+      "original_sha256": "4e11a7c14b7111c9828a2684cc82b99a41042bb71802d810c38b30954c81288b",
+      "published_sha256": "4e11a7c14b7111c9828a2684cc82b99a41042bb71802d810c38b30954c81288b",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/fault-audit/check.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/check.json",
+      "original_sha256": "953253e34c066d9ddfa7c1bce8a4fb3c88af4a59a59caa14f8920261ec1c8bef",
+      "published_sha256": "953253e34c066d9ddfa7c1bce8a4fb3c88af4a59a59caa14f8920261ec1c8bef",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/fault-audit/result.json",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/local-verification.json",
+      "original_sha256": "25b2c1bc293d316cb11df69af60d911173daf5bc2d78528ce7e777442e002747",
+      "published_sha256": "25b2c1bc293d316cb11df69af60d911173daf5bc2d78528ce7e777442e002747",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/fault-audit/verify_original.py",
+      "source": "build/reproduction/g3-board-final-20261107/publication-check-20261108/verify_local.py",
+      "original_sha256": "95fc75a850badd7a84a82b02b6937131f47ced3ff7b5f25aab9fa196e54d1cec",
+      "published_sha256": "95fc75a850badd7a84a82b02b6937131f47ced3ff7b5f25aab9fa196e54d1cec",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/presentation/selected-raw-verification.json",
+      "source": "build/reproduction/recording-20261108/selected-raw-verification.json",
+      "original_sha256": "78ae5878b37f6a1d607976cb70684e3cfee14b2a5aa06c5e05eeafb21d9d4a60",
+      "published_sha256": "78ae5878b37f6a1d607976cb70684e3cfee14b2a5aa06c5e05eeafb21d9d4a60",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/presentation/token-display-report.json",
+      "source": "build/reproduction/recording-20261108/token-display-report.json",
+      "original_sha256": "3a497b6c9ef25cf59c92b994155c205f159c448f4d5c55969c89ce7bb77cad6c",
+      "published_sha256": "42cec971a313898e1d77a93daa1b11abf18d10aa806339051a3c46fbae7e3a3b",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/presentation/offline-check-summary.json",
+      "source": "build/reproduction/recording-20261108/offline-check-summary.json",
+      "original_sha256": "747df023898b5abe4d926b7fb76fe6ff3a1613bd1287a83837e0e595b3795a61",
+      "published_sha256": "747df023898b5abe4d926b7fb76fe6ff3a1613bd1287a83837e0e595b3795a61",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
+    },
+    {
+      "path": "evidence/board-20261108/presentation/report-command-fix.json",
+      "source": "build/reproduction/recording-20261108/named-report-fix-v1/summary.json",
+      "original_sha256": "6b0c57887c9fd8cb7b71cf47a46d9ec7189b4dfa129ce1f4f9a7720bec0439cb",
+      "published_sha256": "6b0c57887c9fd8cb7b71cf47a46d9ec7189b4dfa129ce1f4f9a7720bec0439cb",
+      "normalization": "workspace/host/device labels normalized; site platform config and connection metadata omitted; numeric values retained"
     }
   ]
 }

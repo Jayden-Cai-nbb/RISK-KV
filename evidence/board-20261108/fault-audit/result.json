@@ -1,0 +1,14 @@
+{
+  "status": "passed_local_completed_fault_audit",
+  "completed": {
+    "cancel": 10,
+    "error": 10,
+    "reset": 9
+  },
+  "raw_files_checked": 151,
+  "raw_bytes_checked": 1952683008,
+  "snapshots_checked": 91,
+  "frozen_inputs_checked": 118,
+  "board_acceptance_passed": false,
+  "scope": "Completed fault recoveries only; full fault matrix, benchmark, isolation and acceptance remain pending."
+}

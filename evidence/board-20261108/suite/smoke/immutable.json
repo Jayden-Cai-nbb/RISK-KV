@@ -1,0 +1,53 @@
+{
+  "status": "passed_all_declared_immutable_regions",
+  "regions": [
+    {
+      "name": "immutable",
+      "address": 9216,
+      "bytes": 4096,
+      "sha256": "2bb6f8c37a1a33a8f3ead0d4e1b23ce5c5265b71e22ad2c885bbbbaa751f9377"
+    },
+    {
+      "name": "immutable",
+      "address": 1359872,
+      "bytes": 1227929216,
+      "sha256": "8664cac9863ba6137616247da1073759c328588da25b83f8794302faf15ba082"
+    },
+    {
+      "name": "program-build",
+      "address": 1610612736,
+      "bytes": 32832,
+      "sha256": "9a3cc5083698bea455852f9aab65ea82e6eb3591bc9372a14d3d945f2a9a0542"
+    },
+    {
+      "name": "program-decode",
+      "address": 1610678272,
+      "bytes": 32128,
+      "sha256": "f9a810f26e2c318a55577f102d96b9d43bdfb574d418358a7d5c436e426da618"
+    },
+    {
+      "name": "scratch-template-0",
+      "address": 1627389952,
+      "bytes": 9216,
+      "sha256": "2d07a41ae992770085117e9815300bfd0730745883e60b24aaad5e69dfc087ae"
+    },
+    {
+      "name": "scratch-template-1",
+      "address": 1627399168,
+      "bytes": 1346560,
+      "sha256": "7ff3bf7cef1d7f245b972d7c029e861f223d57ce977cca303ed5261023c36cf4"
+    },
+    {
+      "name": "scratch-template-2",
+      "address": 1628745728,
+      "bytes": 3934592,
+      "sha256": "ab1a3a79a984efcf6736dffd92335dffb943873294b7adb132695848914a05bb"
+    },
+    {
+      "name": "unused-kv-pool",
+      "address": 1248362496,
+      "bytes": 253296640,
+      "sha256": "8bcefee85b3f70617410bea1790befca9d11fb4921282b37396bd5543104ecd5"
+    }
+  ]
+}

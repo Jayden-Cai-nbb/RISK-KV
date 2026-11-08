@@ -1,0 +1,61 @@
+{
+  "status": "passed_four_token_full_kv",
+  "command": "smoke",
+  "started_at": "2026-11-07T17:36:24.752658+00:00",
+  "hardware": {
+    "part": "xcvu440-flga2892-1-c",
+    "logical_bytes": 2147483648,
+    "core_hz": 50000000,
+    "fast_hz": 100000000,
+    "vivado_version": "2022.2",
+    "bit_sha256": "a3cb400693f7159b572d6b335922cae414ca9f80f8a923326d607336cd9a122c",
+    "ltx_sha256": "8e6b35286a5177b405fb28738bf83a1b7d89a7e5b2c34543ba9f8587635a42aa",
+    "validation_profile": "experimental_m1",
+    "vendor_supported": false,
+    "unsupported_reasons": [
+      "MIG_PFD_48MHZ",
+      "MODULE_TIMINGS_UNCONFIRMED",
+      "PHYSICAL_SPEED_GRADE_UNCONFIRMED"
+    ],
+    "firmware_sha256": "cb65c9e9591338cb6865d90cf0af7252f5ccc060ab3688cea3e25331215c2a8f",
+    "backend_kind": "hardware",
+    "device_id": "BOARD_DEVICE",
+    "ddr_capacity_bytes": 2147483648,
+    "ddr_calibrated": true,
+    "clock_phase_verified": true,
+    "abi_magic": 1380668980,
+    "layout_version": 1,
+    "firmware_mode": "mailbox",
+    "firmware_identity_source": "paired bit/source manifest; not a direct runtime BRAM digest"
+  },
+  "platform_sha256": "afe69130e423a67f2f6a373996ee4101bb70c40876b1cad78c163155db2a1f59",
+  "layout_sha256": "cb2fa2bf04bf3190b9129b2e3bdc823ea3c552d0914309c26ec2375d135fef15",
+  "driver_sha256": "f357e94ae0b48037b2d75cf1853cb4d8aec2afd935b3e72185186e1ab0a05bb6",
+  "reference_sha256": "0df4ef2b85c5d417b977e24d7c55e42fa4492a48406828608b3a969e2c469c06",
+  "run_id": "board-suite-v3-08997e21a599",
+  "board_acceptance_passed": false,
+  "valid_kv_bytes": 236544,
+  "finished_at": "2026-11-07T18:22:31.139850+00:00",
+  "files": [
+    {
+      "path": "build.json",
+      "bytes": 2451,
+      "sha256": "6cad2d63ad2aa6278d78787bb82a5f424e7c4b490e7d1579aa06b31d5c64795c"
+    },
+    {
+      "path": "built-prefix.bin",
+      "bytes": 15138816,
+      "sha256": "23cf98b2bff28698e10235408f3dbb743680779a0d50eef1aff6998615cd7bd4"
+    },
+    {
+      "path": "immutable.json",
+      "bytes": 1510,
+      "sha256": "f0611f948a0918373a71a1277249e7ab3fb1682a71c1737cd90c80f93fc90fc1"
+    },
+    {
+      "path": "reference-input.json",
+      "bytes": 3527,
+      "sha256": "0df4ef2b85c5d417b977e24d7c55e42fa4492a48406828608b3a969e2c469c06"
+    }
+  ]
+}

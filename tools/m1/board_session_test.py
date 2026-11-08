@@ -75,9 +75,11 @@ def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--script',type=Path,required=True);p.add_argument('--tclsh',type=Path,required=True);p.add_argument('--output',type=Path,required=True);a=p.parse_args();a.output.mkdir(parents=True,exist_ok=False)
     source=a.script.read_text();line='source [file join [file dirname [info script]] vio_access.tcl]';assert source.count(line)==1
     harness=a.output/'mock.tcl';harness.write_text(MOCK+'\n'+source.replace(line,''));(a.output/'source.tcl').write_text(source)
-    data=bytes((i*73+17)&255 for i in range(16384))
+    data=hashlib.shake_256(b"RKV variable-burst regression v1").digest(16384)
     payload=''.join(f'{int.from_bytes(data[i:i+8],"little"):016x}' for i in reversed(range(0,len(data),8)))
-    commands=f'1 BWRITE 00000ff8 {len(data)} {payload}\n2 BREAD 00000ff8 {len(data)} -\n3 VIO\n4 VCTL aa04\n5 LOSS 3\n6 BREAD 7ffffff8 16 -\n7 VIO\n8 QSTATUS\n9 CLOSE\n'
+    large=hashlib.shake_256(b'RKV 1MiB framing regression v1').digest(1<<20)
+    large_payload=''.join(f'{int.from_bytes(large[i:i+8],"little"):016x}' for i in reversed(range(0,len(large),8)))
+    commands=f'1 BWRITE 00000ff8 {len(data)} {payload}\n2 BREAD 00000ff8 {len(data)} -\n3 VIO\n4 VCTL aa04\n5 LOSS 3\n6 BREAD 7ffffff8 16 -\n7 VIO\n8 QSTATUS\n9 BWRITE 00100ff8 {len(large)} {large_payload}\n10 BREAD 00100ff8 {len(large)} -\n11 BWRITE 00100ff8 {len(large)} {large_payload[:-1]}z\n12 BREAD 00100ff8 {len(large)} -\n13 CLOSE\n'
     (a.output/'stdin.txt').write_text(commands)
     result=subprocess.run([str(a.tclsh),str(harness.resolve())],input=commands,text=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,cwd=a.output,timeout=30)
     (a.output/'stdout.log').write_text(result.stdout)
@@ -88,13 +90,15 @@ def main():
             if line.startswith('RKVJTAG '):
                 _,nonce,number,status,raw=line.split(' ',4);rows[int(number)]=(status,bytes.fromhex(raw).decode())
         assert rows[8]==('OK','00000009')
-        assert result.returncode==0 and set(rows)==set(range(10)),result.stdout[-2000:]
+        assert result.returncode==0 and set(rows)==set(range(14)),result.stdout[-2000:]
         for number in (1,2):assert rows[number]==('OK',payload)
         for number in (0,3,4,7):
             values=rows[number][1].split();assert len(values)==10
             for port,raw in enumerate(values[4:],4):assert int(raw,16)==(1<<255)|(1<<128)|(port<<64)|0x123456789abcdef
-        assert rows[6][0]=='ERROR' and rows[7][0]=='OK' and rows[9]==('OK','closed')
-        report.update(status='passed',scenarios=['cross-4KiB batch write/read and word order','256-bit snapshot high bits','control/snapshot handshake','loss control width','range error followed by valid RPC','independent DDR status sample'])
+        assert rows[6][0]=='ERROR' and rows[7][0]=='OK' and rows[13]==('OK','closed')
+        for number in (9,10,12):assert rows[number]==('OK',large_payload)
+        assert rows[11]==('ERROR','Invalid bulk payload')
+        report.update(status='passed',scenarios=['cross-4KiB batch write/read and word order','256-bit snapshot high bits','control/snapshot handshake','loss control width','range error followed by valid RPC','independent DDR status sample','1MiB variable-data cross-boundary write/read','invalid final hex character rejected before any write'])
     finally:(a.output/'summary.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps(report))
 if __name__=='__main__':main()

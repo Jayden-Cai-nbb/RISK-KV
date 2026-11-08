@@ -1,0 +1,56 @@
+{
+  "status": "passed_scoped_checks",
+  "snapshot": "2026-11-08-board-evidence",
+  "hardware_actions": [],
+  "checks": [
+    {
+      "name": "actual_board_rpc_tcl_mock",
+      "status": "passed",
+      "scenarios": [
+        "cross-4KiB batch write/read and word order",
+        "256-bit snapshot high bits",
+        "control/snapshot handshake",
+        "loss control width",
+        "range error followed by valid RPC",
+        "independent DDR status sample",
+        "1MiB variable-data cross-boundary write/read",
+        "invalid final hex character rejected before any write"
+      ],
+      "source_sha256": "693572f9aea39e2dc0704a539575428d5f8db9cd0544f18c033ac26543450b3f",
+      "environment": "board server Tcl 8.x; same published Tcl bytes"
+    },
+    {
+      "name": "host_transport_unit",
+      "status": "passed",
+      "tests": 10
+    },
+    {
+      "name": "published_raw_sample_byte_comparison",
+      "status": "passed",
+      "files": 16,
+      "bytes": 268299264
+    },
+    {
+      "name": "published_token_decoding",
+      "status": "passed",
+      "lanes": 4
+    },
+    {
+      "name": "offline_report_commands",
+      "status": "passed_in_batch",
+      "gui_visually_checked": false,
+      "limitation": "GUI startup on private Xvfb did not complete; batch ignores -name. Hierarchical report now omits -name."
+    },
+    {
+      "name": "completed_fault_raw_digest_reference_check",
+      "status": "passed",
+      "cancel": 10,
+      "error": 10,
+      "reset": 9,
+      "files": 151,
+      "bytes": 1952683008
+    }
+  ],
+  "whole_board_acceptance": false,
+  "notes": "Initial local Tcl mock could not start because /usr/bin/tclsh was absent; identical published Tcl was tested successfully on the board server without hardware access. Initial publication render emitted font-cache warnings; SVG/PDF generation exited 0."
+}

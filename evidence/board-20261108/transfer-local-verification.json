@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "files": 65,
+  "archive_sha256": "f637ddcb1895c82a5b931b76679594f41c3f629c39aef3a06836f9dbec61d3ac",
+  "raw_bulk_operations": {
+    "BWRITE": 32,
+    "BREAD": 32
+  },
+  "independent_readback_bytes": 33554432,
+  "scope": "32MiB transport regression; not NPU acceptance"
+}

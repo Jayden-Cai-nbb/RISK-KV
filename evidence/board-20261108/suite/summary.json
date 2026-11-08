@@ -1,0 +1,29 @@
+{
+  "status": "running",
+  "run_id": "board-suite-v3-08997e21a599",
+  "started_at": "2026-11-07T15:59:09.756953+00:00",
+  "stages": [
+    {
+      "name": "ddr",
+      "status": "passed_ddr_subset",
+      "report_sha256": "70d4b1c92cc80a506ca270e4b7cd3c46d92192111feecb651e6d15b699e40632"
+    },
+    {
+      "name": "load",
+      "status": "image_loaded_and_verified",
+      "report_sha256": "d949b6968ab2db1bedee17f85499eaa39802851f5595136de185271611f4ac5d"
+    },
+    {
+      "name": "smoke",
+      "status": "passed_four_token_full_kv",
+      "report_sha256": "d21a2d5826f54016303c4345823cf16546bc9d5dc3c6d134673bc188b9288f1d"
+    },
+    {
+      "name": "continuous",
+      "status": "passed_continuous_subset",
+      "report_sha256": "b9b29579e53032d14ae13faf56fcccdd866434a31d144468c51e3f54b8b3fc1b"
+    }
+  ],
+  "board_acceptance_passed": false,
+  "current_stage": "faults"
+}

@@ -1,0 +1,156 @@
+{
+  "validation_profile": "experimental_m1",
+  "vendor_supported": false,
+  "unsupported_reasons": [
+    "MIG_PFD_48MHZ",
+    "MODULE_TIMINGS_UNCONFIRMED",
+    "PHYSICAL_SPEED_GRADE_UNCONFIRMED"
+  ],
+  "part": "xcvu440-flga2892-1-c",
+  "vivado_version": "2022.2",
+  "experiment_id": 15727061351763491938,
+  "bit_sha256": "a3cb400693f7159b572d6b335922cae414ca9f80f8a923326d607336cd9a122c",
+  "ltx_sha256": "8e6b35286a5177b405fb28738bf83a1b7d89a7e5b2c34543ba9f8587635a42aa",
+  "firmware_sha256": "cb65c9e9591338cb6865d90cf0af7252f5ccc060ab3688cea3e25331215c2a8f",
+  "status": "reviewed_passed",
+  "review_scope": "experimental final-bit DDR qualification and model validation admission",
+  "setup_slack_ns": 0.302,
+  "hold_slack_ns": 0.013,
+  "unconstrained_required_paths": 0,
+  "unresolved_cdc": 0,
+  "unresolved_reset": 0,
+  "drc_errors": 0,
+  "drc_critical_warnings": 0,
+  "clock_phase_verified": true,
+  "all_external_paths_reviewed": true,
+  "exceptions_have_evidence": true,
+  "source_manifest_matches": true,
+  "bit_ltx_paired": true,
+  "files": [
+    {
+      "kind": "timing_summary",
+      "path": "../g3-board-demo-20261107/build-v4/work/timing.rpt",
+      "sha256": "ba1c6f0407f6ebf3f08a10b33a5668343f449ae3dbd5554f215b5719fefa0cc7"
+    },
+    {
+      "kind": "check_timing",
+      "path": "../g3-board-demo-20261107/build-v4/work/check-timing.rpt",
+      "sha256": "56088038d95947fb35b7ba06b6a82fd83a300ff44ca410e1679acba91ea974a9"
+    },
+    {
+      "kind": "clocks",
+      "path": "../g3-board-demo-20261107/build-v4/work/clocks.rpt",
+      "sha256": "134e1021f3b96d54438c445a89854e7a688b16d939017bea5cf835b510461e4b"
+    },
+    {
+      "kind": "clock_interaction",
+      "path": "../g3-board-demo-20261107/build-v4/work/clock-interaction.rpt",
+      "sha256": "87c659c2f59cf9307d46f0086ce7f2c0aa8a37af79294ebeb814d1423ed80810"
+    },
+    {
+      "kind": "exceptions",
+      "path": "../g3-board-demo-20261107/build-v4/work/exceptions.rpt",
+      "sha256": "0cf40dcafb992d0a7385596975b2ca9f839a5521e72248da022e113ba4aac856"
+    },
+    {
+      "kind": "utilization",
+      "path": "../g3-board-demo-20261107/build-v4/work/utilization.rpt",
+      "sha256": "9adf7c377f6ca01f6b6720d07ed42cfd197a9d1761647027c6c7a000a4daa6ab"
+    },
+    {
+      "kind": "route_status",
+      "path": "../g3-board-demo-20261107/build-v4/work/route-status.rpt",
+      "sha256": "45591e0664b840ac74238ac7b7e5690cbb79326d50b45517afdfc3150529fab5"
+    },
+    {
+      "kind": "pins",
+      "path": "../g3-board-demo-20261107/build-v4/work/ports.tsv",
+      "sha256": "99cf00180b241a7c38c76b763b5261c98b4d105fa126c63a1d876f0fd24e8165"
+    },
+    {
+      "kind": "cdc",
+      "path": "bit-v1/bitgen-cdc.rpt",
+      "sha256": "253359fc26a6e5fc91bdbaeb23f69cdaa62d28c27bfdfd15b389d09e5f97e60b"
+    },
+    {
+      "kind": "drc",
+      "path": "bit-v1/bitgen-drc.rpt",
+      "sha256": "5a66230047d6965628df1f80238a8da24c6959e8286121fa55b769943c376533"
+    },
+    {
+      "kind": "reset_review",
+      "path": "physical-review.md",
+      "sha256": "56ede4e41dbd8d5908387e91ecebe69cc0829bf517e8113b0e9a9da883562e7e"
+    },
+    {
+      "kind": "source_manifest",
+      "path": "../g3-board-demo-20261107/build-v3/inputs.json",
+      "sha256": "1f1f757c04e1798fefae493d308ed5a91056a05e5f6439f6a18e2f0cd3e4d39e"
+    },
+    {
+      "kind": "physical_variant",
+      "path": "../g3-board-demo-20261107/build-v4/inputs.json",
+      "sha256": "e1f86adfed907da763c8afd9bd8f27e6cd4f5fac7b3b3c0863793b9e285a2c76"
+    },
+    {
+      "kind": "bit",
+      "path": "bit-v1/rkv-m1-board.bit",
+      "sha256": "a3cb400693f7159b572d6b335922cae414ca9f80f8a923326d607336cd9a122c"
+    },
+    {
+      "kind": "ltx",
+      "path": "bit-v1/rkv-m1-board.ltx",
+      "sha256": "8e6b35286a5177b405fb28738bf83a1b7d89a7e5b2c34543ba9f8587635a42aa"
+    },
+    {
+      "kind": "binding_checks",
+      "path": "binding-checks.json",
+      "sha256": "6db8892abed6a5039ba1e6288aa5481d5c5ac53e37d8be5fdbbd38952df7c612"
+    },
+    {
+      "kind": "endpoint_review",
+      "path": "endpoints-v1/endpoints.tsv",
+      "sha256": "c3a5538e32e255faa2e1baf5446387bb513377b2621be029928c4ac2a91a9096"
+    },
+    {
+      "kind": "clock_reset_structure",
+      "path": "../g3-board-demo-20261107/review-after-route-v1/result/structure.tsv",
+      "sha256": "24b0d573f3f2926318f67b81e504cf2d10c02d948518a7391715102103a92952"
+    },
+    {
+      "kind": "methodology",
+      "path": "../g3-board-demo-20261107/review-after-route-v1/result/methodology.rpt",
+      "sha256": "cbe44f74d6df68477500efc3b930b5e0281a889a6c81caff6fade26da1decdc2"
+    },
+    {
+      "kind": "configuration_lifetime",
+      "path": "bit-v1/configuration-lifetime.tsv",
+      "sha256": "9eb77464d9c32cd520c9bfe22f12f094ff42f10619e101b742f706f72e728bdf"
+    },
+    {
+      "kind": "endpoint_timing",
+      "path": "endpoints-v1/dram-reset-output.rpt",
+      "sha256": "3b423ce7d52c36c143868af870f7dc8669497f74b79f3a0be892fcd26d7a3c25"
+    },
+    {
+      "kind": "endpoint_timing",
+      "path": "endpoints-v1/service-entry.rpt",
+      "sha256": "d9218eff90e8aa97989e3501b0946f7ddf8647bcbf630b029bd458d6dcdf75b5"
+    },
+    {
+      "kind": "endpoint_timing",
+      "path": "endpoints-v1/fault-entry.rpt",
+      "sha256": "d5a449219b845156d0610902cf7c94920c6ea1a410a9fe3061f64945e6c93376"
+    },
+    {
+      "kind": "endpoint_timing",
+      "path": "endpoints-v1/external-reset.rpt",
+      "sha256": "dbe792bb035145f1f67c64b9145e195de7ee9529dc36df5beb8486ad5487b4b9"
+    }
+  ],
+  "retained_warnings": {
+    "cdc": 476,
+    "drc": 598
+  },
+  "board_acceptance_passed": false
+}

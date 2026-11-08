@@ -1,0 +1,85 @@
+{
+  "run_id": "board-suite-v3-08997e21a599",
+  "tokenizer_sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+  "rows": [
+    {
+      "group": "A",
+      "lane": 1,
+      "token_ids": [
+        3555,
+        374,
+        279,
+        7428
+      ],
+      "pieces": [
+        " What",
+        " is",
+        " the",
+        " purpose"
+      ],
+      "text": " What is the purpose"
+    },
+    {
+      "group": "A",
+      "lane": 2,
+      "token_ids": [
+        8429,
+        28,
+        16,
+        5373
+      ],
+      "pieces": [
+        " Why",
+        "=",
+        "1",
+        "、"
+      ],
+      "text": " Why=1、"
+    },
+    {
+      "group": "B",
+      "lane": 1,
+      "token_ids": [
+        2585,
+        311,
+        990,
+        25
+      ],
+      "pieces": [
+        " How",
+        " to",
+        " use",
+        ":"
+      ],
+      "text": " How to use:"
+    },
+    {
+      "group": "B",
+      "lane": 2,
+      "token_ids": [
+        3197,
+        28,
+        16,
+        5373
+      ],
+      "pieces": [
+        " When",
+        "=",
+        "1",
+        "、"
+      ],
+      "text": " When=1、"
+    }
+  ],
+  "source_results": [
+    {
+      "path": "${WORKSPACE}/build/reproduction/g3-board-final-20261107/board-suite-v3/continuous/batch-000/result.json",
+      "sha256": "2fbd9baa098ce71048a609ad22b7c33daf2e404c5ac7979900a6997ccd1ed1c7"
+    },
+    {
+      "path": "${WORKSPACE}/build/reproduction/g3-board-final-20261107/board-suite-v3/continuous/batch-001/result.json",
+      "sha256": "f75c55dd963d2ce37572a6a94fdc4e302f42ee8637fc12f5add72cc9e78829b1"
+    }
+  ],
+  "scope": "Text decoding of recorded board outputs; shared 256-token prefix omitted; no new NPU execution or QA quality evaluation"
+}

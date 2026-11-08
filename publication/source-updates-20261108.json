@@ -1,0 +1,32 @@
+{
+  "platform/m1/prodigy/board_session.tcl": {
+    "original_source": "platform/m1/prodigy/board_session.tcl",
+    "original_sha256": "693572f9aea39e2dc0704a539575428d5f8db9cd0544f18c033ac26543450b3f",
+    "published_sha256": "693572f9aea39e2dc0704a539575428d5f8db9cd0544f18c033ac26543450b3f",
+    "adapted": false
+  },
+  "tools/m1/board_session_test.py": {
+    "original_source": "tools/m1/board_session_test.py",
+    "original_sha256": "69715ec092e9ee7dd7b8afbd18e8aae7a57990e551c7882480767f467caef47d",
+    "published_sha256": "69715ec092e9ee7dd7b8afbd18e8aae7a57990e551c7882480767f467caef47d",
+    "adapted": false
+  },
+  "tools/presentation/inspect-implementation.tcl": {
+    "original_source": "tools/presentation/inspect-implementation.tcl",
+    "original_sha256": "cfe4907f85bf5fffa44a3c98eb21dbd329c8d9f63d598b876b51a39b2c978e1a",
+    "published_sha256": "cfe4907f85bf5fffa44a3c98eb21dbd329c8d9f63d598b876b51a39b2c978e1a",
+    "adapted": false
+  },
+  "tools/presentation/open-implementation.sh": {
+    "original_source": "tools/presentation/open-implementation.sh",
+    "original_sha256": "1cc80eeca49f7c88bc600ce3a01d04e2687c47ad0fbc3c4a0f2eec708e304c0f",
+    "published_sha256": "feaaf7173d9a468ad245cdcadf8664ebbe4ae139083931e2d780bedb4ee55dd1",
+    "adapted": true
+  },
+  "tools/presentation/recording_view.py": {
+    "original_source": "tools/presentation/recording_view.py",
+    "original_sha256": "e320fc9414dcc5471b67c512c947b4dd172cfeb1e4f0268b63c56d83fa91c9f3",
+    "published_sha256": "550c278d8fb78f48cca1548d7e3147fdce7406ef154592b36f909cf4733d4a30",
+    "adapted": true
+  }
+}

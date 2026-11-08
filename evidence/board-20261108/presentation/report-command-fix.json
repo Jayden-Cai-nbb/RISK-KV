@@ -1,0 +1,24 @@
+{
+  "status": "passed_named_branch_in_batch_mode",
+  "exit_code": 0,
+  "gui_visually_checked": false,
+  "limitation": "Vivado batch ignores -name; hierarchical text generation succeeded. Dedicated GUI start stalled and was stopped separately.",
+  "reports": [
+    {
+      "name": "offline-route.rpt",
+      "sha256": "45591e0664b840ac74238ac7b7e5690cbb79326d50b45517afdfc3150529fab5"
+    },
+    {
+      "name": "offline-hierarchy.rpt",
+      "sha256": "5f4c25d26a570610a03bc180122d562bd703c74dc36677ee934f10c39dcbd472"
+    },
+    {
+      "name": "offline-timing.rpt",
+      "sha256": "627a7f997f0caf523cfe5990338e24b153ded29667c09583a23214f6bf65ba4e"
+    },
+    {
+      "name": "offline-utilization.rpt",
+      "sha256": "c85a1b42199835c1373fb729e92d62558794b748712c1f45a8cc618cb2204155"
+    }
+  ]
+}
