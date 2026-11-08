@@ -4,5 +4,73 @@
   "sha256": "2a224aedd6427695bcbb818b41d00a6896c7ef68868586ac17cbaac4c2f7e360",
   "raw_files": 16,
   "raw_bytes": 268299264,
-  "release_tag": "v0.2.0-board-evidence"
+  "release_tag": "v0.2.0-board-evidence",
+  "transport": "binary_split_8_MiB",
+  "parts": [
+    {
+      "name": "risk-kv-board-evidence-20261108.tar.gz.chunk01",
+      "bytes": 8388608,
+      "sha256": "17d2f073ccd9f1cc95494022e3f59d703e1d9b089395bbcf46698a8c3af4ec5d"
+    },
+    {
+      "name": "risk-kv-board-evidence-20261108.tar.gz.chunk02",
+      "bytes": 8388608,
+      "sha256": "727bcfc5d6cdbf999472b2464bfbf0b7421ee23aae9780fbe5864faad76fcf4d"
+    },
+    {
+      "name": "risk-kv-board-evidence-20261108.tar.gz.chunk03",
+      "bytes": 8388608,
+      "sha256": "4acc6d059b5c95685bfe073cb845e9e9b8f940d330ad676783ab24bfb7e598e0"
+    },
+    {
+      "name": "risk-kv-board-evidence-20261108.tar.gz.chunk04",
+      "bytes": 8388608,
+      "sha256": "738ce35772712149a0abc9dff223a1b15b6314ac02e8d1776cf2c3d6688088f6"
+    },
+    {
+      "name": "risk-kv-board-evidence-20261108.tar.gz.chunk05",
+      "bytes": 8388608,
+      "sha256": "b13f2278667235ba7f58d8da3e5c44cacf4724c544d7bf04ae0753afb796fcec"
+    },
+    {
+      "name": "risk-kv-board-evidence-20261108.tar.gz.chunk06",
+      "bytes": 8388608,
+      "sha256": "82f8373fa7b4ae60f771f15a43e365176c0469a703e61de04e1ae73910327eda"
+    },
+    {
+      "name": "risk-kv-board-evidence-20261108.tar.gz.chunk07",
+      "bytes": 8388608,
+      "sha256": "d1c638dce2f32802bd9212d24df2cb5958371370642f59267650d1e0faeeebfc"
+    },
+    {
+      "name": "risk-kv-board-evidence-20261108.tar.gz.chunk08",
+      "bytes": 8388608,
+      "sha256": "1174016cbd3a7f1b2ecb3d85c364081f3d69567adf26497caf63a882062f5894"
+    },
+    {
+      "name": "risk-kv-board-evidence-20261108.tar.gz.chunk09",
+      "bytes": 8388608,
+      "sha256": "20d18c344188dae30d07a8acd85690428e75a5ba8085b0fda1d7619ac7a912d6"
+    },
+    {
+      "name": "risk-kv-board-evidence-20261108.tar.gz.chunk10",
+      "bytes": 8388608,
+      "sha256": "5339e89b980499afc08bdbf182abfcab17424f7ba7397e8dc3f9a1817a8acc5f"
+    },
+    {
+      "name": "risk-kv-board-evidence-20261108.tar.gz.chunk11",
+      "bytes": 8388608,
+      "sha256": "248b42cf40881164d63b19e2948290231ad54fefdda24a248d885a780550f8ce"
+    },
+    {
+      "name": "risk-kv-board-evidence-20261108.tar.gz.chunk12",
+      "bytes": 8388608,
+      "sha256": "ffb71b0ae5a42724ee2f36b94265fd1869d980f601a6948492a2204035d2a8c6"
+    },
+    {
+      "name": "risk-kv-board-evidence-20261108.tar.gz.chunk13",
+      "bytes": 3061753,
+      "sha256": "dfa42a87aa2bfab73f098090b9995718abc3e10ecbfdc26cbc2d62b4b794e4d1"
+    }
+  ]
 }

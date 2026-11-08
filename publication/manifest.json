@@ -112,8 +112,8 @@
       "sha256": "263f7d2779a1fa1c0970036b459825cc8953cdea1476880ea7278a063712ab1c"
     },
     "docs/board-validation.md": {
-      "bytes": 6003,
-      "sha256": "15266e58947c7fadd7be2939b10c96b717026187f78aeb7dddee355ef869d6f6"
+      "bytes": 6270,
+      "sha256": "018f82b3725bc551126a8d2168379d617ec453f404cb1590991e1ce251f32c41"
     },
     "docs/decisions.md": {
       "bytes": 3015,
@@ -2272,8 +2272,8 @@
       "sha256": "954eb467138299649f743614f60179cc99a09d14e32851f551cc1f36a8bc2532"
     },
     "publication/board-data-catalog.json": {
-      "bytes": 244,
-      "sha256": "eb16bfebe4b9b329bd05db07fe898d642359ce24b4ef1c0123e07dedeb308c1b"
+      "bytes": 2690,
+      "sha256": "37d54c70aa41c65bcdd12a2ceb3a6efaf8b27f58297981717ddec0de6cf26b45"
     },
     "publication/changes-20261108.md": {
       "bytes": 1588,

@@ -42,9 +42,12 @@
 
 [v0.2.0-board-evidence附件](https://github.com/Jayden-Cai-nbb/RISK-KV/releases/tag/v0.2.0-board-evidence)包含16个原始数值文件和规范化事件元数据；大小与SHA-256见[附件目录](../publication/board-data-catalog.json)。其余全量原始读回数据保留在实验存档，本仓库提供文件摘要及完成事件报告。
 
-先按[复现指南](reproduce.md)获取v0.1.0的独立参考附件，解压得到`assets/m1/reference/`。在仓库根目录解压本次附件后执行：
+先按[复现指南](reproduce.md)获取v0.1.0的独立参考附件，解压得到`assets/m1/reference/`。本次数据包分为13卷上传。将所有`.chunk01`至`.chunk13`及`SHA256SUMS-PARTS`、`SHA256SUMS`下载到仓库根目录，先校验并合并，再解压复核：
 
 ```bash
+sha256sum -c SHA256SUMS-PARTS
+cat risk-kv-board-evidence-20261108.tar.gz.chunk?? > risk-kv-board-evidence-20261108.tar.gz
+sha256sum -c SHA256SUMS
 tar -xzf risk-kv-board-evidence-20261108.tar.gz
 python3 tools/presentation/recording_view.py verify --reference assets/m1/reference
 ```
